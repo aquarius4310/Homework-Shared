@@ -203,11 +203,13 @@ async function loadShared(){
 }
 function classView(k){
  const s=shared.classes[k],l=LS.get("local",{})[k];
- const useLocal=l&&(!s||!s.updatedAt||new Date(l.at)>new Date(s.updatedAt));
+ const autoFresh=s&&s.via==="auto"&&s.updatedAt&&(Date.now()-new Date(s.updatedAt))<3*864e5;
+ const useLocal=l&&!autoFresh&&(!s||!s.updatedAt||new Date(l.at)>new Date(s.updatedAt));
  const base=useLocal?{title:l.title,teacher:l.teacher,items:l.items,posts:l.posts,at:l.at,by:"you",via:"local"}:s?{title:s.title,teacher:s.teacher,items:s.items||[],posts:s.posts||[],at:s.updatedAt,by:s.updatedBy,via:s.via}:null;
  if(!base)return null;
  const items=[],seen=new Set();
- for(const i of [...(base.items||[]),...((s&&s.aiItems)||[]),...LS.get("own",[]).filter(o=>o.c===k)]){if(seen.has(i.id))continue;seen.add(i.id);if(i.due&&i.due<todayISO)continue;items.push(i)}
+ const extra=[...(useLocal&&s?(s.items||[]):[]),...(!useLocal&&l&&!autoFresh?(l.items||[]):[])];
+ for(const i of [...(base.items||[]),...((s&&s.aiItems)||[]),...extra,...LS.get("own",[]).filter(o=>o.c===k)]){if(seen.has(i.id))continue;seen.add(i.id);if(i.due&&i.due<todayISO)continue;items.push(i)}
  return {...base,items,aiAt:s&&s.aiAt};
 }
 
