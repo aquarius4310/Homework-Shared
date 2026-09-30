@@ -1,0 +1,281 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="robots" content="noindex">
+<title>Class Homework</title>
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'><rect x='1' y='1' width='14' height='14' rx='3' fill='%232f5fb3'/><path d='M4 8.5l2.5 2.5L12 5.5' stroke='white' stroke-width='2' fill='none'/></svg>">
+<style>
+:root{--bg:#f3f4f7;--card:#fff;--ink:#1b2230;--mute:#5d6778;--line:#dde2ea;--accent:#2f5fb3;--accentink:#fff;--warn:#b4531a;--test:#7a3fb0;--done:#9aa3b2;--field:#fff;color-scheme:light}
+@media (prefers-color-scheme:dark){:root{--bg:#12151b;--card:#1a1f28;--ink:#e6eaf1;--mute:#98a2b3;--line:#2a313d;--accent:#7ea6ec;--accentink:#10151f;--warn:#f0a070;--test:#c49bef;--done:#5b6474;--field:#12151b;color-scheme:dark}}
+*{box-sizing:border-box}
+[hidden]{display:none!important}
+body{margin:0;background:var(--bg);color:var(--ink);font:15px/1.45 system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;padding:20px 16px 40px}
+.wrap{max-width:1400px;margin:0 auto;display:grid;gap:16px}
+header{display:flex;justify-content:space-between;align-items:flex-end;gap:12px;flex-wrap:wrap}
+h1{font-size:22px;margin:0}
+.sub{color:var(--mute);margin:2px 0 0;font-size:13px}
+.linkbtn:disabled{cursor:default;text-decoration:none}
+.linkbtn{background:none;border:0;color:var(--mute);font:13px system-ui,sans-serif;cursor:pointer;text-decoration:underline;padding:0}
+button:focus-visible,input:focus-visible,select:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(290px,1fr));gap:14px;align-items:start}
+.card{background:var(--card);border:1px solid var(--line);border-radius:10px;overflow:hidden;display:flex;flex-direction:column}
+.card>h2{font-size:15px;margin:0;padding:10px 14px;border-bottom:1px solid var(--line);display:flex;justify-content:space-between;align-items:center;gap:8px}
+.card>h2 .n{font:500 12px system-ui,sans-serif;color:var(--mute)}
+
+.rem>h2{background:color-mix(in srgb,var(--accent) 10%,var(--card))}
+.part{padding:8px 14px 10px}
+.part+.part{border-top:1px dashed var(--line)}
+h3{font-size:11px;margin:0 0 4px;text-transform:uppercase;letter-spacing:.06em;color:var(--mute)}
+h3.t{color:var(--test)}
+ul{list-style:none;margin:0;padding:0;display:grid;gap:6px}
+li{display:grid;grid-template-columns:22px 1fr auto;gap:6px;align-items:start}
+.name{min-width:0;overflow-wrap:anywhere}
+.name a{color:var(--ink);text-decoration:underline;text-decoration-color:var(--line);text-underline-offset:3px}
+.detail{color:var(--mute);font-size:12.5px;margin-top:1px}
+.when{font-size:12.5px;white-space:nowrap;text-align:right;max-width:110px;color:var(--mute);font-variant-numeric:tabular-nums;padding-top:1px}
+.when.soon{color:var(--ink);font-weight:600}
+.when.late{color:var(--warn);font-weight:600}
+.tag{font-size:10.5px;color:var(--mute);border:1px solid var(--line);border-radius:4px;padding:0 4px;margin-left:5px;white-space:nowrap}
+li.done .name,li.done .detail,li.done .when{color:var(--done);text-decoration:line-through}
+li.done .name a{color:var(--done)}
+li.saving{opacity:.6}
+input[type=checkbox]{width:18px;height:18px;accent-color:var(--accent);margin:1px 0 0;cursor:pointer}
+.none{color:var(--mute);font-size:13px;margin:0}
+.addrow{padding:8px 14px 12px;border-top:1px solid var(--line);margin-top:auto}
+.addbtn{font:600 13px system-ui,sans-serif;background:none;color:var(--accent);border:0;padding:0;cursor:pointer}
+form.add{display:grid;gap:8px}
+form.add .row{display:flex;gap:6px;flex-wrap:wrap}
+input[type=text],input[type=password],input[type=date],select{font:14px system-ui,sans-serif;color:var(--ink);background:var(--field);border:1px solid var(--line);border-radius:6px;padding:6px 8px;min-width:0}
+form.add input[type=text]{flex:1 1 100%}
+form.add select,form.add input[type=date]{flex:1 1 120px}
+.acts{display:flex;gap:8px;justify-content:flex-end}
+.acts button{font:600 13px system-ui,sans-serif;border-radius:6px;padding:6px 12px;cursor:pointer;border:1px solid var(--line);background:none;color:var(--ink)}
+.acts button.primary{background:var(--accent);border-color:var(--accent);color:var(--accentink)}
+form.login{background:var(--card);border:1px solid var(--accent);border-radius:10px;padding:16px;display:grid;gap:10px;max-width:520px}
+form.login input[type=password]{width:100%;font-size:15px;padding:8px 10px}
+.check{display:flex;gap:6px;align-items:center;font-size:13px;color:var(--mute)}
+.note{color:var(--mute);font-size:13px;margin:0}
+.forcebox{background:var(--card);border:1px solid var(--line);border-radius:10px;padding:14px 16px;display:grid;gap:8px;max-width:640px}
+.forcebox textarea{width:100%;font:13px/1.4 ui-monospace,Consolas,monospace;color:var(--ink);background:var(--field);border:1px solid var(--line);border-radius:6px;padding:8px;resize:vertical}
+.btnlink{font:600 13px system-ui,sans-serif;border-radius:6px;padding:6px 12px;text-decoration:none;background:var(--accent);color:var(--accentink);border:1px solid var(--accent)}
+.msg{border-radius:8px;padding:10px 14px;font-size:14px;background:var(--card);border:1px solid var(--warn);color:var(--warn)}
+</style>
+</head>
+<body>
+<style>
+.panel{background:var(--card);border:1px solid var(--line);border-radius:10px;padding:14px 16px;display:grid;gap:10px;max-width:760px}
+.panel h2{font-size:16px;margin:0}
+.panel ol{margin:0;padding-left:20px;display:grid;gap:6px}
+.bm{display:inline-block;font:600 14px system-ui,sans-serif;background:var(--accent);color:var(--accentink);border-radius:8px;padding:8px 14px;text-decoration:none;cursor:grab}
+.picks{display:grid;grid-template-columns:repeat(auto-fill,minmax(250px,1fr));gap:6px}
+.picks label{display:flex;gap:8px;align-items:center;font-size:14px}
+.meta{font:500 11.5px system-ui,sans-serif;color:var(--mute);padding:6px 14px 0}
+.meta.stale{color:var(--warn)}
+details.post{padding:6px 14px 10px;border-top:1px dashed var(--line)}
+details.post summary{cursor:pointer;font-size:12.5px;color:var(--mute)}
+details.post div{white-space:pre-wrap;font-size:13px;margin-top:6px;max-height:320px;overflow:auto}
+.cls{font-size:11px;color:var(--mute)}
+.ok{border-color:var(--accent);color:var(--ink)}
+</style>
+<div class="wrap">
+<header>
+ <div><h1>Class Homework</h1><p class="sub" id="asof">Loading</p></div>
+ <div><button class="linkbtn" data-panel="update" type="button">Update from Schoology</button> &nbsp; <button class="linkbtn" data-panel="pick" type="button">Choose classes</button> &nbsp; <button class="linkbtn" data-panel="settings" type="button">Settings</button> &nbsp; <button class="linkbtn" id="refresh" type="button">Refresh</button></div>
+</header>
+<div id="msg" class="msg" hidden></div>
+
+<section class="panel" id="p-update" hidden>
+ <h2>Update from Schoology</h2>
+ <ol>
+  <li>Open <a href="https://basised-dc.schoology.com/home" target="_blank" rel="noopener">Schoology</a> in this same browser and log in.</li>
+  <li>Click your <b>Get homework</b> bookmark. Keep the tab open for about 30 to 60 seconds.</li>
+  <li>This page opens with your new list. If you added a GitHub token in Settings, your classes also update for everyone.</li>
+ </ol>
+ <p class="note">No bookmark yet? Open Settings and follow step 1.</p>
+</section>
+
+<section class="panel" id="p-pick" hidden>
+ <h2>Choose your classes</h2>
+ <p class="note">Pick the classes you take. Your picks save in this browser. Classes show up here once anyone has updated them.</p>
+ <div class="picks" id="picks"></div>
+</section>
+
+<section class="panel" id="p-settings" hidden>
+ <h2>Settings</h2>
+ <ol>
+  <li><b>Add the Get homework button.</b> On a computer, show your bookmarks bar (Ctrl+Shift+B on Windows, Cmd+Shift+B on Mac), then drag this button onto it:<br><br><a class="bm" id="bm" href="#">Get homework</a><br><br>
+  <span class="note">Can't drag? Copy the text below, make a new bookmark named Get homework, and paste it as the address (URL).</span>
+  <textarea id="bmtext" readonly rows="3" style="width:100%;font:12px ui-monospace,Consolas,monospace;margin-top:6px"></textarea></li>
+  <li><b>Optional, share your classes with everyone.</b> Paste your GitHub token here. Stu has to add your GitHub username first. The token is only used to post your class updates, it stays in this browser.
+  <form id="tokform" class="add" style="margin-top:8px"><input type="text" name="username" value="class-homework" autocomplete="username" hidden readonly><input type="password" id="tok" autocomplete="current-password" placeholder="GitHub token" style="width:100%"><label class="check"><input type="checkbox" id="remember" checked> Remember on this device</label><div class="acts"><button type="button" id="tokclear">Remove token</button><button class="primary" type="submit">Save token</button></div></form>
+  <span class="note" id="tokstate"></span></li>
+ </ol>
+</section>
+
+<div id="app">
+ <div class="grid" id="grid"></div>
+ <p class="note" style="margin-top:14px">Check things off when you finish. Checked items clear on Sunday. Things drop off once their date passes. This list is a helper, always double check Schoology.</p>
+</div>
+</div>
+<div id="made-by" style="position:fixed;right:10px;bottom:8px;font-size:11px;opacity:.6;pointer-events:none;z-index:9999">By, Stu</div>
+<script>
+const OWNER=location.hostname.endsWith(".github.io")?location.hostname.split(".")[0]:"aquarius4310";
+const REPO=OWNER+"/Homework-Shared", API="https://api.github.com";
+const $=id=>document.getElementById(id);
+const esc=s=>String(s??"").replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
+const LS={get(k,d){try{const v=localStorage.getItem("hs."+k);return v?JSON.parse(v):d}catch(e){return d}},set(k,v){try{localStorage.setItem("hs."+k,JSON.stringify(v))}catch(e){}}};
+const slug=s=>String(s||"").toLowerCase().replace(/[^a-z0-9]+/g,"-").replace(/^-+|-+$/g,"").slice(0,40).replace(/-+$/,"");
+const classKey=(t,te)=>slug(t)+(te?"--"+slug(te):"");
+let shared={classes:{}},openForm=null;
+function showMsg(t,ok){$("msg").textContent=t;$("msg").hidden=!t;$("msg").classList.toggle("ok",!!ok)}
+function tok(){try{return localStorage.getItem("hs.tok")||sessionStorage.getItem("hs.tok")||""}catch(e){return ""}}
+function anyTok(){try{return tok()||localStorage.getItem("hwtok")||sessionStorage.getItem("hwtok")||""}catch(e){return ""}}
+// Stu's own devices have his homework page token, so the credit is hidden there
+try{if(localStorage.getItem("hwtok"))$("made-by").remove()}catch(e){}
+
+// ---- dates ----
+const todayISO=(()=>{const d=new Date(),z=n=>String(n).padStart(2,"0");return `${d.getFullYear()}-${z(d.getMonth()+1)}-${z(d.getDate())}`})();
+const fmtDay=iso=>iso?new Date(iso+"T12:00").toLocaleDateString([],{weekday:"short",month:"short",day:"numeric"}):"";
+const fmtWhen=iso=>{if(!iso)return "";const d=new Date(iso);return isNaN(d)?"":d.toLocaleString([],{weekday:"short",month:"short",day:"numeric",hour:"numeric",minute:"2-digit"})};
+const lastSunday=(()=>{const d=new Date();d.setHours(0,0,0,0);d.setDate(d.getDate()-d.getDay());return d})();
+function isDone(id){const v=LS.get("done",{})[id];return v?v:null}
+function hiddenDone(id){const v=isDone(id);return v&&new Date(v)<lastSunday}
+
+// ---- data from the Get homework button ----
+async function unpack(b64){
+ const bin=atob(b64.replace(/-/g,"+").replace(/_/g,"/"));const bytes=Uint8Array.from(bin,c=>c.charCodeAt(0));
+ const ds=new Blob([bytes]).stream().pipeThrough(new DecompressionStream("gzip"));
+ return JSON.parse(await new Response(ds).text());
+}
+async function issueNo(t){
+ const r=await fetch(`${API}/repos/${REPO}/issues?state=all&per_page=100&t=${Date.now()}`,{headers:t?{Authorization:"Bearer "+t,Accept:"application/vnd.github+json"}:{Accept:"application/vnd.github+json"},cache:"no-store"});
+ if(!r.ok)throw new Error("GITHUB_ERROR "+r.status);
+ const i=(await r.json()).find(x=>x.title==="Updates"&&!x.pull_request);
+ if(!i)throw new Error("NO_UPDATES_ISSUE");
+ return i.number;
+}
+async function postUpdate(payload,t){
+ const n=await issueNo(t);
+ const r=await fetch(`${API}/repos/${REPO}/issues/${n}/comments`,{method:"POST",headers:{Authorization:"Bearer "+t,Accept:"application/vnd.github+json","Content-Type":"application/json"},body:JSON.stringify({body:"<!-- share -->\n```json\n"+JSON.stringify(payload)+"\n```"})});
+ return r.status;
+}
+async function handleGrab(d){
+ const local=LS.get("local",{}),mine=LS.get("mine",[]);
+ for(const c of d.courses||[]){
+  const k=classKey(c.title,c.teacher);
+  local[k]={at:d.at,title:c.title,teacher:c.teacher,items:c.items||[],posts:c.posts||[]};
+  if(!mine.includes(k))mine.push(k);
+ }
+ LS.set("local",local);LS.set("mine",mine);
+ LS.set("personal",{at:d.at,items:d.personal||[]});
+ const t=tok();
+ if(!t){showMsg("Your list is updated on this device. To also update your classes for everyone, add a GitHub token in Settings.",true);return}
+ try{
+  const st=await postUpdate({type:"button",courses:(d.courses||[]).map(c=>({title:c.title,teacher:c.teacher,section:c.section,items:c.items,posts:c.posts}))},t);
+  if(st===201)showMsg("Your list is updated, and your classes were sent to the shared list. They show for everyone in about 2 minutes.",true);
+  else if(st===401)showMsg("Your list is updated on this device, but your GitHub token didn't work. Check it in Settings.");
+  else showMsg("Your list is updated on this device, but sharing failed (GitHub said "+st+").");
+ }catch(e){showMsg("Your list is updated on this device, but sharing failed ("+e.message+").")}
+}
+
+// ---- shared data ----
+async function loadShared(){
+ const urls=[`https://raw.githubusercontent.com/${REPO}/main/data/classes.json?t=${Date.now()}`,`data/classes.json?t=${Date.now()}`];
+ for(const u of urls){try{const r=await fetch(u,{cache:"no-store"});if(r.ok){shared=await r.json();shared.classes=shared.classes||{};return}}catch(e){}}
+}
+function classView(k){
+ const s=shared.classes[k],l=LS.get("local",{})[k];
+ const useLocal=l&&(!s||!s.updatedAt||new Date(l.at)>new Date(s.updatedAt));
+ const base=useLocal?{title:l.title,teacher:l.teacher,items:l.items,posts:l.posts,at:l.at,by:"you",via:"local"}:s?{title:s.title,teacher:s.teacher,items:s.items||[],posts:s.posts||[],at:s.updatedAt,by:s.updatedBy,via:s.via}:null;
+ if(!base)return null;
+ const items=[],seen=new Set();
+ for(const i of [...(base.items||[]),...((s&&s.aiItems)||[]),...LS.get("own",[]).filter(o=>o.c===k)]){if(seen.has(i.id))continue;seen.add(i.id);if(i.due&&i.due<todayISO)continue;items.push(i)}
+ return {...base,items,aiAt:s&&s.aiAt};
+}
+
+// ---- render ----
+function itemHTML(i,late){
+ const done=!!isDone(i.id);
+ const name=(i.url?`<a href="https://basised-dc.schoology.com${esc(i.url)}" target="_blank" rel="noopener">${esc(i.n)}</a>`:esc(i.n))+(i.mine?`<span class="tag">yours</span>`:"");
+ const lines=[i.tr?`(${i.tr})`:"",i.detail||"",i.cls?i.cls:""].filter(Boolean);
+ const when=i.due?fmtDay(i.due):(i.dueNote||"");
+ return `<li class="${done?"done":""}"><input type="checkbox" data-id="${esc(i.id)}" ${done?"checked":""} aria-label="Done: ${esc(i.n)}"><div class="name">${name}${lines.map(x=>`<div class="detail">${esc(x)}</div>`).join("")}</div><span class="when ${late&&!done?"late":""}">${esc(when)}${late&&!done?", late":""}</span></li>`;
+}
+const list=(a,empty,late)=>a.length?`<ul>${a.map(i=>itemHTML(i,late)).join("")}</ul>`:`<p class="none">${empty}</p>`;
+const sortItems=a=>a.filter(i=>!hiddenDone(i.id)).sort((x,y)=>(x.due||"9999").localeCompare(y.due||"9999"));
+function formHTML(key,isRem){
+ return `<form class="add" data-add="${esc(key)}"><div class="row">${isRem?"":`<select id="f-kind" aria-label="Type"><option value="hw">Homework</option><option value="tests">Test or quiz</option></select>`}<input type="date" id="f-date" aria-label="Date"></div><input type="text" id="f-name" required placeholder="${isRem?"Bring lab goggles":"Read pages 40-52"}" aria-label="What"><div class="acts"><button type="button" data-cancel>Cancel</button><button type="submit" class="primary">Add</button></div></form>`;
+}
+function render(){
+ const mine=LS.get("mine",[]),p=LS.get("personal",{items:[]});
+ const TEST=/\b(quiz|test|exam|cfu|acc|accuracy|assessment|midterm|final|frq)\b/i;
+ const pers=(p.items||[]).filter(i=>!(i.late&&TEST.test(i.n))).map(i=>({...i,cls:i.title}));
+ const own=LS.get("own",[]).filter(o=>o.c==="");
+ let html=`<section class="card rem"><h2>My stuff <span class="n">${sortItems([...pers,...own]).filter(i=>!isDone(i.id)).length} left</span></h2>`;
+ html+=`<div class="part"><h3>Not turned in on Schoology</h3>${list(sortItems(pers).filter(i=>!i.due||i.due>=todayISO||i.late),p.at?"Nothing, nice.":"Click Get homework on Schoology to see these.",true)}</div>`;
+ html+=`<div class="part"><h3>Reminders</h3>${list(sortItems(own),"No reminders.")}</div>`;
+ html+=`<div class="addrow">${openForm==="__rem"?formHTML("__rem",true):`<button type="button" class="addbtn" data-open="__rem">+ Add reminder</button>`}</div></section>`;
+ for(const k of mine){
+  const v=classView(k);if(!v)continue;
+  const hw=sortItems(v.items.filter(i=>i.kind!=="tests")),ts=sortItems(v.items.filter(i=>i.kind==="tests"));
+  const age=v.at?(Date.now()-new Date(v.at))/864e5:99;
+  const who=v.via==="auto"?"automatically":v.via==="local"?"from your Schoology":"by "+v.by;
+  const post=(v.posts||[])[0];
+  html+=`<section class="card"><h2>${esc(v.title)} <span class="n">${hw.concat(ts).filter(i=>!isDone(i.id)).length} left</span></h2>`;
+  html+=`<div class="meta ${age>3?"stale":""}">${esc(v.teacher||"")}${v.teacher?" · ":""}Updated ${esc(fmtWhen(v.at))} ${esc(who)}${age>3?". Old, someone in this class should click Get homework.":""}</div>`;
+  html+=`<div class="part"><h3>Homework</h3>${list(hw,"No homework.")}</div><div class="part"><h3 class="t">Tests and quizzes</h3>${list(ts,"None coming up.")}</div>`;
+  if(post)html+=`<details class="post"><summary>Latest teacher post${post.at?", "+esc(fmtWhen(post.at)):""}${v.via!=="auto"&&!(v.aiAt&&post.at&&new Date(v.aiAt)>new Date(post.at))?" (not read into the list yet, read it here)":""}</summary><div>${esc(post.text)}</div></details>`;
+  html+=`<div class="addrow">${openForm===k?formHTML(k,false):`<button type="button" class="addbtn" data-open="${esc(k)}">+ Add</button>`}</div></section>`;
+ }
+ $("grid").innerHTML=html;
+ const n=Object.keys(shared.classes||{}).length;
+ $("asof").textContent=(shared.updated?`Shared list updated ${fmtWhen(shared.updated)}. `:"")+(p.at?`Your Schoology info from ${fmtWhen(p.at)}.`:"");
+ if(!mine.length){showPanel("settings",true);showMsg("Welcome. Add the Get homework button (step 1 below), then click it while on Schoology. Or choose your classes to see what classmates shared.",true)}
+ // class picker
+ const all={};for(const [k,c] of Object.entries(shared.classes||{}))all[k]=c;for(const [k,c] of Object.entries(LS.get("local",{})))all[k]=all[k]||c;
+ $("picks").innerHTML=Object.entries(all).sort((a,b)=>a[1].title.localeCompare(b[1].title)).map(([k,c])=>`<label><input type="checkbox" data-pick="${esc(k)}" ${mine.includes(k)?"checked":""}> ${esc(c.title)}${c.teacher?`, <span class="cls">${esc(c.teacher)}</span>`:""}</label>`).join("")||`<p class="note">No classes yet.</p>`;
+}
+function showPanel(name,force){for(const p of ["update","pick","settings"]){const el=$("p-"+p);el.hidden=force?p!==name:(p!==name||!el.hidden)}}
+
+// ---- events ----
+document.addEventListener("click",e=>{
+ const pb=e.target.closest("[data-panel]");if(pb){showPanel(pb.dataset.panel);return}
+ const o=e.target.closest("[data-open]");if(o){openForm=o.dataset.open;render();const f=$("f-name");if(f)f.focus();return}
+ if(e.target.closest("[data-cancel]")){openForm=null;render()}
+});
+document.addEventListener("change",e=>{
+ const t=e.target;
+ if(t.dataset&&t.dataset.id!==undefined){const d=LS.get("done",{});if(t.checked)d[t.dataset.id]=new Date().toISOString();else delete d[t.dataset.id];LS.set("done",d);render();return}
+ if(t.dataset&&t.dataset.pick){let m=LS.get("mine",[]);m=t.checked?[...new Set([...m,t.dataset.pick])]:m.filter(x=>x!==t.dataset.pick);LS.set("mine",m);render()}
+});
+document.addEventListener("submit",e=>{
+ const f=e.target;
+ if(f.id==="tokform"){e.preventDefault();const v=$("tok").value.trim();try{localStorage.removeItem("hs.tok");sessionStorage.removeItem("hs.tok");if(v)($("remember").checked?localStorage:sessionStorage).setItem("hs.tok",v)}catch(err){}$("tok").value="";tokState();return}
+ if(!f.dataset.add)return;e.preventDefault();
+ const key=f.dataset.add,isRem=key==="__rem",name=$("f-name").value.trim(),date=$("f-date").value;if(!name)return;
+ const own=LS.get("own",[]);own.push({id:"own-"+Date.now().toString(36),kind:isRem?"hw":$("f-kind").value,c:isRem?"":key,n:name,due:date||"",mine:true});LS.set("own",own);openForm=null;render();
+});
+$("tokclear").onclick=()=>{try{localStorage.removeItem("hs.tok");sessionStorage.removeItem("hs.tok")}catch(e){}tokState()};
+function tokState(){$("tokstate").textContent=tok()?"A token is saved in this browser.":"No token saved. Your list still works, it just won't update the shared list."}
+$("refresh").onclick=async()=>{const b=$("refresh");b.textContent="Refreshing...";await loadShared();render();b.textContent="Refresh"};
+const BM=`javascript:(function(){var s=document.createElement('script');s.src='https://${OWNER}.github.io/Homework-Shared/grab.js?'+Date.now();document.body.appendChild(s);})();`;
+$("bm").href=BM;$("bmtext").value=BM;$("bm").onclick=e=>{e.preventDefault();showMsg("Drag this button to your bookmarks bar instead of clicking it. Then click it while you're on Schoology.")};
+
+// ---- helpers for Stu's nightly Claude check (they never show the token) ----
+window.hsCheck=async function(){await loadShared();const out={};for(const [k,c] of Object.entries(shared.classes))out[k]={title:c.title,teacher:c.teacher,via:c.via,updatedAt:c.updatedAt,aiAt:c.aiAt||""};return JSON.stringify({updated:shared.updated||"",classes:out})};
+window.hsPending=async function(){await loadShared();const out=[];for(const [k,c] of Object.entries(shared.classes)){if(c.via==="auto")continue;const p=(c.posts||[])[0];if(!p)continue;if(c.aiAt&&p.at&&new Date(c.aiAt)>new Date(p.at))continue;out.push({key:k,title:c.title,teacher:c.teacher,posts:c.posts,items:c.items,aiItems:c.aiItems||[]})}return JSON.stringify(out)};
+window.hsSend=async function(payload){if(!payload||payload.type!=="auto")return "BAD_PAYLOAD";const t=anyTok();if(!t)return "NO_TOKEN";try{return await postUpdate(payload,t)}catch(e){return e.message}};
+window.hsGrabKey=classKey;
+
+(async()=>{
+ tokState();
+ const m=location.hash.match(/^#d=([A-Za-z0-9_-]+)/);
+ if(m){try{await handleGrab(await unpack(m[1]))}catch(e){showMsg("Couldn't read the new info ("+e.message+"). Try the Get homework button again.")}history.replaceState(null,"",location.pathname)}
+ await loadShared();render();
+})();
+</script>
+
+</body>
+</html>

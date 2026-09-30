@@ -1,0 +1,45 @@
+name: Sync shared classes
+
+on:
+  issue_comment:
+    types: [created]
+  push:
+    branches: [main]
+    paths: ["sync_shared.py", "friends.json", ".github/workflows/sync.yml"]
+  schedule:
+    - cron: "20 11 * * *"   # every morning, drops items whose date passed
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  issues: write
+
+concurrency:
+  group: shared-sync
+  cancel-in-progress: false
+
+jobs:
+  sync:
+    if: github.event_name != 'issue_comment' || (github.event.issue.title == 'Updates' && startsWith(github.event.comment.body, '<!-- share -->'))
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Apply updates
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: python sync_shared.py
+      - name: Save
+        run: |
+          git config user.name "homework-bot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A data
+          if git diff --cached --quiet; then
+            echo "nothing changed"
+          else
+            git commit -m "Update shared classes $(TZ=America/New_York date '+%a %b %-d %-I:%M %p')"
+            git pull --rebase origin main
+            git push
+          fi
