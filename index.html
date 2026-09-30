@@ -182,7 +182,7 @@ async function handleGrab(d){
 
 // ---- shared data ----
 async function loadShared(){
- const urls=[`https://raw.githubusercontent.com/${REPO}/main/data/classes.json?t=${Date.now()}`,`data/classes.json?t=${Date.now()}`];
+ const urls=[`data/classes.json?t=${Date.now()}`,`https://raw.githubusercontent.com/${REPO}/main/data/classes.json?t=${Date.now()}`];
  for(const u of urls){try{const r=await fetch(u,{cache:"no-store"});if(r.ok){shared=await r.json();shared.classes=shared.classes||{};return}}catch(e){}}
 }
 function classView(k){
