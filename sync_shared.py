@@ -10,6 +10,8 @@ comment and only applies what the rules allow:
   * an update with no items never wipes a class's existing items
   * links and join codes are removed from teacher posts before saving (the repo is public)
   * "auto" updates (the owner's nightly Claude check) are only accepted from the owner
+  * "pro" updates (a friend's own nightly Claude check) are accepted from friends. They rank
+    between the owner's check and button clicks: owner auto > pro > button
   * nothing in a comment can change code, the page, or friends.json
 Comments are deleted after they are read. Runs in GitHub Actions (sync.yml).
 """
@@ -29,6 +31,7 @@ MARK = "<!-- share -->"
 ISSUE_TITLE = "Updates"
 ID_OK = re.compile(r"^[a-z0-9-]{1,60}$")
 AUTO_FRESH_DAYS = 3
+PRO_FRESH_DAYS = 2
 
 
 def now():
@@ -125,6 +128,13 @@ def resolve_key(classes, title, teacher):
     return class_key(title, teacher), teacher
 
 
+def fresh(cl, via, days):
+    """True if this class was last updated by `via` less than `days` days ago."""
+    if cl.get("via") != via or not cl.get("updatedAt"):
+        return False
+    return (now() - dt.datetime.fromisoformat(cl["updatedAt"])).days < days
+
+
 def not_past(items):
     today = now().date().isoformat()
     return [i for i in items if not i.get("due") or i["due"] >= today]
@@ -157,6 +167,27 @@ def apply(data, payload, sender, owner, friends):
                 classes[k]["aiAt"] = stamp
                 notes.append(f"read posts {k}")
         return ", ".join(notes) or "auto update had nothing to apply"
+    if kind == "pro":
+        if sender.lower() != owner.lower() and sender.lower() not in friends:
+            return f"ignored pro update from {sender}, not in friends.json"
+        for c in (payload.get("courses") or [])[:20]:
+            title, teacher = s(c.get("title"), 80), s(c.get("teacher"), 60)
+            if not title or c.get("error"):
+                continue
+            k, teacher = resolve_key(classes, title, teacher)
+            cl = classes.get(k)
+            if cl and fresh(cl, "auto", AUTO_FRESH_DAYS):
+                notes.append(f"skipped {k}, the owner's check keeps it up to date")
+                continue
+            cl = classes.setdefault(k, {"title": title, "teacher": teacher})
+            new_items = not_past(clean_items(c.get("items")))
+            cl.update({"title": title, "teacher": teacher,
+                       "items": new_items or not_past(cl.get("items", [])),
+                       "posts": clean_posts(c.get("posts")) or cl.get("posts", []),
+                       "updatedAt": stamp, "updatedBy": sender, "via": "pro", "aiItems": []})
+            cl["sections"] = sorted(set(cl.get("sections", [])) | {s(c.get("section"), 30)} - {""})
+            notes.append(f"pro {k}")
+        return ", ".join(notes) or "pro update had nothing to apply"
     if kind == "button":
         if sender.lower() != owner.lower() and sender.lower() not in friends:
             return f"ignored update from {sender}, not in friends.json"
@@ -166,11 +197,9 @@ def apply(data, payload, sender, owner, friends):
                 continue
             k, teacher = resolve_key(classes, title, teacher)
             cl = classes.get(k)
-            if cl and cl.get("via") == "auto" and cl.get("updatedAt"):
-                age = now() - dt.datetime.fromisoformat(cl["updatedAt"])
-                if age.days < AUTO_FRESH_DAYS:
-                    notes.append(f"skipped {k}, kept up to date automatically")
-                    continue
+            if cl and (fresh(cl, "auto", AUTO_FRESH_DAYS) or fresh(cl, "pro", PRO_FRESH_DAYS)):
+                notes.append(f"skipped {k}, kept up to date automatically")
+                continue
             cl = classes.setdefault(k, {"title": title, "teacher": teacher})
             new_items = not_past(clean_items(c.get("items")))
             cl.update({"title": title, "teacher": teacher,

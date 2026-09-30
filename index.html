@@ -203,7 +203,7 @@ async function loadShared(){
 }
 function classView(k){
  const s=shared.classes[k],l=LS.get("local",{})[k];
- const autoFresh=s&&s.via==="auto"&&s.updatedAt&&(Date.now()-new Date(s.updatedAt))<3*864e5;
+ const autoFresh=s&&(s.via==="auto"||s.via==="pro")&&s.updatedAt&&(Date.now()-new Date(s.updatedAt))<3*864e5;
  const useLocal=l&&!autoFresh&&(!s||!s.updatedAt||new Date(l.at)>new Date(s.updatedAt));
  const base=useLocal?{title:l.title,teacher:l.teacher,items:l.items,posts:l.posts,at:l.at,by:"you",via:"local"}:s?{title:s.title,teacher:s.teacher,items:s.items||[],posts:s.posts||[],at:s.updatedAt,by:s.updatedBy,via:s.via}:null;
  if(!base)return null;
@@ -239,12 +239,12 @@ function render(){
   const v=classView(k);if(!v)continue;
   const hw=sortItems(v.items.filter(i=>i.kind!=="tests")),ts=sortItems(v.items.filter(i=>i.kind==="tests"));
   const age=v.at?(Date.now()-new Date(v.at))/864e5:99;
-  const who=v.via==="auto"?"automatically":v.via==="local"?"from your Schoology":"by "+v.by;
+  const who=v.via==="auto"?"automatically":v.via==="pro"?"automatically by "+v.by:v.via==="local"?"from your Schoology":"by "+v.by;
   const post=(v.posts||[])[0];
   html+=`<section class="card"><h2>${esc(v.title)} <span class="n">${hw.concat(ts).filter(i=>!isDone(i.id)).length} left</span></h2>`;
   html+=`<div class="meta ${age>3?"stale":""}">${esc(v.teacher||"")}${v.teacher?" · ":""}Updated ${esc(fmtWhen(v.at))} ${esc(who)}${age>3?". Old, someone in this class should click Get homework.":""}</div>`;
   html+=`<div class="part"><h3>Homework</h3>${list(hw,"No homework.")}</div><div class="part"><h3 class="t">Tests and quizzes</h3>${list(ts,"None coming up.")}</div>`;
-  if(post)html+=`<details class="post"><summary>Latest teacher post${post.at?", "+esc(fmtWhen(post.at)):""}${v.via!=="auto"&&!(v.aiAt&&post.at&&new Date(v.aiAt)>new Date(post.at))?" (not read into the list yet, read it here)":""}</summary><div>${esc(post.text)}</div></details>`;
+  if(post)html+=`<details class="post"><summary>Latest teacher post${post.at?", "+esc(fmtWhen(post.at)):""}${v.via!=="auto"&&v.via!=="pro"&&!(v.aiAt&&post.at&&new Date(v.aiAt)>new Date(post.at))?" (not read into the list yet, read it here)":""}</summary><div>${esc(post.text)}</div></details>`;
   html+=`<div class="addrow">${openForm===k?formHTML(k,false):`<button type="button" class="addbtn" data-open="${esc(k)}">+ Add</button>`}</div></section>`;
  }
  $("grid").innerHTML=html;
@@ -283,8 +283,8 @@ $("bm").href=BM;$("bmtext").value=BM;$("bm").onclick=e=>{e.preventDefault();show
 
 // ---- helpers for Stu's nightly Claude check (they never show the token) ----
 window.hsCheck=async function(){await loadShared();const out={};for(const [k,c] of Object.entries(shared.classes))out[k]={title:c.title,teacher:c.teacher,via:c.via,updatedAt:c.updatedAt,aiAt:c.aiAt||""};return JSON.stringify({updated:shared.updated||"",classes:out})};
-window.hsPending=async function(){await loadShared();const out=[];for(const [k,c] of Object.entries(shared.classes)){if(c.via==="auto")continue;const p=(c.posts||[])[0];if(!p)continue;if(c.aiAt&&p.at&&new Date(c.aiAt)>new Date(p.at))continue;out.push({key:k,title:c.title,teacher:c.teacher,posts:c.posts,items:c.items,aiItems:c.aiItems||[]})}return JSON.stringify(out)};
-window.hsSend=async function(payload){if(!payload||payload.type!=="auto")return "BAD_PAYLOAD";const t=anyTok();if(!t)return "NO_TOKEN";try{return await postUpdate(payload,t)}catch(e){return e.message}};
+window.hsPending=async function(){await loadShared();const out=[];for(const [k,c] of Object.entries(shared.classes)){if(c.via==="auto"||c.via==="pro")continue;const p=(c.posts||[])[0];if(!p)continue;if(c.aiAt&&p.at&&new Date(c.aiAt)>new Date(p.at))continue;out.push({key:k,title:c.title,teacher:c.teacher,posts:c.posts,items:c.items,aiItems:c.aiItems||[]})}return JSON.stringify(out)};
+window.hsSend=async function(payload){if(!payload||!["auto","pro"].includes(payload.type))return "BAD_PAYLOAD";const t=anyTok();if(!t)return "NO_TOKEN";try{return await postUpdate(payload,t)}catch(e){return e.message}};
 window.hsGrabKey=classKey;
 
 (async()=>{
