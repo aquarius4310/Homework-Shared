@@ -4,8 +4,11 @@ Nobody but the repo owner can edit this repo. Friends send updates as comments o
 issue titled "Updates" (the shared page posts them for them). This script checks each
 comment and only applies what the rules allow:
   * only the owner and GitHub usernames listed in friends.json are accepted
-  * a friend's button update only changes the classes they are in, and never a class
-    the owner's automatic check keeps up to date (unless that check is over 3 days old)
+  * a friend's button update can change any class except one the owner's automatic check
+    keeps up to date (unless that check is over 3 days old). It can't tell which classes a
+    friend is really in, so only add friends you trust
+  * an update with no items never wipes a class's existing items
+  * links and join codes are removed from teacher posts before saving (the repo is public)
   * "auto" updates (the owner's nightly Claude check) are only accepted from the owner
   * nothing in a comment can change code, the page, or friends.json
 Comments are deleted after they are read. Runs in GitHub Actions (sync.yml).
@@ -56,7 +59,7 @@ def gh(method, path, body=None):
 
 
 def slug(s):
-    return re.sub(r"[^a-z0-9]+", "-", (s or "").lower()).strip("-")[:40]
+    return re.sub(r"[^a-z0-9]+", "-", (s or "").lower()).strip("-")[:40].strip("-")
 
 
 def class_key(title, teacher):
@@ -95,13 +98,31 @@ def clean_items(items, limit=60):
     return out[:limit]
 
 
+LINK = re.compile(r"(https?://\S+|www\.\S+|\b[\w.-]+\.(?:com|org|net|io|me|ly|gl)/\S*)", re.I)
+
+
+def scrub(text):
+    """Remove links and join codes from teacher posts, since the shared list is public."""
+    text = LINK.sub("[link removed]", text or "")
+    return re.sub(r"(?i)\b(join|class) code:?\s*\S+", r"\1 code [removed]", text)
+
+
 def clean_posts(posts):
     out = []
-    for p in (posts or [])[:3]:
+    for p in (posts or [])[:2]:
         if isinstance(p, dict) and p.get("text"):
             out.append({"id": s(p.get("id"), 20), "at": s(p.get("at"), 30), "by": s(p.get("by"), 60),
-                        "text": s(p.get("text"), 4000)})
+                        "text": scrub(s(p.get("text"), 1500))})
     return out
+
+
+def resolve_key(classes, title, teacher):
+    """Same class, same key. If the teacher name is missing, use the one existing class with this title."""
+    if not teacher:
+        same = [k for k, c in classes.items() if c.get("title") == title and c.get("teacher")]
+        if len(same) == 1:
+            return same[0], classes[same[0]]["teacher"]
+    return class_key(title, teacher), teacher
 
 
 def not_past(items):
@@ -122,7 +143,7 @@ def apply(data, payload, sender, owner, friends):
             title, teacher = s(c.get("title"), 80), s(c.get("teacher"), 60)
             if not title:
                 continue
-            k = class_key(title, teacher)
+            k, teacher = resolve_key(classes, title, teacher)
             cl = classes.setdefault(k, {"title": title, "teacher": teacher})
             cl.update({"title": title, "teacher": teacher, "items": not_past(clean_items(c.get("items"))),
                        "posts": clean_posts(c.get("posts")) or cl.get("posts", []),
@@ -141,9 +162,9 @@ def apply(data, payload, sender, owner, friends):
             return f"ignored update from {sender}, not in friends.json"
         for c in (payload.get("courses") or [])[:20]:
             title, teacher = s(c.get("title"), 80), s(c.get("teacher"), 60)
-            if not title:
+            if not title or c.get("error"):
                 continue
-            k = class_key(title, teacher)
+            k, teacher = resolve_key(classes, title, teacher)
             cl = classes.get(k)
             if cl and cl.get("via") == "auto" and cl.get("updatedAt"):
                 age = now() - dt.datetime.fromisoformat(cl["updatedAt"])
@@ -151,9 +172,11 @@ def apply(data, payload, sender, owner, friends):
                     notes.append(f"skipped {k}, kept up to date automatically")
                     continue
             cl = classes.setdefault(k, {"title": title, "teacher": teacher})
-            cl.update({"title": title, "teacher": teacher, "items": not_past(clean_items(c.get("items"))),
-                       "posts": clean_posts(c.get("posts")), "updatedAt": stamp, "updatedBy": sender,
-                       "via": "button"})
+            new_items = not_past(clean_items(c.get("items")))
+            cl.update({"title": title, "teacher": teacher,
+                       "items": new_items or not_past(cl.get("items", [])),
+                       "posts": clean_posts(c.get("posts")) or cl.get("posts", []),
+                       "updatedAt": stamp, "updatedBy": sender, "via": "button"})
             cl["sections"] = sorted(set(cl.get("sections", [])) | {s(c.get("section"), 30)} - {""})
             cl.setdefault("aiItems", [])
             notes.append(f"button {k}")
@@ -198,6 +221,7 @@ def main():
             print("could not delete comment", e)
     # drop anything whose date has passed
     for cl in data.get("classes", {}).values():
+        cl["posts"] = [dict(p, text=scrub(p.get("text"))) for p in cl.get("posts", [])]
         cl["items"] = not_past(cl.get("items", []))
         cl["aiItems"] = not_past(cl.get("aiItems", []))
     data["updated"] = now().isoformat(timespec="seconds")

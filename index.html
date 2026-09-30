@@ -130,6 +130,8 @@ const esc=s=>String(s??"").replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&g
 const LS={get(k,d){try{const v=localStorage.getItem("hs."+k);return v?JSON.parse(v):d}catch(e){return d}},set(k,v){try{localStorage.setItem("hs."+k,JSON.stringify(v))}catch(e){}}};
 const slug=s=>String(s||"").toLowerCase().replace(/[^a-z0-9]+/g,"-").replace(/^-+|-+$/g,"").slice(0,40).replace(/-+$/,"");
 const classKey=(t,te)=>slug(t)+(te?"--"+slug(te):"");
+const safeUrl=u=>/^\/(?!\/)[^\s@\\]*$/.test(String(u||""))?u:"";
+function sharedKey(t,te){if(!te){const m=Object.entries(shared.classes||{}).filter(([k,c])=>c.title===t&&c.teacher);if(m.length===1)return m[0][0]}return classKey(t,te)}
 let shared={classes:{}},openForm=null;
 function showMsg(t,ok){$("msg").textContent=t;$("msg").hidden=!t;$("msg").classList.toggle("ok",!!ok)}
 function tok(){try{return localStorage.getItem("hs.tok")||sessionStorage.getItem("hs.tok")||""}catch(e){return ""}}
@@ -165,21 +167,33 @@ async function postUpdate(payload,t){
 }
 async function handleGrab(d){
  const local=LS.get("local",{}),mine=LS.get("mine",[]);
+ await loadShared();
  for(const c of d.courses||[]){
-  const k=classKey(c.title,c.teacher);
+  const k=sharedKey(c.title,c.teacher);
   local[k]={at:d.at,title:c.title,teacher:c.teacher,items:c.items||[],posts:c.posts||[]};
   if(!mine.includes(k))mine.push(k);
  }
  LS.set("local",local);LS.set("mine",mine);
  LS.set("personal",{at:d.at,items:d.personal||[]});
- const t=tok();
- if(!t){showMsg("Your list is updated on this device. To also update your classes for everyone, add a GitHub token in Settings.",true);return}
- try{
-  const st=await postUpdate({type:"button",courses:(d.courses||[]).map(c=>({title:c.title,teacher:c.teacher,section:c.section,items:c.items,posts:c.posts}))},t);
-  if(st===201)showMsg("Your list is updated, and your classes were sent to the shared list. They show for everyone in about 2 minutes.",true);
-  else if(st===401)showMsg("Your list is updated on this device, but your GitHub token didn't work. Check it in Settings.");
-  else showMsg("Your list is updated on this device, but sharing failed (GitHub said "+st+").");
- }catch(e){showMsg("Your list is updated on this device, but sharing failed ("+e.message+").")}
+ pendingShare=(d.courses||[]).filter(c=>!c.error).map(c=>({title:c.title,teacher:c.teacher,section:c.section,items:(c.items||[]).slice(0,40),posts:(c.posts||[]).slice(0,2).map(p=>({...p,text:String(p.text||"").slice(0,1500)}))}));
+ if(!tok()){showMsg("Your list is updated on this device. To also update your classes for everyone, add a GitHub token in Settings.",true);return}
+ showShare();
+}
+let pendingShare=null;
+function showShare(){
+ $("msg").hidden=false;$("msg").classList.add("ok");
+ $("msg").innerHTML=`Your list is updated. Share these ${pendingShare.length} classes with everyone? <button type="button" class="linkbtn" id="doshare" style="margin-left:8px">Share my classes</button> <button type="button" class="linkbtn" id="noshare">Not now</button>`;
+ $("noshare").onclick=()=>{pendingShare=null;showMsg("")};
+ $("doshare").onclick=async()=>{
+  $("doshare").disabled=true;$("doshare").textContent="Sharing...";
+  try{
+   const st=await postUpdate({type:"button",courses:pendingShare},tok());pendingShare=null;
+   if(st===201)showMsg("Sent. Your classes show for everyone in about 2 minutes, if Stu added your GitHub username.",true);
+   else if(st===401)showMsg("Sharing failed, your GitHub token didn't work. Check it in Settings.");
+   else if(st===422)showMsg("Sharing failed, the update was too big (GitHub said 422). Tell Stu.");
+   else showMsg("Sharing failed (GitHub said "+st+").");
+  }catch(e){showMsg("Sharing failed ("+e.message+").")}
+ };
 }
 
 // ---- shared data ----
@@ -200,7 +214,7 @@ function classView(k){
 // ---- render ----
 function itemHTML(i,late){
  const done=!!isDone(i.id);
- const name=(i.url?`<a href="https://basised-dc.schoology.com${esc(i.url)}" target="_blank" rel="noopener">${esc(i.n)}</a>`:esc(i.n))+(i.mine?`<span class="tag">yours</span>`:"");
+ const name=(safeUrl(i.url)?`<a href="https://basised-dc.schoology.com${esc(safeUrl(i.url))}" target="_blank" rel="noopener">${esc(i.n)}</a>`:esc(i.n))+(i.mine?`<span class="tag">yours</span>`:"");
  const lines=[i.tr?`(${i.tr})`:"",i.detail||"",i.cls?i.cls:""].filter(Boolean);
  const when=i.due?fmtDay(i.due):(i.dueNote||"");
  return `<li class="${done?"done":""}"><input type="checkbox" data-id="${esc(i.id)}" ${done?"checked":""} aria-label="Done: ${esc(i.n)}"><div class="name">${name}${lines.map(x=>`<div class="detail">${esc(x)}</div>`).join("")}</div><span class="when ${late&&!done?"late":""}">${esc(when)}${late&&!done?", late":""}</span></li>`;

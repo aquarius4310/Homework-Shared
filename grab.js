@@ -46,19 +46,19 @@
       try {
         const feed = doc(JSON.parse(await get(`/course/${c.nid}/feed?page=0`)).output || "");
         const authors = {};
-        for (const li of [...feed.querySelectorAll("li[id^='edge-assoc-']")].slice(0, 6)) {
+        for (const li of [...feed.querySelectorAll("li[id^='edge-assoc-']")].slice(0, 10)) {
           const who = ([...li.querySelectorAll("a[href^='/user/']")].map((a) => a.textContent.trim()).find(Boolean)) || "";
+          if (who) authors[who] = (authors[who] || 0) + 1; // teacher name comes from all recent posters
           const when = (li.querySelector(".small.gray, .datetime") || {}).textContent || "";
           const at = new Date(when.replace(" at ", " "));
           if (!isNaN(at) && Date.now() - at > 14 * 864e5) continue;
+          if (course.posts.length >= 2) continue;
           let body = li.querySelector(".update-body");
           let full = body ? text(body.innerHTML) : "";
           const more = [...li.querySelectorAll("a")].find((a) => /show_more/.test(a.getAttribute("href") || ""));
           if (more) { try { full = text(JSON.parse(await get(more.getAttribute("href"))).update || "") || full; } catch (e) {} }
           if (!full) continue;
-          if (who.trim()) authors[who.trim()] = (authors[who.trim()] || 0) + 1;
-          course.posts.push({ id: nid(li.id), at: isNaN(at) ? "" : at.toISOString(), by: who.trim(), text: full.slice(0, 4000) });
-          if (course.posts.length >= 3) break;
+          course.posts.push({ id: nid(li.id), at: isNaN(at) ? "" : at.toISOString(), by: who.trim(), text: full.slice(0, 1500) });
         }
         course.teacher = Object.keys(authors).sort((a, b) => authors[b] - authors[a])[0] || "";
       } catch (e) { course.error = "posts: " + e.message; }
