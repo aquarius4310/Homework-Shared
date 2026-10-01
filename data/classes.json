@@ -14,7 +14,7 @@
      "dueTime": "",
      "dueNote": "",
      "url": "/course/8468551348/updates",
-     "src": ""
+     "src": "schoology"
     },
     {
      "id": "cj-bus-u2l3",
@@ -26,42 +26,30 @@
      "dueTime": "",
      "dueNote": "",
      "url": "/course/8468551348/updates",
-     "src": ""
+     "src": "schoology"
     },
     {
      "id": "sgy-8568958286",
      "kind": "hw",
      "n": "Business Canvas Project",
      "tr": "",
-     "detail": "Long project across Units 1-4. Latest slides posted 9-24",
+     "detail": "Long project across Units 1-4",
      "due": "",
      "dueTime": "",
-     "dueNote": "",
+     "dueNote": "no due date yet",
      "url": "/course/8468551348/materials/gp/8568958286",
-     "src": ""
+     "src": "schoology"
     }
    ],
    "posts": [
     {
-     "id": "45878553844",
-     "at": "2026-09-28T00:34:00.000Z",
+     "id": "bus-w7-0928",
+     "at": "2026-09-28",
      "by": "Fatima Mrabet",
-     "text": "Week 7 September 28Th CJ\nMonday: All your Check Points due 9/28\nTuesday: U 2 L 1 HW due 9/29\nWednesday: U 2 L 2 HW due 9/30\nThursday: Class canceled\nFriday : U 2 L 3 HW due 10/2"
-    },
-    {
-     "id": "45835101079",
-     "at": "2026-09-24T11:54:00.000Z",
-     "by": "Fatima Mrabet",
-     "text": "[link removed]"
-    },
-    {
-     "id": "45812423376",
-     "at": "2026-09-22T21:30:00.000Z",
-     "by": "Fatima Mrabet",
-     "text": "Zero Period is canceled today 9/23.\nMrs. Mrabet"
+     "text": "Week 7 September 28th CJ. Monday: All your Check Points due 9/28. Tuesday: U2 L1 HW due 9/29. Wednesday: U2 L2 HW due 9/30. Thursday: Class canceled. Friday: U2 L3 HW due 10/2."
     }
    ],
-   "updatedAt": "2026-09-30T10:16:27-04:00",
+   "updatedAt": "2026-09-30T22:01:55-04:00",
    "updatedBy": "aquarius4310",
    "via": "auto",
    "aiItems": [],
@@ -72,18 +60,6 @@
    "teacher": "Daniel Reich",
    "items": [
     {
-     "id": "calc-2e",
-     "kind": "hw",
-     "n": "HW 2.E Product and Quotient Rule",
-     "tr": "",
-     "detail": "Sec 2.3 (p.129) #5, 9, 11, 15, 21, 33, 37, 39, 41, 65, 67, 83-84, 106-110, 133-135, 139",
-     "due": "2026-09-30",
-     "dueTime": "",
-     "dueNote": "",
-     "url": "/course/8468551357/materials/gp/8567900735",
-     "src": ""
-    },
-    {
      "id": "calc-2f",
      "kind": "hw",
      "n": "HW 2.F Chain Rule",
@@ -93,7 +69,7 @@
      "dueTime": "",
      "dueNote": "",
      "url": "/course/8468551357/materials/gp/8567900735",
-     "src": ""
+     "src": "guide"
     },
     {
      "id": "calc-q2-2",
@@ -105,7 +81,7 @@
      "dueTime": "",
      "dueNote": "",
      "url": "/course/8468551357/materials/gp/8567900735",
-     "src": ""
+     "src": "schoology"
     },
     {
      "id": "calc-q2-1",
@@ -117,7 +93,7 @@
      "dueTime": "",
      "dueNote": "",
      "url": "/course/8468551357/updates",
-     "src": ""
+     "src": "schoology"
     },
     {
      "id": "calc-q2-3",
@@ -127,9 +103,9 @@
      "detail": "Topic 2.F, chain rule",
      "due": "",
      "dueTime": "",
-     "dueNote": "",
+     "dueNote": "date not posted yet",
      "url": "/course/8468551357/materials/gp/8567900735",
-     "src": ""
+     "src": "guide"
     },
     {
      "id": "calc-u23-test",
@@ -139,26 +115,20 @@
      "detail": "Acc 2.4 covers 2.G-2.H. Test covers all of Unit 2-3",
      "due": "",
      "dueTime": "",
-     "dueNote": "",
+     "dueNote": "date not posted yet",
      "url": "/course/8468551357/materials/gp/8567900735",
-     "src": ""
+     "src": "guide"
     }
    ],
    "posts": [
     {
-     "id": "45880685858",
-     "at": "2026-09-28T11:35:00.000Z",
+     "id": "calc-w7-0928",
+     "at": "2026-09-28T07:35:00-04:00",
      "by": "Daniel Reich",
-     "text": "CJs for Week 7 (9/28-10/2)\nUpcoming Assessments:\n- Accuracy 2.2 [Topics 2.D-E] Friday\n- Quiz 2.1 [Topics 2.A-E] next Tues\nMonday, 9/28\n- In class: Sub day. Complete Unit 2 Progress Check FRQs.\nTuesday, 9/29\n- In class: Topic 2.E [Product Rule and Quotient Rule]\n- HW 2.E due Wednesday\nWednesday 9/30\n- In class: Topic 2.F [Chain Rule]\n- HW 2.F due Monday\nThursday 10/1\n- No class - PSAT\n Friday 10/2\n- In class: Topic 2.F [Chain Rule]\n- HW 2.F due Monday"
-    },
-    {
-     "id": "45779957512",
-     "at": "2026-09-21T12:28:00.000Z",
-     "by": "Daniel Reich",
-     "text": "CJs for Week 6 (9/21-25)\nUpcoming Assessments:\n- Quiz 1.2 [Topics 1.C-E] Tuesday, 9/22 \n- Accuracy 2.1 [Topics 2.A-C] Wednesday, 9/23\nMonday, 9/21\n- In class: Topic 2.D [Differentiability]\n- HW 2.C due Wednesday; HW 2.D due Thursday\nTuesday, 9/22\n- In class: Quiz 1.2 [Topics 1.C-E]\nWednesday 9/23\n- In class: Accuracy 2.1 [Topics 2.A-C]; \n Topic 2.D [Differentiability]\n- HW 2.D due Thursday\nThursday 9/24\n- In class: Topic 2.E [Product and Quotient Rules]\n- HW 2.E due Monday\n Friday 9/25\n- In class: Topic 2.E [Product and Quotient Rules]\n- HW 2.E due Monday"
+     "text": "CJs for Week 7 (9/28-10/2). Upcoming Assessments: Accuracy 2.2 [Topics 2.D-E] Friday. Quiz 2.1 [Topics 2.A-E] next Tues. Monday 9/28: Sub day, complete Unit 2 Progress Check FRQs. Tuesday 9/29: Topic 2.E [Product Rule and Quotient Rule], HW 2.E due Wednesday. Wednesday 9/30: Topic 2.F [Chain Rule], HW 2.F due Monday. Thursday 10/1: No class - PSAT. Friday 10/2: Topic 2.F [Chain Rule], HW 2.F due Monday."
     }
    ],
-   "updatedAt": "2026-09-30T10:16:27-04:00",
+   "updatedAt": "2026-09-30T22:01:55-04:00",
    "updatedBy": "aquarius4310",
    "via": "auto",
    "aiItems": [],
@@ -178,19 +148,7 @@
      "dueTime": "",
      "dueNote": "",
      "url": "/course/8468551521/materials/gp/8579125953",
-     "src": ""
-    },
-    {
-     "id": "cj-hug-midunit2",
-     "kind": "tests",
-     "n": "Unit 2 Mid-Unit Exam",
-     "tr": "",
-     "detail": "",
-     "due": "2026-09-30",
-     "dueTime": "",
-     "dueNote": "",
-     "url": "/course/8468551531/updates",
-     "src": ""
+     "src": "schoology"
     },
     {
      "id": "cj-hug-exam1009",
@@ -202,24 +160,18 @@
      "dueTime": "",
      "dueNote": "",
      "url": "/course/8468551531/updates",
-     "src": ""
+     "src": "schoology"
     }
    ],
    "posts": [
     {
-     "id": "45882804739",
-     "at": "2026-09-28T13:17:00.000Z",
+     "id": "hug-w7-0928",
+     "at": "2026-09-28T09:17:00-04:00",
      "by": "Jared Kyaw",
-     "text": "Monday - 09.28\nClasswork\nSpatial Starter #19\nUnit 2.5 (Day 2) Notes\nHomework\nExit Coordinate #9\nReading Guide Due:\n10.05\nNext Exam:\n9.30\nTuesday - 09.29\nClasswork\nSpatial Starter #20\nReview Day\nHomework\nStudy for Test\nReading Guide Due:\n10.05\nNext Exam:\n9.30\nWednesday - 09.30\nClasswork\nTest Day\nHomework\nGood Luck on SAT\nReading Guide Due:\n10.05\nNext Exam:\n10.09\nThursday - 10.01\nClasswork\nClass Cancelled PSAT/SAT Proctor\nHomework\nClass Cancelled PSAT/SAT Proctor\nUpcoming Deliverable\nClass Cancelled PSAT/SAT Proctor\nFriday - 10.02\nClasswork\nSpatial Starter #21\nUnit 2.6\nHomework\nNo Homework\nReading Guide Due:\n10.05\nNext Exam:\n10.09"
-    },
-    {
-     "id": "45816580857",
-     "at": "2026-09-23T12:37:00.000Z",
-     "by": "Jared Kyaw",
-     "text": "09.21\nClasswork:\n- \nSpatial Starter #15\n- \nUnit 2.1 Notes\nHomework:\n- \nExit Coordinate #6 (Due @ Midnight)\nReading Guide:\n- \n10.05\nNext Exam:\n- \nMid-Unit Exam: 09.30 \n09.22\nClasswork:\n- \nSpatial Starter #16\n- \nUnit 2.2 Notes\nHomework:\n- \nExit Coordinate #7 (Due @ Midnight)\nReading Guide:\n- \n10.05\nNext Exam:\n- \nMid-Unit Exam: 09.30 \n09.23\nClasswork:\n- \nSpatial Starter #17\n- \nUnit 2.3 Notes\nHomework:\n- \nExit Coordinate #8 (Due @ Midnight)\nReading Guide:\n- \n10.05\nNext Exam:\n- \nMid-Unit Exam: 09.30 \n09.24\nClasswork:\n- \nSpatial Starter #18\n- \nUnit 2.4 Notes\nHomework:\n- \nExit Coordinate #9 (Due @ Midnight)\nReading Guide:\n- \n10.05\nNext Exam:\n- \nMid-Unit Exam: 09.30 \n09.25\nClasswork:\n- \nSpatial Starter #19\n- \nUnit 2.5 Notes\nHomework:\n- \nExit Coordinate #10 (Due @ Midnight)\nReading Guide:\n- \n10.05\nNext Exam:\n- \nMid-Unit Exam: 09.30"
+     "text": "Monday 09.28: Spatial Starter #19, Unit 2.5 (Day 2) Notes. HW: Exit Coordinate #9. Reading Guide Due 10.05. Next Exam 9.30. Tuesday 09.29: Spatial Starter #20, Review Day. HW: Study for Test. Wednesday 09.30: Test Day. Next Exam 10.09. Thursday 10.01: Class Cancelled PSAT/SAT Proctor. Friday 10.02: Spatial Starter #21, Unit 2.6. No Homework. Reading Guide Due 10.05. Next Exam 10.09."
     }
    ],
-   "updatedAt": "2026-09-30T10:16:27-04:00",
+   "updatedAt": "2026-09-30T22:01:55-04:00",
    "updatedBy": "aquarius4310",
    "via": "auto",
    "aiItems": [],
@@ -239,7 +191,7 @@
      "dueTime": "",
      "dueNote": "",
      "url": "/course/8468551473/materials/gp/8585693620",
-     "src": ""
+     "src": "schoology"
     },
     {
      "id": "cj-lit-datasheet",
@@ -251,7 +203,7 @@
      "dueTime": "",
      "dueNote": "",
      "url": "/course/8468551473/updates",
-     "src": ""
+     "src": "schoology"
     },
     {
      "id": "cj-lit-comments",
@@ -263,7 +215,7 @@
      "dueTime": "",
      "dueNote": "",
      "url": "/course/8468551473/updates",
-     "src": ""
+     "src": "schoology"
     },
     {
      "id": "cj-lit-mcq-mastery",
@@ -275,7 +227,7 @@
      "dueTime": "",
      "dueNote": "",
      "url": "/course/8468551473/updates",
-     "src": ""
+     "src": "schoology"
     },
     {
      "id": "cj-lit-frq-mastery",
@@ -287,24 +239,18 @@
      "dueTime": "",
      "dueNote": "",
      "url": "/course/8468551473/updates",
-     "src": ""
+     "src": "schoology"
     }
    ],
    "posts": [
     {
-     "id": "45883845996",
-     "at": "2026-09-28T13:50:00.000Z",
+     "id": "lit-w7-0928",
+     "at": "2026-09-28T09:50:00-04:00",
      "by": "Celleste Stafford",
-     "text": "Week 7 CJ (9/28 - 10/2)\nMonday\n- MCQ Monday\nHW: Blog Post due Wednesday (Comments due Monday), Major Data Sheet due Friday, MCQ Mastery on Monday\nTuesday\n- Poetry!\nHW: Blog Post due Wednesday (Comments due Monday), Major Data Sheet due Friday, MCQ Mastery on Monday\nWednesday\n- Major Data Sheet\nHW: Blog Post due TONIGHT (Comments due Monday), Major Data Sheet due Friday, MCQ Mastery on Monday\nThursday\n- PSAT School Day- no classs\nFriday\n- FRQ Friday\nHW: Blog Comments due Monday, MCQ Mastery on Monday, FRQ Mastery next Friday"
-    },
-    {
-     "id": "45779508757",
-     "at": "2026-09-21T11:57:00.000Z",
-     "by": "Celleste Stafford",
-     "text": "Week 6 CJ (9/21 - 9/25)\nMonday\n- MCQ Monday\nHW: Finish OMAM for Thursday\nTuesday\n- Poetry!\nHW: Finish OMAM for Thursday, Complete Poetry MCQ\nWednesday\n- Introduce Blog Posts\nHW: Finish OMAM for Thursday, Blog Post due 9/30, Comments due 10/5, Major Data Sheet due 10/2\nThursday\n- Novel Discussion\nHW: Blog Post due 9/30, Comments due 10/5, Major Data Sheet due 10/2\nFriday\n- FRQ Friday\nHW: Blog Post due 9/30, Comments due 10/5, Major Data Sheet due 10/2, MCQ Accuracy Monday"
+     "text": "Week 7 CJ (9/28 - 10/2). Monday: MCQ Monday. HW: Blog Post due Wednesday (Comments due Monday), Major Data Sheet due Friday, MCQ Mastery on Monday. Tuesday: Poetry! Same HW. Wednesday: Major Data Sheet. HW: Blog Post due TONIGHT (Comments due Monday), Major Data Sheet due Friday, MCQ Mastery on Monday. Thursday: PSAT School Day, no class. Friday: FRQ Friday. HW: Blog Comments due Monday, MCQ Mastery on Monday, FRQ Mastery next Friday."
     }
    ],
-   "updatedAt": "2026-09-30T10:16:27-04:00",
+   "updatedAt": "2026-09-30T22:01:55-04:00",
    "updatedBy": "aquarius4310",
    "via": "auto",
    "aiItems": [],
@@ -324,7 +270,7 @@
      "dueTime": "",
      "dueNote": "",
      "url": "/course/8468551619/updates",
-     "src": ""
+     "src": "schoology"
     },
     {
      "id": "cj-apush-wrap",
@@ -336,19 +282,7 @@
      "dueTime": "",
      "dueNote": "",
      "url": "/course/8468551619/updates",
-     "src": ""
-    },
-    {
-     "id": "cj-apush-mcq",
-     "kind": "hw",
-     "n": "MCQ practice on AP Classroom",
-     "tr": "",
-     "detail": "",
-     "due": "2026-10-05",
-     "dueTime": "",
-     "dueNote": "",
-     "url": "/course/8468551619/updates",
-     "src": ""
+     "src": "schoology"
     },
     {
      "id": "sgy-8588208038",
@@ -360,48 +294,30 @@
      "dueTime": "",
      "dueNote": "",
      "url": "/course/8468551619/materials/gp/8588208038",
-     "src": ""
-    },
-    {
-     "id": "cj-apush-unitexam",
-     "kind": "tests",
-     "n": "Unit Exam",
-     "tr": "",
-     "detail": "Newest CJ only lists the Mid Unit Exam 10/8, this may be the same test. Ask Ms. Browne",
-     "due": "2026-10-07",
-     "dueTime": "",
-     "dueNote": "",
-     "url": "/course/8468551619/updates",
-     "src": ""
+     "src": "schoology"
     },
     {
      "id": "cj-apush-midunit3",
      "kind": "tests",
      "n": "Mid-Unit Exam, Topics 3.1-3.6",
      "tr": "",
-     "detail": "Newest CJ says 10/8 every day",
+     "detail": "",
      "due": "2026-10-08",
      "dueTime": "",
      "dueNote": "",
      "url": "/course/8468551619/updates",
-     "src": ""
+     "src": "schoology"
     }
    ],
    "posts": [
     {
-     "id": "45906886424",
-     "at": "2026-09-29T15:18:00.000Z",
+     "id": "apush-w6-0929",
+     "at": "2026-09-29T11:18:00-04:00",
      "by": "Taylor Browne",
-     "text": "AP U.S. History \nMonday \nTuesday \nWednesday \nThursday \nFriday \nWeek 6: 9/28-10/1 \nLEQ Diagnostic \nHW: None \nUpcoming: \nMid Unit Exam; 10/8 \nHamilton v. History Project work day \nHW: Continue working on Project; Due 10/23 \nUpcoming: \nMid Unit Exam; 10/8 \n3.6: Influence of \nRevolutionary Ideals \nHW: Complete Class Notes; Due Friday \nUpcoming: Mid Unit Exam 10/8 \nPSAT DAY – Class Cancelled \nHW: Complete 3.6 class Notes: Due tomorrow \nUpcoming: Mid Unit Exam 10/8 \n3.7: Articles of Confederation \nHW: Complete Lesson Wrap; Due Monday \nUpcoming: Mid Unit Exam 10/8"
-    },
-    {
-     "id": "45778920436",
-     "at": "2026-09-21T07:58:00.000Z",
-     "by": "Taylor Browne",
-     "text": "AP U.S. History\nMonday\nTuesday\nWednesday\nThursday\nFriday\nWeek 5: 9/21-9/25\nDBQ Diagnostic\nHW: None\nUpcoming: Content Quiz 9/24\n3.5: The American Revolution\nHW: None \nUpcoming: Content Quiz Thursday\n3.6: Influence of\nRevolutionary Ideals\nHW: Complete class notes: Due tomorrow\nUpcoming: Content Quiz 9/24\nContent Quiz & The Articles of Confederation\nHW: Complete 2.6 Class Notes: Due tomorrow\nUpcoming:\n-Mid Unit Exam (Topics 2.1-2.4): 9/30\n-Unit 2 Exam: 10/6\nHamilton vs. History\nHW: Read Pages 123-132 & Complete guided questions: due Monday\nUpcoming:\n-Mid Unit Exam (Topics 3.1-3.6): 9/30\n-Unit 2 Exam: 10/7"
+     "text": "Week 6: 9/28-10/1. Monday: LEQ Diagnostic, HW none. Tuesday: Hamilton v. History Project work day, HW continue working on Project, due 10/23. Wednesday: 3.6 Influence of Revolutionary Ideals, HW complete class notes, due Friday. Thursday: PSAT day, class cancelled. HW complete 3.6 class notes, due tomorrow. Friday: 3.7 Articles of Confederation, HW complete Lesson Wrap, due Monday. Upcoming: Mid Unit Exam 10/8."
     }
    ],
-   "updatedAt": "2026-09-30T10:16:27-04:00",
+   "updatedAt": "2026-09-30T22:01:55-04:00",
    "updatedBy": "aquarius4310",
    "via": "auto",
    "aiItems": [],
@@ -413,19 +329,13 @@
    "items": [],
    "posts": [
     {
-     "id": "45886326496",
-     "at": "2026-09-28T15:03:00.000Z",
+     "id": "phys-w7-0928",
+     "at": "2026-09-28T11:03:00-04:00",
      "by": "Kevin Gilbert",
-     "text": "CJ Week 7:\n28\n29\n30\n1\n2\n3.1 Intro to Forces and Newtons law\n3.2 Newton's Third Law\n3.3 F=MA applications\nSAT Day\n3.4 Tension"
-    },
-    {
-     "id": "45777470914",
-     "at": "2026-09-21T00:50:00.000Z",
-     "by": "Kevin Gilbert",
-     "text": "CJ Week 6: \n21\n22\n23\n24\n25\nRelative motion + HW\n Vector Review for test on 9/24\nApplied Question Examples for test on 9/24\nTest Day\nUnit 3 overwiew + Lab is due"
+     "text": "CJ Week 7: 28 3.1 Intro to Forces and Newtons law. 29 3.2 Newton's Third Law. 30 3.3 F=MA applications. 1 SAT Day. 2 3.4 Tension."
     }
    ],
-   "updatedAt": "2026-09-30T10:16:27-04:00",
+   "updatedAt": "2026-09-30T22:01:55-04:00",
    "updatedBy": "aquarius4310",
    "via": "auto",
    "aiItems": [],
@@ -445,7 +355,7 @@
      "dueTime": "",
      "dueNote": "",
      "url": "/course/8468551895/materials/gp/8569628136",
-     "src": ""
+     "src": "schoology"
     },
     {
      "id": "sgy-8590700663",
@@ -455,9 +365,9 @@
      "detail": "",
      "due": "",
      "dueTime": "",
-     "dueNote": "",
+     "dueNote": "no due date yet",
      "url": "/course/8468551895/materials/gp/8590700663",
-     "src": ""
+     "src": "schoology"
     },
     {
      "id": "sgy-8590700665",
@@ -467,32 +377,26 @@
      "detail": "",
      "due": "",
      "dueTime": "",
-     "dueNote": "",
+     "dueNote": "no due date yet",
      "url": "/course/8468551895/materials/gp/8590700665",
-     "src": ""
+     "src": "schoology"
     }
    ],
    "posts": [
     {
-     "id": "45859734621",
-     "at": "2026-09-25T14:47:00.000Z",
+     "id": "mand-w7-0925",
+     "at": "2026-09-25T10:47:00-04:00",
      "by": "Yalan Li",
-     "text": "M11 Weekly CJ -W7\nMon- 中秋节packet due Tues\nTues-Fri. -- complete the packet Day 4 &5 part."
-    },
-    {
-     "id": "45768335647",
-     "at": "2026-09-18T19:02:00.000Z",
-     "by": "Yalan Li",
-     "text": "M11 Weekly CJ -W6\nMon- word sheet packet 1 & Peom signing sheet due Today\nTues-Fri. -- complete the packet by Day 3"
+     "text": "M11 Weekly CJ - W7. Mon: 中秋节 packet due Tues. Tues-Fri: complete the packet Day 4 & 5 part."
     }
    ],
-   "updatedAt": "2026-09-30T10:16:27-04:00",
+   "updatedAt": "2026-09-30T22:01:55-04:00",
    "updatedBy": "aquarius4310",
    "via": "auto",
    "aiItems": [],
    "sections": []
   }
  },
- "updated": "2026-09-30T11:13:59-04:00",
+ "updated": "2026-09-30T22:01:56-04:00",
  "owner": "aquarius4310"
 }
