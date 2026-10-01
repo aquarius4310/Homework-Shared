@@ -5,18 +5,6 @@
    "teacher": "Fatima Mrabet",
    "items": [
     {
-     "id": "cj-bus-u2l2",
-     "kind": "hw",
-     "n": "U2 L2 HW",
-     "tr": "",
-     "detail": "",
-     "due": "2026-09-30",
-     "dueTime": "",
-     "dueNote": "",
-     "url": "/course/8468551348/updates",
-     "src": "schoology"
-    },
-    {
      "id": "cj-bus-u2l3",
      "kind": "hw",
      "n": "U2 L3 HW",
@@ -181,18 +169,6 @@
    "title": "AP English Literature & Composition",
    "teacher": "Celleste Stafford",
    "items": [
-    {
-     "id": "cj-lit-blog",
-     "kind": "hw",
-     "n": "Blog post",
-     "tr": "",
-     "detail": "Rubric is in Schoology",
-     "due": "2026-09-30",
-     "dueTime": "",
-     "dueNote": "",
-     "url": "/course/8468551473/materials/gp/8585693620",
-     "src": "schoology"
-    },
     {
      "id": "cj-lit-datasheet",
      "kind": "hw",
@@ -397,6 +373,6 @@
    "sections": []
   }
  },
- "updated": "2026-09-30T22:01:56-04:00",
+ "updated": "2026-10-01T13:24:40-04:00",
  "owner": "aquarius4310"
 }
