@@ -5,18 +5,6 @@
    "teacher": "Fatima Mrabet",
    "items": [
     {
-     "id": "cj-bus-u2l3",
-     "kind": "hw",
-     "n": "U2 L3 HW",
-     "tr": "",
-     "detail": "",
-     "due": "2026-10-02",
-     "dueTime": "",
-     "dueNote": "",
-     "url": "/course/8468551348/updates",
-     "src": ""
-    },
-    {
      "id": "sgy-8568958286",
      "kind": "hw",
      "n": "Business Canvas Project",
@@ -57,18 +45,6 @@
      "dueTime": "",
      "dueNote": "",
      "url": "/course/8468551357/materials/gp/8567900735",
-     "src": ""
-    },
-    {
-     "id": "calc-q2-2",
-     "kind": "tests",
-     "n": "Accuracy 2.2",
-     "tr": "",
-     "detail": "Topics 2.D-2.E",
-     "due": "2026-10-02",
-     "dueTime": "",
-     "dueNote": "",
-     "url": "/course/8468551357/updates",
      "src": ""
     },
     {
@@ -127,18 +103,6 @@
    "teacher": "Jared Kyaw",
    "items": [
     {
-     "id": "sgy-8594654673",
-     "kind": "hw",
-     "n": "Exit Coordinate #10",
-     "tr": "",
-     "detail": "Came out Fri Oct 2",
-     "due": "2026-10-02",
-     "dueTime": "23:59",
-     "dueNote": "",
-     "url": "/course/8468551521/assessments/8594654673",
-     "src": ""
-    },
-    {
      "id": "sgy-8579125953",
      "kind": "hw",
      "n": "Chapter 3 Reading Guide",
@@ -181,18 +145,6 @@
    "title": "AP English Literature & Composition",
    "teacher": "Celleste Stafford",
    "items": [
-    {
-     "id": "cj-lit-datasheet",
-     "kind": "hw",
-     "n": "Major Data Sheet",
-     "tr": "",
-     "detail": "Of Mice and Men",
-     "due": "2026-10-02",
-     "dueTime": "",
-     "dueNote": "",
-     "url": "/course/8468551473/updates",
-     "src": ""
-    },
     {
      "id": "cj-lit-comments",
      "kind": "hw",
@@ -248,18 +200,6 @@
    "title": "AP U.S. History",
    "teacher": "Taylor Browne",
    "items": [
-    {
-     "id": "cj-apush-notes36",
-     "kind": "hw",
-     "n": "Complete 3.6 class notes",
-     "tr": "",
-     "detail": "",
-     "due": "2026-10-02",
-     "dueTime": "",
-     "dueNote": "",
-     "url": "/course/8468551619/updates",
-     "src": ""
-    },
     {
      "id": "sgy-8595040439",
      "kind": "hw",
@@ -415,6 +355,6 @@
    "sections": []
   }
  },
- "updated": "2026-10-02T22:02:09-04:00",
+ "updated": "2026-10-03T11:09:19-04:00",
  "owner": "aquarius4310"
 }
