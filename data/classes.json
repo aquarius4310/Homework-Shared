@@ -151,18 +151,6 @@
    "teacher": "Jared Kyaw",
    "items": [
     {
-     "id": "sgy-8579125953",
-     "kind": "hw",
-     "n": "Chapter 3 Reading Guide",
-     "tr": "",
-     "detail": "",
-     "due": "2026-10-05",
-     "dueTime": "",
-     "dueNote": "",
-     "url": "/course/8468551521/materials/gp/8579125953",
-     "src": "schoology"
-    },
-    {
      "id": "cj-hug-rg4",
      "kind": "hw",
      "n": "Chapter 4 Reading Guide",
@@ -205,18 +193,6 @@
    "title": "AP English Literature & Composition",
    "teacher": "Celleste Stafford",
    "items": [
-    {
-     "id": "cj-lit-comments",
-     "kind": "hw",
-     "n": "Blog comments",
-     "tr": "",
-     "detail": "Due 11:59 pm",
-     "due": "2026-10-05",
-     "dueTime": "23:59",
-     "dueNote": "",
-     "url": "/course/8468551473/updates",
-     "src": "schoology"
-    },
     {
      "id": "cj-lit-frq-mastery",
      "kind": "tests",
@@ -446,6 +422,6 @@
    "sections": []
   }
  },
- "updated": "2026-10-05T22:03:53-04:00",
+ "updated": "2026-10-06T13:16:12-04:00",
  "owner": "aquarius4310"
 }
