@@ -96,18 +96,6 @@
      "src": "guide"
     },
     {
-     "id": "calc-q2-1",
-     "kind": "tests",
-     "n": "Quiz 2.1",
-     "tr": "",
-     "detail": "Topics 2.A-2.E",
-     "due": "2026-10-06",
-     "dueTime": "",
-     "dueNote": "",
-     "url": "/course/8468551357/updates",
-     "src": "schoology"
-    },
-    {
      "id": "calc-q2-3",
      "kind": "tests",
      "n": "Acc 2.3 and Quiz 2.3",
@@ -224,18 +212,6 @@
    "title": "AP U.S. History",
    "teacher": "Taylor Browne",
    "items": [
-    {
-     "id": "cj-apush-mcq",
-     "kind": "hw",
-     "n": "MCQ practice on AP Classroom",
-     "tr": "",
-     "detail": "",
-     "due": "2026-10-06",
-     "dueTime": "",
-     "dueNote": "",
-     "url": "/course/8468551619/updates",
-     "src": "schoology"
-    },
     {
      "id": "cj-apush-notes37",
      "kind": "hw",
@@ -359,30 +335,6 @@
    "teacher": "Yalan Li",
    "items": [
     {
-     "id": "cj-mand-quizcorr",
-     "kind": "hw",
-     "n": "Vocab quiz correction",
-     "tr": "",
-     "detail": "Paper only",
-     "due": "2026-10-06",
-     "dueTime": "",
-     "dueNote": "",
-     "url": "/course/8468551895/updates",
-     "src": "schoology"
-    },
-    {
-     "id": "cj-mand-day5-writing",
-     "kind": "hw",
-     "n": "手机 packet Day 5 writing",
-     "tr": "cell phone",
-     "detail": "Day 5: end of p.12",
-     "due": "2026-10-06",
-     "dueTime": "",
-     "dueNote": "",
-     "url": "/course/8468551895/materials/gp/8569628136",
-     "src": "schoology"
-    },
-    {
      "id": "sgy-8590700665",
      "kind": "hw",
      "n": "手机生词2 word packet",
@@ -422,6 +374,6 @@
    "sections": []
   }
  },
- "updated": "2026-10-06T13:16:12-04:00",
+ "updated": "2026-10-07T13:50:50-04:00",
  "owner": "aquarius4310"
 }
