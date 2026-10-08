@@ -5,18 +5,6 @@
    "teacher": "Fatima Mrabet",
    "items": [
     {
-     "id": "cj-bus-u2l3",
-     "kind": "hw",
-     "n": "U2 L3 HW",
-     "tr": "",
-     "detail": "",
-     "due": "2026-10-07",
-     "dueTime": "",
-     "dueNote": "",
-     "url": "/course/8468551348/updates",
-     "src": "schoology"
-    },
-    {
      "id": "sgy-8600541649",
      "kind": "hw",
      "n": "Unit 2 Check Point 1",
@@ -386,6 +374,6 @@
    "sections": []
   }
  },
- "updated": "2026-10-07T21:59:18-04:00",
+ "updated": "2026-10-08T13:54:06-04:00",
  "owner": "aquarius4310"
 }
