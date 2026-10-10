@@ -5,18 +5,6 @@
    "teacher": "Fatima Mrabet",
    "items": [
     {
-     "id": "cj-bus-u2l5",
-     "kind": "hw",
-     "n": "U2 L5 HW",
-     "tr": "",
-     "detail": "",
-     "due": "2026-10-09",
-     "dueTime": "",
-     "dueNote": "",
-     "url": "/course/8468551348/updates",
-     "src": ""
-    },
-    {
      "id": "sgy-8568958286",
      "kind": "hw",
      "n": "Business Canvas Project",
@@ -26,36 +14,18 @@
      "dueTime": "",
      "dueNote": "no due date yet",
      "url": "/course/8468551348/materials/gp/8568958286",
-     "src": ""
-    },
-    {
-     "id": "cj-bus-quiz1009",
-     "kind": "tests",
-     "n": "Quiz on Gradecam",
-     "tr": "",
-     "detail": "",
-     "due": "2026-10-09",
-     "dueTime": "",
-     "dueNote": "",
-     "url": "/course/8468551348/updates",
-     "src": ""
+     "src": "schoology"
     }
    ],
    "posts": [
     {
-     "id": "bus-2026-10-05",
+     "id": "45987364981",
      "at": "2026-10-05T07:31:00-04:00",
      "by": "Fatima Mrabet",
-     "text": "Week 8 October 5th CJ. Monday: Quiz due 10/9 on Gradecam. Tuesday: U 2 L 3 HW due 10/7. Wednesday: U 2 Check Point 1 due 10/8, Customer Profile due 10/8. Thursday: U 2 Check Point 1 due 10/8, Customer Profile due 10/8. Friday: complete any missing assignments."
-    },
-    {
-     "id": "bus-2026-09-27",
-     "at": "2026-09-27T20:34:00-04:00",
-     "by": "Fatima Mrabet",
-     "text": "Week 7 September 28th CJ. Monday: All your Check Points due 9/28. Tuesday: U 2 L 1 HW due 9/29. Wednesday: U 2 L 2 HW due 9/30. Thursday: Class canceled. Friday: U 2 L 3 HW due 10/2."
+     "text": "Week 8 October 5th CJ\nMonday: Quiz due 10/9 on Gradecam\nTuesday: U2 L3 HW due 10/7\nWednesday: U2 Check Point 1 due 10/8, Customer Profile due 10/8\nThursday: U2 Check Point 1 due 10/8, Customer Profile due 10/8\nFriday: complete any missing assignments"
     }
    ],
-   "updatedAt": "2026-10-08T22:01:27-04:00",
+   "updatedAt": "2026-10-09T22:04:13-04:00",
    "updatedBy": "aquarius4310",
    "via": "auto",
    "aiItems": [],
@@ -70,12 +40,12 @@
      "kind": "hw",
      "n": "HW 2.G Implicit Differentiation",
      "tr": "",
-     "detail": "Due Tuesday after break. Sec 2.5 (p.149) #5-19 odd, 29, 31, 36, 39, 49, 53, 61-62, 70, 74",
-     "due": "",
+     "detail": "Due Tue after break. Sec 2.5 (p.149) #5-19 odd, 29, 31, 36, 39, 49, 53, 61-62, 70, 74",
+     "due": "2026-10-20",
      "dueTime": "",
-     "dueNote": "no due date yet",
+     "dueNote": "",
      "url": "/course/8468551357/materials/gp/8567900735",
-     "src": ""
+     "src": "guide"
     },
     {
      "id": "calc-q2-3",
@@ -87,7 +57,7 @@
      "dueTime": "",
      "dueNote": "date not posted yet",
      "url": "/course/8468551357/materials/gp/8567900735",
-     "src": ""
+     "src": "guide"
     },
     {
      "id": "calc-u23-test",
@@ -99,18 +69,18 @@
      "dueTime": "",
      "dueNote": "date not posted yet",
      "url": "/course/8468551357/materials/gp/8567900735",
-     "src": ""
+     "src": "guide"
     }
    ],
    "posts": [
     {
-     "id": "calc-2026-10-05",
+     "id": "45988749038",
      "at": "2026-10-05T08:48:00-04:00",
      "by": "Daniel Reich",
-     "text": "CJs for Week 8 (10/5-9). Upcoming Assessments: Quiz 2.1 [Topics 2.A-E] Tues. Monday 10/5: In class Topic 2.F [Chain Rule], HW 2.F due Thursday. Tuesday 10/6: Quiz 2.1 [Topics 2.A-E]. Wednesday 10/7: Topic 2.F [Chain Rule], HW 2.F due Thursday. Thursday 10/8: Topic 2.G [Implicit Differentiation], HW 2.G due Tues. after break. Friday 10/9: Topic 2.G [Implicit Differentiation], HW 2.G due Tues. after break."
+     "text": "CJs for Week 8 (10/5-9)\nUpcoming Assessments: Quiz 2.1 [Topics 2.A-E] Tues\nMonday 10/5: Topic 2.F [Chain Rule]. HW 2.F due Thursday\nTuesday 10/6: Quiz 2.1 [Topics 2.A-E]\nWednesday 10/7: Topic 2.F [Chain Rule]. HW 2.F due Thursday\nThursday 10/8: Topic 2.G [Implicit Differentiation]. HW 2.G due Tues. after break\nFriday 10/9: Topic 2.G [Implicit Differentiation]. HW 2.G due Tues. after break"
     }
    ],
-   "updatedAt": "2026-10-08T22:01:27-04:00",
+   "updatedAt": "2026-10-09T22:04:13-04:00",
    "updatedBy": "aquarius4310",
    "via": "auto",
    "aiItems": [],
@@ -130,30 +100,18 @@
      "dueTime": "",
      "dueNote": "",
      "url": "/course/8468551531/updates",
-     "src": ""
-    },
-    {
-     "id": "cj-hug-exam1009",
-     "kind": "tests",
-     "n": "Unit 2 End of Unit Exam",
-     "tr": "",
-     "detail": "FRQ or SAQ included",
-     "due": "2026-10-09",
-     "dueTime": "",
-     "dueNote": "",
-     "url": "/course/8468551531/updates",
-     "src": ""
+     "src": "schoology"
     }
    ],
    "posts": [
     {
-     "id": "hug-2026-10-05",
+     "id": "45997280931",
      "at": "2026-10-05T12:57:00-04:00",
      "by": "Jared Kyaw",
-     "text": "Monday 10.05: PttP #20 (Reading CFU), 2.7 Population Policies Notes. No homework. Chapter 3 Reading Guide due today. Next exam 10.09 EOU Exam (FRQ included). Tuesday 10.06: Preamble #21, Unit 2.8/2.9 Women and Aging Population Review. HW: Chapter 4 Reading Guide assigned, due 10.19. Wednesday 10.07: Preamble #22, Unit 2.10-2.11 Migration Notes. HW: Chapter 4 Reading Guide. Thursday 10.08: Preamble #23, Unit 2.12 Notes, Review Activity Blooket. HW: Chapter 4 Reading Guide. Next exam 10.09 EOU Exam (SAQ included). Friday 10.09: EOU EXAM."
+     "text": "Mon 10.05: PttP #20 (Reading CFU), 2.7 Population Policies Notes. HW: none. Chapter 3 Reading Guide due today. Next exam 10.09 EOU Exam (FRQ included)\nTue 10.06: Preamble #21, Unit 2.8/2.9 Women & Aging Population Review. HW: Chapter 4 Reading Guide assigned, due 10.19\nWed 10.07: Preamble #22, Unit 2.10-2.11 Migration Notes. HW: Chapter 4 Reading Guide\nThu 10.08: Preamble #23, Unit 2.12 Notes, Review Blooket. HW: Chapter 4 Reading Guide\nFri 10.09: EOU EXAM"
     }
    ],
-   "updatedAt": "2026-10-08T22:01:27-04:00",
+   "updatedAt": "2026-10-09T22:04:13-04:00",
    "updatedBy": "aquarius4310",
    "via": "auto",
    "aiItems": [],
@@ -162,29 +120,16 @@
   "ap-english-literature-composition--celleste-stafford": {
    "title": "AP English Literature & Composition",
    "teacher": "Celleste Stafford",
-   "items": [
-    {
-     "id": "cj-lit-frq-mastery",
-     "kind": "tests",
-     "n": "FRQ Mastery",
-     "tr": "",
-     "detail": "FRQ Friday",
-     "due": "2026-10-09",
-     "dueTime": "",
-     "dueNote": "",
-     "url": "/course/8468551473/updates",
-     "src": ""
-    }
-   ],
+   "items": [],
    "posts": [
     {
-     "id": "lit-2026-10-04",
+     "id": "45985872713",
      "at": "2026-10-04T22:26:00-04:00",
      "by": "Celleste Stafford",
-     "text": "Week 8 CJ (10/5 - 10/9). Monday: MCQ Monday (Mastery). HW: Blog Comments due TONIGHT at 11:59 pm, FRQ Mastery Friday. Tuesday: Poetry! HW: FRQ Mastery Friday. Wednesday: Native American Short Stories. HW: FRQ Mastery Friday. Thursday: Review FRQ Techniques. HW: FRQ TOMORROW. Friday: FRQ Friday. HW: Have a nice break!"
+     "text": "Week 8 CJ (10/5 - 10/9)\nMonday: MCQ Monday (Mastery). HW: Blog Comments due TONIGHT at 11:59 pm, FRQ Mastery Friday\nTuesday: Poetry! HW: FRQ Mastery Friday\nWednesday: Native American Short Stories. HW: FRQ Mastery Friday\nThursday: Review FRQ Techniques. HW: FRQ TOMORROW\nFriday: FRQ Friday. HW: Have a nice break!"
     }
    ],
-   "updatedAt": "2026-10-08T22:01:27-04:00",
+   "updatedAt": "2026-10-09T22:04:13-04:00",
    "updatedBy": "aquarius4310",
    "via": "auto",
    "aiItems": [],
@@ -195,28 +140,16 @@
    "teacher": "Taylor Browne",
    "items": [
     {
-     "id": "cj-apush-wrap1008",
-     "kind": "hw",
-     "n": "Lesson Wrap after Mid Unit Quiz",
-     "tr": "",
-     "detail": "",
-     "due": "2026-10-09",
-     "dueTime": "",
-     "dueNote": "",
-     "url": "/course/8468551619/updates",
-     "src": ""
-    },
-    {
      "id": "cj-apush-rg311",
      "kind": "hw",
      "n": "3.10 to 3.12 Reading Guide Questions",
      "tr": "",
-     "detail": "",
+     "detail": "Assigned Fri 10/9",
      "due": "2026-10-20",
      "dueTime": "",
      "dueNote": "",
      "url": "/course/8468551619/updates",
-     "src": ""
+     "src": "schoology"
     },
     {
      "id": "sgy-8588208038",
@@ -228,7 +161,7 @@
      "dueTime": "",
      "dueNote": "",
      "url": "/course/8468551619/materials/gp/8588208038",
-     "src": ""
+     "src": "schoology"
     },
     {
      "id": "cj-apush-notecheck3",
@@ -240,18 +173,18 @@
      "dueTime": "",
      "dueNote": "",
      "url": "/course/8468551619/updates",
-     "src": ""
+     "src": "schoology"
     }
    ],
    "posts": [
     {
-     "id": "apush-2026-10-05",
-     "at": "2026-10-05T08:00:00-04:00",
+     "id": "45984023383",
+     "at": "2026-10-04T17:57:00-04:00",
      "by": "Taylor Browne",
-     "text": "Week 7: 10/5-10/9. Monday: 3.7 Articles of Confederation. HW: MCQ practice on AP Classroom, due tomorrow. Tuesday: 3.8 Constitutional Convention and Ratification. HW: None. Wednesday: 3.8 Constitutional Convention and Ratification. HW: Complete 3.8 MCQ Content questions (Schoology). Mid Unit Quiz tomorrow. Thursday: Unit 3 Mid Unit Quiz and the Constitution. HW: Complete Constitution Guided Reading Q&A, due tonight. Friday: Hamilton v. History Workday. HW: 3.10 - 3.12 Reading Guide Questions, due 10/20. Upcoming: Unit 3 Note Check 10/22. Hamilton v. History Project due 10/23."
+     "text": "Week 7: 10/5-10/9\nMon: 3.7 Articles of Confederation. HW: MCQ practice on AP Classroom, due tomorrow\nTue: 3.8 Constitutional Convention & Ratification. HW: none\nWed: 3.8. HW: Complete 3.8 MCQ Content questions (Schoology). Mid Unit Quiz tomorrow\nThu: Unit 3 Mid Unit Quiz & the Constitution. HW: Constitution Guided Reading Q&A, due tonight\nFri: Hamilton v. History Workday. HW: 3.10-3.12 Reading Guide Questions, due 10/20\nUpcoming: Unit 3 Note Check 10/22. Hamilton v. History Project due 10/23"
     }
    ],
-   "updatedAt": "2026-10-08T22:01:27-04:00",
+   "updatedAt": "2026-10-09T22:04:13-04:00",
    "updatedBy": "aquarius4310",
    "via": "auto",
    "aiItems": [],
@@ -271,18 +204,18 @@
      "dueTime": "23:59",
      "dueNote": "",
      "url": "/assignment/8600890254",
-     "src": ""
+     "src": "schoology"
     }
    ],
    "posts": [
     {
-     "id": "phys-2026-10-05",
+     "id": "45996313108",
      "at": "2026-10-05T12:30:00-04:00",
      "by": "Kevin Gilbert",
-     "text": "CJ Week 8: 5 Applied force Lab. 6 Applied force Lab. 7 Applied force Lab. 8 Applied force Test. 9 Applied force write up."
+     "text": "CJ Week 8:\n5: Applied force Lab\n6: Applied force Lab\n7: Applied force Lab\n8: Applied force Test\n9: Applied force write up"
     }
    ],
-   "updatedAt": "2026-10-08T22:01:27-04:00",
+   "updatedAt": "2026-10-09T22:04:13-04:00",
    "updatedBy": "aquarius4310",
    "via": "auto",
    "aiItems": [],
@@ -293,16 +226,40 @@
    "teacher": "Yalan Li",
    "items": [
     {
+     "id": "sgy-8590700665",
+     "kind": "hw",
+     "n": "手机生词2 word packet",
+     "tr": "cell phone vocabulary 2",
+     "detail": "Word sheet",
+     "due": "2026-10-19",
+     "dueTime": "",
+     "dueNote": "",
+     "url": "/course/8468551895/materials/gp/8590700665",
+     "src": "schoology"
+    },
+    {
      "id": "sgy-8569628136",
      "kind": "hw",
      "n": "手机 packet",
      "tr": "cell phone",
-     "detail": "Day 6: p.13-14. Day 7: p.15",
-     "due": "2026-10-09",
+     "detail": "Day 9: p.17",
+     "due": "2026-10-23",
      "dueTime": "",
      "dueNote": "",
      "url": "/course/8468551895/materials/gp/8569628136",
-     "src": ""
+     "src": "schoology"
+    },
+    {
+     "id": "cj-mand-vocab2-quiz",
+     "kind": "tests",
+     "n": "手机生词2 quiz",
+     "tr": "cell phone vocabulary 2 quiz",
+     "detail": "",
+     "due": "2026-10-22",
+     "dueTime": "",
+     "dueNote": "",
+     "url": "/course/8468551895/updates",
+     "src": "schoology"
     },
     {
      "id": "sgy-8602736220",
@@ -314,24 +271,24 @@
      "dueTime": "",
      "dueNote": "no due date yet",
      "url": "/course/8468551895/materials/gp/8602736220",
-     "src": ""
+     "src": "schoology"
     }
    ],
    "posts": [
     {
-     "id": "mand-2026-10-02",
-     "at": "2026-10-02T13:26:00-04:00",
+     "id": "46081071250",
+     "at": "2026-10-09T14:32:00-04:00",
      "by": "Yalan Li",
-     "text": "M11 Weekly CJ W8. Mon-Tues: Vocab quiz correction and Day5 writing due Tues. Wed-Fri: Vocab packet 2 word sheet due Thur. Complete the packet Day6-7 part by Fri."
+     "text": "M11 Weekly CJ -W9\nMon-Tues: Vocab packet 2 word sheet due Mon.\nWed-Fri: Vocab packet 2 Quiz Thur. Complete the packet Day9 part by Fri."
     }
    ],
-   "updatedAt": "2026-10-08T22:01:27-04:00",
+   "updatedAt": "2026-10-09T22:04:13-04:00",
    "updatedBy": "aquarius4310",
    "via": "auto",
    "aiItems": [],
    "sections": []
   }
  },
- "updated": "2026-10-09T13:27:52-04:00",
+ "updated": "2026-10-09T22:04:13-04:00",
  "owner": "aquarius4310"
 }
