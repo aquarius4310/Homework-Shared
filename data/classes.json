@@ -193,20 +193,7 @@
   "honors-physics--kevin-gilbert": {
    "title": "Honors Physics",
    "teacher": "Kevin Gilbert",
-   "items": [
-    {
-     "id": "sgy-8600890254",
-     "kind": "hw",
-     "n": "Applied Forces Lab Individual Write up",
-     "tr": "",
-     "detail": "",
-     "due": "2026-10-09",
-     "dueTime": "23:59",
-     "dueNote": "",
-     "url": "/assignment/8600890254",
-     "src": "schoology"
-    }
-   ],
+   "items": [],
    "posts": [
     {
      "id": "45996313108",
@@ -289,6 +276,6 @@
    "sections": []
   }
  },
- "updated": "2026-10-09T22:04:13-04:00",
+ "updated": "2026-10-10T12:15:36-04:00",
  "owner": "aquarius4310"
 }
