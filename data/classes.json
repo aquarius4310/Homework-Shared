@@ -27,18 +27,6 @@
      "dueNote": "",
      "url": "/course/8468551348/updates",
      "src": ""
-    },
-    {
-     "id": "cj-bus-quiz-1020",
-     "kind": "tests",
-     "n": "Quiz on Gradecam",
-     "tr": "",
-     "detail": "",
-     "due": "2026-10-20",
-     "dueTime": "",
-     "dueNote": "",
-     "url": "/course/8468551348/updates",
-     "src": ""
     }
    ],
    "posts": [
@@ -59,18 +47,6 @@
    "title": "AP Calculus AB",
    "teacher": "Daniel Reich",
    "items": [
-    {
-     "id": "calc-2g",
-     "kind": "hw",
-     "n": "HW 2.G Implicit Differentiation",
-     "tr": "",
-     "detail": "Sec 2.5 (p.149) #5-19 odd, 29, 31, 36, 39, 49, 53, 61-62, 70, 74",
-     "due": "2026-10-20",
-     "dueTime": "",
-     "dueNote": "",
-     "url": "/course/8468551357/materials/gp/8567900735",
-     "src": ""
-    },
     {
      "id": "calc-2h",
      "kind": "hw",
@@ -206,18 +182,6 @@
    "teacher": "Celleste Stafford",
    "items": [
     {
-     "id": "cj-lit-attack-hints",
-     "kind": "hw",
-     "n": "Finish Attack the Question Hints",
-     "tr": "",
-     "detail": "",
-     "due": "2026-10-20",
-     "dueTime": "",
-     "dueNote": "",
-     "url": "/course/8468551473/updates",
-     "src": ""
-    },
-    {
      "id": "cj-lit-poetry-practice",
      "kind": "hw",
      "n": "Finish Poetry Practice",
@@ -296,18 +260,6 @@
    "title": "AP U.S. History",
    "teacher": "Taylor Browne",
    "items": [
-    {
-     "id": "cj-apush-rg311",
-     "kind": "hw",
-     "n": "3.10 to 3.12 Reading Guide Questions",
-     "tr": "",
-     "detail": "Unit 3 Reading Guide PDF in Unit 3 In Class Activities",
-     "due": "2026-10-20",
-     "dueTime": "",
-     "dueNote": "",
-     "url": "/course/8468551619/updates",
-     "src": ""
-    },
     {
      "id": "cj-apush-notes311",
      "kind": "hw",
@@ -433,6 +385,6 @@
    "sections": []
   }
  },
- "updated": "2026-10-20T22:02:39-04:00",
+ "updated": "2026-10-21T11:59:13-04:00",
  "owner": "aquarius4310"
 }
