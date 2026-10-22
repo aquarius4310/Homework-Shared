@@ -5,18 +5,6 @@
    "teacher": "Fatima Mrabet",
    "items": [
     {
-     "id": "sgy-8614032509",
-     "kind": "hw",
-     "n": "Product Makeover",
-     "tr": "",
-     "detail": "Schoology says due 10/21 11:59 pm, weekly post says 10/22",
-     "due": "2026-10-21",
-     "dueTime": "23:59",
-     "dueNote": "",
-     "url": "/assignment/8614032509",
-     "src": ""
-    },
-    {
      "id": "cj-bus-u2l4-hw",
      "kind": "hw",
      "n": "U2 L4 HW",
@@ -361,6 +349,6 @@
    "sections": []
   }
  },
- "updated": "2026-10-21T22:02:19-04:00",
+ "updated": "2026-10-22T11:54:47-04:00",
  "owner": "aquarius4310"
 }
