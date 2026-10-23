@@ -3,20 +3,7 @@
   "ap-business-with-personal-finance--fatima-mrabet": {
    "title": "AP Business with Personal Finance",
    "teacher": "Fatima Mrabet",
-   "items": [
-    {
-     "id": "cj-bus-u2l4-hw",
-     "kind": "hw",
-     "n": "U2 L4 HW",
-     "tr": "",
-     "detail": "From the weekly post",
-     "due": "2026-10-22",
-     "dueTime": "",
-     "dueNote": "",
-     "url": "/course/8468551348/updates",
-     "src": "schoology"
-    }
-   ],
+   "items": [],
    "posts": [
     {
      "id": "8613782069",
@@ -35,30 +22,6 @@
    "title": "AP Calculus AB",
    "teacher": "Daniel Reich",
    "items": [
-    {
-     "id": "calc-2h",
-     "kind": "hw",
-     "n": "HW 2.H Derivatives of Inverse Functions",
-     "tr": "",
-     "detail": "Sec 5.3 (p.341) #67-72, Sec 5.7 (p.379) #7-11, 19-24, 41, 43, 45, 47",
-     "due": "2026-10-22",
-     "dueTime": "",
-     "dueNote": "",
-     "url": "/course/8468551357/materials/gp/8567900735",
-     "src": "guide"
-    },
-    {
-     "id": "cj-calc-acc-corr",
-     "kind": "hw",
-     "n": "Accuracy corrections",
-     "tr": "",
-     "detail": "",
-     "due": "2026-10-22",
-     "dueTime": "",
-     "dueNote": "",
-     "url": "/course/8468551357/updates",
-     "src": "schoology"
-    },
     {
      "id": "cj-calc-apc-u2",
      "kind": "hw",
@@ -170,18 +133,6 @@
    "teacher": "Celleste Stafford",
    "items": [
     {
-     "id": "cj-lit-rb-ch1",
-     "kind": "hw",
-     "n": "Read Reservation Blues Ch 1",
-     "tr": "",
-     "detail": "",
-     "due": "2026-10-22",
-     "dueTime": "",
-     "dueNote": "",
-     "url": "/course/8468551473/updates",
-     "src": "schoology"
-    },
-    {
      "id": "cj-lit-rb-ch2",
      "kind": "hw",
      "n": "Read Reservation Blues Ch 2",
@@ -264,18 +215,6 @@
      "dueTime": "08:00",
      "dueNote": "",
      "url": "/assignment/8615365985",
-     "src": "schoology"
-    },
-    {
-     "id": "cj-apush-notecheck3",
-     "kind": "tests",
-     "n": "Unit 3 Note Check",
-     "tr": "",
-     "detail": "",
-     "due": "2026-10-22",
-     "dueTime": "",
-     "dueNote": "",
-     "url": "/course/8468551619/updates",
      "src": "schoology"
     },
     {
@@ -363,18 +302,6 @@
      "dueNote": "no due date yet",
      "url": "/course/8468551895/materials/gp/8620931926",
      "src": "schoology"
-    },
-    {
-     "id": "cj-mand-vocab2-quiz",
-     "kind": "tests",
-     "n": "手机生词2 quiz",
-     "tr": "cell phone vocabulary 2 quiz",
-     "detail": "",
-     "due": "2026-10-22",
-     "dueTime": "",
-     "dueNote": "",
-     "url": "/course/8468551895/updates",
-     "src": "schoology"
     }
    ],
    "posts": [
@@ -392,6 +319,6 @@
    "sections": []
   }
  },
- "updated": "2026-10-22T22:03:52-04:00",
+ "updated": "2026-10-23T11:46:23-04:00",
  "owner": "aquarius4310"
 }
