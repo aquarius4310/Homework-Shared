@@ -194,18 +194,6 @@
    "teacher": "Taylor Browne",
    "items": [
     {
-     "id": "cj-apush-reflection",
-     "kind": "hw",
-     "n": "Hamilton Individual Reflection",
-     "tr": "",
-     "detail": "Only if not done yet. 2 paragraphs, Part III. Add at end of group presentation or submit a Word doc on Schoology",
-     "due": "2026-10-23",
-     "dueTime": "23:59",
-     "dueNote": "",
-     "url": "/course/8468551619/updates",
-     "src": "schoology"
-    },
-    {
      "id": "cj-apush-u3-exam",
      "kind": "tests",
      "n": "Unit 3 Exam",
@@ -241,20 +229,7 @@
   "honors-physics--kevin-gilbert": {
    "title": "Honors Physics",
    "teacher": "Kevin Gilbert",
-   "items": [
-    {
-     "id": "sgy-8620005308",
-     "kind": "tests",
-     "n": "Carnival Game Design (Accuracy)",
-     "tr": "",
-     "detail": "Design a carnival game based on a physics principle. Pairs only, submit one proposal on Schoology",
-     "due": "2026-10-23",
-     "dueTime": "23:59",
-     "dueNote": "",
-     "url": "/assignment/8620005308",
-     "src": "schoology"
-    }
-   ],
+   "items": [],
    "posts": [
     {
      "id": "8618196723",
@@ -325,6 +300,6 @@
    "sections": []
   }
  },
- "updated": "2026-10-23T22:02:52-04:00",
+ "updated": "2026-10-24T10:37:57-04:00",
  "owner": "aquarius4310"
 }
