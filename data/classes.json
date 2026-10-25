@@ -91,18 +91,6 @@
    "teacher": "Jared Kyaw",
    "items": [
     {
-     "id": "sgy-8620119245",
-     "kind": "hw",
-     "n": "Exit Coordinate #12",
-     "tr": "",
-     "detail": "Came out Thu Oct 22",
-     "due": "2026-10-24",
-     "dueTime": "23:59",
-     "dueNote": "",
-     "url": "/course/8468551521/assessments/8620119245",
-     "src": ""
-    },
-    {
      "id": "cj-hug-rg4",
      "kind": "hw",
      "n": "Chapter 4 and 5 Reading Guide",
@@ -313,6 +301,6 @@
    "sections": []
   }
  },
- "updated": "2026-10-24T22:02:25-04:00",
+ "updated": "2026-10-25T10:57:51-04:00",
  "owner": "aquarius4310"
 }
