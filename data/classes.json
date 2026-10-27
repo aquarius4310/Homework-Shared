@@ -170,18 +170,6 @@
    "teacher": "Celleste Stafford",
    "items": [
     {
-     "id": "cj-lit-rb-ch3",
-     "kind": "hw",
-     "n": "Read Reservation Blues Ch 3",
-     "tr": "",
-     "detail": "Assigned Fri 10/23",
-     "due": "2026-10-26",
-     "dueTime": "",
-     "dueNote": "",
-     "url": "/course/8468551473/updates",
-     "src": "schoology"
-    },
-    {
      "id": "cj-lit-extra-credit",
      "kind": "hw",
      "n": "Extra Credit (optional)",
@@ -337,6 +325,6 @@
    "sections": []
   }
  },
- "updated": "2026-10-26T21:01:43-04:00",
+ "updated": "2026-10-27T12:43:15-04:00",
  "owner": "aquarius4310"
 }
