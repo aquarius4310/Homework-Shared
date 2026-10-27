@@ -13,8 +13,8 @@
      "due": "2026-10-28",
      "dueTime": "",
      "dueNote": "",
-     "url": "",
-     "src": ""
+     "url": "/course/8468551348/updates",
+     "src": "schoology"
     },
     {
      "id": "cj-bus-u2l25-hw",
@@ -25,20 +25,20 @@
      "due": "2026-10-29",
      "dueTime": "",
      "dueNote": "",
-     "url": "",
-     "src": ""
+     "url": "/course/8468551348/updates",
+     "src": "schoology"
     },
     {
      "id": "cj-bus-thu-hw",
      "kind": "hw",
      "n": "Thursday HW (post says U2 L2.5)",
      "tr": "",
-     "detail": "Week 10 post lists U2 L2.5 HW again for Thursday",
+     "detail": "Week 10 post lists U2 L2.5 HW again for Thursday, due 10/30",
      "due": "2026-10-30",
      "dueTime": "",
      "dueNote": "",
-     "url": "",
-     "src": ""
+     "url": "/course/8468551348/updates",
+     "src": "schoology"
     },
     {
      "id": "sgy-8568958286",
@@ -49,25 +49,19 @@
      "due": "",
      "dueTime": "",
      "dueNote": "no due date yet",
-     "url": "",
-     "src": ""
+     "url": "/course/8468551348/materials/gp/8568958286",
+     "src": "schoology"
     }
    ],
    "posts": [
     {
-     "id": "46268462359",
+     "id": "bus-2026-10-25",
      "at": "2026-10-25T16:40:00-04:00",
      "by": "Fatima Mrabet",
-     "text": "Week 10 October 26th CJ. Monday: No School. Tuesday: U 2 L 2.4 HW due 10/28. Wednesday: U 2 L 2.5 HW due 10/29. Thursday: U 2 L 2.5 HW due 10/30. Friday: complete any missing assignments."
-    },
-    {
-     "id": "46169878370",
-     "at": "2026-10-18T16:31:00-04:00",
-     "by": "Fatima Mrabet",
-     "text": "Week 9 October 19th CJ. Monday: Quiz due 10/20 on Gradecam. Tuesday: Product Makeover due 10/22. Wednesday: Product Makeover due 10/22, U 2 L 4 HW due 10/22. Thursday and Friday: complete any missing assignments."
+     "text": "Week 10 October 26th CJ\nMonday: No School\nTuesday: U 2 L 2.4 HW due 10/28\nWednesday: U 2 L 2.5 HW due 10/29\nThursday: U 2 L 2.5 HW due 10/30\nFriday: complete any missing assignments"
     }
    ],
-   "updatedAt": "2026-10-25T22:02:44-04:00",
+   "updatedAt": "2026-10-26T21:01:42-04:00",
    "updatedBy": "aquarius4310",
    "via": "auto",
    "aiItems": [],
@@ -86,8 +80,8 @@
      "due": "2026-10-27",
      "dueTime": "",
      "dueNote": "",
-     "url": "",
-     "src": ""
+     "url": "/course/8468551357/updates",
+     "src": "schoology"
     },
     {
      "id": "sgy-8621542588",
@@ -98,31 +92,31 @@
      "due": "",
      "dueTime": "",
      "dueNote": "no due date yet",
-     "url": "",
-     "src": ""
+     "url": "/course/8468551357/materials/gp/8621542588",
+     "src": "schoology"
     },
     {
      "id": "calc-u23-test",
      "kind": "tests",
      "n": "Acc 2.4 and Unit 2-3 Test",
      "tr": "",
-     "detail": "Acc 2.4 covers 2.H and differentiation rules. Unit 2-3 Test date not posted yet",
+     "detail": "Acc 2.4 Tue 10/27 covers 2.H and differentiation rules. Unit 2-3 Test date not posted yet",
      "due": "2026-10-27",
      "dueTime": "",
      "dueNote": "",
-     "url": "",
-     "src": ""
+     "url": "/course/8468551357/materials/gp/8567900735",
+     "src": "schoology"
     }
    ],
    "posts": [
     {
-     "id": "46169606845",
+     "id": "calc-2026-10-18",
      "at": "2026-10-18T15:23:00-04:00",
      "by": "Daniel Reich",
-     "text": "CJs for Week 9 (10/19-23). Upcoming Assessments: Accuracy 2.3 Wednesday [2.F-G], Accuracy 2.4 Tuesday 10/27 [2.H/Differentiation Rules]. Mon 10/19: Topic 2.G, HW 2.G due Tuesday, Accuracy corrections due Thursday. Tue 10/20: Topic 2.H, HW 2.H due Thursday. Wed 10/21: Acc 2.3, Topic 2.H. Thu 10/22: Review of Unit 2-3, AP Classroom Unit 2 Student Practice Level 1-3 due Friday (on paper). Fri 10/23: Review of Unit 2-3, AP Classroom Unit 3 Student Practice Level 1-3 due Tuesday (on paper)."
+     "text": "CJs for Week 9 (10/19-23)\nUpcoming Assessments: Accuracy 2.3 Wednesday [2.F-G], Accuracy 2.4 Tuesday 10/27 [2.H/Differentiation Rules]\nMon 10/19: Topic 2.G. HW 2.G due Tuesday. Accuracy corrections due Thursday\nTue 10/20: Topic 2.H. HW 2.H due Thursday\nWed 10/21: Acc 2.3, Topic 2.H. HW 2.H due Thursday\nThu 10/22: Review of Unit 2-3. AP Classroom Unit 2 Student Practice Level 1-3 due Friday (on paper)\nFri 10/23: Review of Unit 2-3. AP Classroom Unit 3 Student Practice Level 1-3 due Tuesday (on paper)"
     }
    ],
-   "updatedAt": "2026-10-25T22:02:44-04:00",
+   "updatedAt": "2026-10-26T21:01:42-04:00",
    "updatedBy": "aquarius4310",
    "via": "auto",
    "aiItems": [],
@@ -137,12 +131,12 @@
      "kind": "hw",
      "n": "Chapter 4 and 5 Reading Guide",
      "tr": "",
-     "detail": "PDFs in Unit 3 Reading Guide folder",
+     "detail": "Ch 4 + 5 guides due 11/6. PDFs in Unit 3 Reading Guide folder",
      "due": "2026-11-06",
      "dueTime": "",
      "dueNote": "",
-     "url": "",
-     "src": ""
+     "url": "/course/8468551531/updates",
+     "src": "schoology"
     },
     {
      "id": "cj-hug-midunit3",
@@ -153,19 +147,19 @@
      "due": "2026-10-29",
      "dueTime": "",
      "dueNote": "",
-     "url": "",
-     "src": ""
+     "url": "/course/8468551531/updates",
+     "src": "schoology"
     }
    ],
    "posts": [
     {
-     "id": "46191835328",
+     "id": "hug-2026-10-20",
      "at": "2026-10-20T07:57:00-04:00",
      "by": "Jared Kyaw",
-     "text": "Mon 10.19: Spatial Starter #22, Unit 3.1 Notes. HW Exit Coordinate #11. Tue 10.20: Unit 3.2 Notes Day 1. HW Reading Guide for Chapter 4 + 5, due 11.06. Wed 10.21: Unit 3.2 Notes Day 2. HW Reading Guide Ch 4 + 5, Exit Coordinate #12. Thu 10.22: Unit 3.3 Notes. HW Reading Guide Ch 4 + 5, Exit Coordinate #13. Fri 10.23: Mr. Kyaw out, FRQ + MCQ Practice Questions. Upcoming Test: Mid-Unit Exam 10.29."
+     "text": "Mon 10.19: Spatial Starter #22, Unit 3.1 Notes. HW: Exit Coordinate #11. Mid-Unit Exam 10.29\nTue 10.20: Spatial Starter #23, Unit 3.2 Notes Day 1. HW: Reading Guide for Chapter 4 + 5, due 11.06. Mid-Unit Exam 10.29\nWed 10.21: Unit 3.2 Notes Day 2. HW: Reading Guide Ch 4 + 5 due 11.06, Exit Coordinate #12. Mid-Unit Exam 10.29\nThu 10.22: Unit 3.3 Notes. HW: Reading Guide Ch 4 + 5 due 11.06, Exit Coordinate #13. Mid-Unit Exam 10.29\nFri 10.23: Mr. Kyaw out. FRQ + MCQ Practice Questions"
     }
    ],
-   "updatedAt": "2026-10-25T22:02:44-04:00",
+   "updatedAt": "2026-10-26T21:01:42-04:00",
    "updatedBy": "aquarius4310",
    "via": "auto",
    "aiItems": [],
@@ -184,8 +178,8 @@
      "due": "2026-10-26",
      "dueTime": "",
      "dueNote": "",
-     "url": "",
-     "src": ""
+     "url": "/course/8468551473/updates",
+     "src": "schoology"
     },
     {
      "id": "cj-lit-extra-credit",
@@ -196,8 +190,8 @@
      "due": "2026-10-27",
      "dueTime": "",
      "dueNote": "",
-     "url": "",
-     "src": ""
+     "url": "/course/8468551473/updates",
+     "src": "schoology"
     },
     {
      "id": "cj-lit-rb-quiz14",
@@ -208,25 +202,25 @@
      "due": "2026-10-28",
      "dueTime": "",
      "dueNote": "",
-     "url": "",
-     "src": ""
+     "url": "/course/8468551473/updates",
+     "src": "schoology"
     }
    ],
    "posts": [
     {
-     "id": "46236639583",
+     "id": "lit-8620545437",
      "at": "2026-10-22T12:42:00-04:00",
      "by": "Celleste Stafford",
-     "text": "Extra Credit due 10/27. Option 1: Complete the RB Day MCQ on AP Classroom. Create Attack the Question Hints for each question AND record yourself walking through at least 4 questions as if explaining to a student. Option 2: Create a poster explaining necessary components of an FRQ. On AP Classroom, complete the RB Day FRQ, mapping out each section to go with your poster."
+     "text": "Extra Credit due 10/27\nOption 1: Complete the RB Day MCQ on AP Classroom. Create Attack the Question Hints for each question AND record yourself walking through at least 4 questions as if explaining to a student.\nOption 2: Create a poster explaining necessary components of an FRQ. On AP Classroom, complete the RB Day FRQ, mapping out each section to go with your poster."
     },
     {
-     "id": "46177068568",
+     "id": "lit-8615031716",
      "at": "2026-10-19T10:24:00-04:00",
      "by": "Celleste Stafford",
-     "text": "Week 9 CJ (10/19-10/23). Mon: MCQ Monday, HW Finish Attack the Question Hints. Tue: Poetry, HW Finish Poetry Practice. Wed: Notes Magical Realism, Intro to Reservation Blues, HW Read RB Ch 1. Thu: Characterization in RB, HW Read RB Ch 2. Fri: FRQ Friday, HW Read RB Ch 3. Ch 1-4 Quiz 10/28."
+     "text": "Week 9 CJ (10/19 - 10/23)\nMon: MCQ Monday, Attack the Question Hints. HW: Finish Attack the Question Hints\nTue: Poetry. HW: Finish Poetry Practice\nWed: Magical Realism, Intro to Reservation Blues. HW: Read RB Ch 1, Ch 1-4 Quiz 10/28\nThu: Characterization in RB. HW: Read RB Ch 2, Ch 1-4 Quiz 10/28\nFri: FRQ Friday. HW: Read RB Ch 3, Ch 1-4 Quiz 10/28"
     }
    ],
-   "updatedAt": "2026-10-25T22:02:44-04:00",
+   "updatedAt": "2026-10-26T21:01:42-04:00",
    "updatedBy": "aquarius4310",
    "via": "auto",
    "aiItems": [],
@@ -241,29 +235,29 @@
      "kind": "tests",
      "n": "Unit 3 Exam",
      "tr": "",
-     "detail": "Outline allowed, 1 sheet front and back, bullets only, no AI",
+     "detail": "Outline allowed, 1 sheet front and back, bullets only, no AI. Study guide PDF in Unit 3 folder",
      "due": "2026-10-27",
      "dueTime": "",
      "dueNote": "",
-     "url": "",
-     "src": ""
+     "url": "/course/8468551619/materials/gp/8615374115",
+     "src": "schoology"
     }
    ],
    "posts": [
     {
-     "id": "46255907110",
+     "id": "apush-2026-10-23b",
      "at": "2026-10-23T12:33:00-04:00",
      "by": "Taylor Browne",
-     "text": "Clarification on Individual Reflection Requirements. The individual reflection does not need to be a 4-5 paragraph essay. 2 well-developed paragraphs are enough for full credit. Address the components in Part III: Individual Reflection. Each group member writes their own. Submit it at the end of your group's presentation or as a Word document on Schoology. If you did not complete only this part, you may submit by 11:59 PM October 23 without losing points."
+     "text": "Clarification on Individual Reflection Requirements: Your individual reflection for the group project does not need to be a 4-5 paragraph essay. 2 well-developed paragraphs are enough for full credit."
     },
     {
-     "id": "46246406212",
+     "id": "apush-2026-10-23a",
      "at": "2026-10-23T05:18:00-04:00",
      "by": "Taylor Browne",
-     "text": "Reminders: You are allowed to have your outline for your exam. Outline format: one 8.5x11 sheet, front and back, handwritten or typed (12 font), bullet points not paragraphs, AI usage is not allowed. Ms. Browne will examine all outlines before the exam and may not allow them based on content and structure."
+     "text": "Reminders: You are allowed to have your outline for your exam. Outline format: 8.5x11 sheet, front and back, handwritten or typed (12 font), bullet points not paragraphs. AI usage is not allowed. Ms. Browne will examine all outlines before the exam and may not allow outlines based on content and structure."
     }
    ],
-   "updatedAt": "2026-10-25T22:02:44-04:00",
+   "updatedAt": "2026-10-26T21:01:42-04:00",
    "updatedBy": "aquarius4310",
    "via": "auto",
    "aiItems": [],
@@ -275,13 +269,13 @@
    "items": [],
    "posts": [
     {
-     "id": "46210384037",
+     "id": "phys-2026-10-21",
      "at": "2026-10-21T08:03:00-04:00",
      "by": "Kevin Gilbert",
-     "text": "CJ Week 9: 19 3.4 Frictional force based on mass. 20 3.5 Applying Forces. 21 3.6 Using Forces. 22 3.7.1 Carnival Day 1. 23 3.7.2 Carnival Day 2."
+     "text": "CJ Week 9: 19: 3.4 Frictional force based on mass. 20: 3.5 Applying Forces. 21: 3.6 Using Forces. 22: 3.7.1 Carnival Day 1. 23: 3.7.2 Carnival Day 2"
     }
    ],
-   "updatedAt": "2026-10-25T22:02:44-04:00",
+   "updatedAt": "2026-10-26T21:01:42-04:00",
    "updatedBy": "aquarius4310",
    "via": "auto",
    "aiItems": [],
@@ -300,8 +294,8 @@
      "due": "2026-10-28",
      "dueTime": "",
      "dueNote": "",
-     "url": "",
-     "src": ""
+     "url": "/course/8468551895/updates",
+     "src": "schoology"
     },
     {
      "id": "cj-mand-presentation",
@@ -312,8 +306,8 @@
      "due": "2026-10-30",
      "dueTime": "",
      "dueNote": "",
-     "url": "",
-     "src": ""
+     "url": "/course/8468551895/updates",
+     "src": "schoology"
     },
     {
      "id": "sgy-8620931926",
@@ -324,25 +318,25 @@
      "due": "",
      "dueTime": "",
      "dueNote": "no due date yet",
-     "url": "",
-     "src": ""
+     "url": "/course/8468551895/materials/gp/8620931926",
+     "src": "schoology"
     }
    ],
    "posts": [
     {
-     "id": "m11-w10",
+     "id": "mand-2026-10-23",
      "at": "2026-10-23T14:44:00-04:00",
      "by": "Yalan Li",
-     "text": "M11 Weekly CJ W10. Mon: No school. Tues-Wed: Final paper due Wed. Thur-Fri: Presentation / story jumper / email reply due Fri."
+     "text": "M11 Weekly CJ -W10\nMon- No school\nTues-Wed- Final paper due Wed.\nThur.-Fri. Presentation / story jumper / email reply due Fri."
     }
    ],
-   "updatedAt": "2026-10-25T22:02:44-04:00",
+   "updatedAt": "2026-10-26T21:01:42-04:00",
    "updatedBy": "aquarius4310",
    "via": "auto",
    "aiItems": [],
    "sections": []
   }
  },
- "updated": "2026-10-26T13:25:44-04:00",
+ "updated": "2026-10-26T21:01:43-04:00",
  "owner": "aquarius4310"
 }
