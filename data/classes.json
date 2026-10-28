@@ -206,18 +206,6 @@
    "teacher": "Celleste Stafford",
    "items": [
     {
-     "id": "cj-lit-extra-credit",
-     "kind": "hw",
-     "n": "Extra Credit (optional)",
-     "tr": "",
-     "detail": "Option 1 RB Day MCQ plus hints and a recording, or Option 2 FRQ poster plus RB Day FRQ",
-     "due": "2026-10-27",
-     "dueTime": "",
-     "dueNote": "",
-     "url": "/course/8468551473/updates",
-     "src": ""
-    },
-    {
      "id": "cj-lit-rb-ch4",
      "kind": "hw",
      "n": "Read Reservation Blues Ch 4",
@@ -427,6 +415,6 @@
    "sections": []
   }
  },
- "updated": "2026-10-27T22:01:50-04:00",
+ "updated": "2026-10-28T13:11:28-04:00",
  "owner": "aquarius4310"
 }
