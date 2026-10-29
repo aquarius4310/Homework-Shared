@@ -84,18 +84,6 @@
      "src": ""
     },
     {
-     "id": "calc-u23-test",
-     "kind": "tests",
-     "n": "Acc 2.4",
-     "tr": "",
-     "detail": "2.H and differentiation rules",
-     "due": "2026-10-28",
-     "dueTime": "",
-     "dueNote": "",
-     "url": "/course/8468551357/updates",
-     "src": ""
-    },
-    {
      "id": "calc-acc4-1",
      "kind": "tests",
      "n": "Acc 4.1",
@@ -151,18 +139,6 @@
      "src": ""
     },
     {
-     "id": "sgy-8627519428",
-     "kind": "hw",
-     "n": "Exit Coordinate #13",
-     "tr": "",
-     "detail": "Came out Wed Oct 28",
-     "due": "2026-10-28",
-     "dueTime": "23:59",
-     "dueNote": "",
-     "url": "/course/8468551531/assessments/8627519428",
-     "src": ""
-    },
-    {
      "id": "cj-hug-midunit3",
      "kind": "tests",
      "n": "Unit 3 Mid-Unit Exam",
@@ -193,18 +169,6 @@
    "title": "AP English Literature & Composition",
    "teacher": "Celleste Stafford",
    "items": [
-    {
-     "id": "cj-lit-rb-ch4",
-     "kind": "hw",
-     "n": "Read Reservation Blues Ch 4",
-     "tr": "",
-     "detail": "",
-     "due": "2026-10-28",
-     "dueTime": "",
-     "dueNote": "",
-     "url": "/course/8468551473/updates",
-     "src": ""
-    },
     {
      "id": "cj-lit-rb-ch5",
      "kind": "hw",
@@ -361,6 +325,6 @@
    "sections": []
   }
  },
- "updated": "2026-10-28T23:06:59-04:00",
+ "updated": "2026-10-29T13:27:21-04:00",
  "owner": "aquarius4310"
 }
