@@ -5,18 +5,6 @@
    "teacher": "Fatima Mrabet",
    "items": [
     {
-     "id": "cj-bus-u2l25-hw",
-     "kind": "hw",
-     "n": "U2 L2.5 HW",
-     "tr": "",
-     "detail": "From the Week 10 post",
-     "due": "2026-10-29",
-     "dueTime": "",
-     "dueNote": "",
-     "url": "/course/8468551348/updates",
-     "src": ""
-    },
-    {
      "id": "cj-bus-thu-hw",
      "kind": "hw",
      "n": "Thursday HW (post says U2 L2.5)",
@@ -137,18 +125,6 @@
      "dueNote": "",
      "url": "/course/8468551531/updates",
      "src": ""
-    },
-    {
-     "id": "cj-hug-midunit3",
-     "kind": "tests",
-     "n": "Unit 3 Mid-Unit Exam",
-     "tr": "",
-     "detail": "",
-     "due": "2026-10-29",
-     "dueTime": "",
-     "dueNote": "",
-     "url": "/course/8468551531/updates",
-     "src": ""
     }
    ],
    "posts": [
@@ -212,18 +188,6 @@
    "title": "AP U.S. History",
    "teacher": "Taylor Browne",
    "items": [
-    {
-     "id": "cj-apush-rg163",
-     "kind": "hw",
-     "n": "Read pgs. 163-175 and Reading Guide Questions",
-     "tr": "",
-     "detail": "Unit 4 Reading Guide PDF in Class Notes",
-     "due": "2026-10-29",
-     "dueTime": "",
-     "dueNote": "",
-     "url": "/course/8468551619/materials/gp/8626973092",
-     "src": ""
-    },
     {
      "id": "cj-apush-lewis-clark",
      "kind": "hw",
@@ -325,6 +289,6 @@
    "sections": []
   }
  },
- "updated": "2026-10-29T13:27:21-04:00",
+ "updated": "2026-10-30T13:02:37-04:00",
  "owner": "aquarius4310"
 }
