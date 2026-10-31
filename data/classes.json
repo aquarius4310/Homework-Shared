@@ -5,18 +5,6 @@
    "teacher": "Fatima Mrabet",
    "items": [
     {
-     "id": "cj-bus-thu-hw",
-     "kind": "hw",
-     "n": "Thursday HW (post says U2 L2.5)",
-     "tr": "",
-     "detail": "Week 10 post lists U2 L2.5 HW again for Thursday",
-     "due": "2026-10-30",
-     "dueTime": "",
-     "dueNote": "",
-     "url": "/course/8468551348/updates",
-     "src": ""
-    },
-    {
      "id": "sgy-8568958286",
      "kind": "hw",
      "n": "Business Canvas Project",
@@ -146,18 +134,6 @@
    "teacher": "Celleste Stafford",
    "items": [
     {
-     "id": "cj-lit-rb-ch5",
-     "kind": "hw",
-     "n": "Read Reservation Blues Ch 5",
-     "tr": "",
-     "detail": "",
-     "due": "2026-10-30",
-     "dueTime": "",
-     "dueNote": "",
-     "url": "/course/8468551473/updates",
-     "src": ""
-    },
-    {
      "id": "cj-lit-rb-ch6",
      "kind": "hw",
      "n": "Read Reservation Blues Ch 6",
@@ -188,18 +164,6 @@
    "title": "AP U.S. History",
    "teacher": "Taylor Browne",
    "items": [
-    {
-     "id": "cj-apush-lewis-clark",
-     "kind": "hw",
-     "n": "Lewis and Clark Evidence Lab",
-     "tr": "",
-     "detail": "",
-     "due": "2026-10-30",
-     "dueTime": "",
-     "dueNote": "",
-     "url": "/course/8468551619/updates",
-     "src": ""
-    },
     {
      "id": "cj-apush-marbury",
      "kind": "hw",
@@ -260,20 +224,7 @@
   "mandarin-iv--yalan-li": {
    "title": "Mandarin IV",
    "teacher": "Yalan Li",
-   "items": [
-    {
-     "id": "cj-mand-presentation",
-     "kind": "hw",
-     "n": "Presentation, story jumper, email reply",
-     "tr": "",
-     "detail": "From the weekly post",
-     "due": "2026-10-30",
-     "dueTime": "",
-     "dueNote": "",
-     "url": "/course/8468551895/updates",
-     "src": ""
-    }
-   ],
+   "items": [],
    "posts": [
     {
      "id": "8622331350",
@@ -289,6 +240,6 @@
    "sections": []
   }
  },
- "updated": "2026-10-30T13:02:37-04:00",
+ "updated": "2026-10-31T12:09:51-04:00",
  "owner": "aquarius4310"
 }
