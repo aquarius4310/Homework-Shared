@@ -5,6 +5,42 @@
    "teacher": "Fatima Mrabet",
    "items": [
     {
+     "id": "cj-bus-change-channel",
+     "kind": "hw",
+     "n": "Change the Channel Presentation Project",
+     "tr": "",
+     "detail": "From the Week 11 post",
+     "due": "2026-11-06",
+     "dueTime": "",
+     "dueNote": "",
+     "url": "/course/8468551348/updates",
+     "src": "schoology"
+    },
+    {
+     "id": "cj-bus-hw26",
+     "kind": "hw",
+     "n": "U2 L2.6 HW",
+     "tr": "",
+     "detail": "From the Week 11 post",
+     "due": "2026-11-05",
+     "dueTime": "",
+     "dueNote": "",
+     "url": "/course/8468551348/updates",
+     "src": "schoology"
+    },
+    {
+     "id": "cj-bus-hw27",
+     "kind": "hw",
+     "n": "U2 L2.7 HW",
+     "tr": "",
+     "detail": "From the Week 11 post",
+     "due": "2026-11-09",
+     "dueTime": "",
+     "dueNote": "",
+     "url": "/course/8468551348/updates",
+     "src": "schoology"
+    },
+    {
      "id": "sgy-8568958286",
      "kind": "hw",
      "n": "Business Canvas Project",
@@ -19,13 +55,19 @@
    ],
    "posts": [
     {
+     "id": "8632384689",
+     "at": "2026-11-01T16:36:00-05:00",
+     "by": "Fatima Mrabet",
+     "text": "Week 11 November 2nd CJ Monday: Change the Channel Presentation Project due 11/6 Tuesday: Change the Channel Presentation Project due 11/6 Wednesday:U 2 L HW 2.6 due 11/5 Thursday: U 2 L 2.7 HW due 11/9 Friday : complete any missing"
+    },
+    {
      "id": "8623175257",
      "at": "2026-10-25T16:40:00-04:00",
      "by": "Fatima Mrabet",
-     "text": "Week 10 October 26th CJ Monday: No School Tuesday: U 2 L 2.4 HW due 10/28 Wednesday: U 2 L 2.5 HW due 10/29 Thursday: U 2 L 2.5 HW due 10/30 Friday: complete any missing assignments"
+     "text": "Week 10 October 26th CJ Monday: No School Tuesday: U 2 L 2.4 HW due 10/28 Wednesday:U 2 L 2.5 HW due 10/29 Thursday: U 2 L 2.5 HW due 10/30 Friday : complete any missing assignmnets"
     }
    ],
-   "updatedAt": "2026-11-01T10:17:24-05:00",
+   "updatedAt": "2026-11-01T22:03:33-05:00",
    "updatedBy": "aquarius4310",
    "via": "auto",
    "aiItems": [],
@@ -161,10 +203,10 @@
      "id": "8626535653",
      "at": "2026-10-27T12:08:00-04:00",
      "by": "Daniel Reich",
-     "text": "CJs for Week 10 (10/27-30) Upcoming Assessments: Accuracy 2.4 Wednesday 10/28 [2.H/Differentiation Rules] Quiz 2.2 next Tuesday 11/3 [2.F-H] Tuesday, 10/27 In class: Complete Unit 2 Differentiation Review Worksheet. Unit 2 Differentiation Review Worksheet due tomorrow. Wednesday 10/28 In class: Acc 2.4 [Topics 2.H/differentiation rules] Topic 4.A [Related Rates] HW 4.A due next Wednesday. Thursday 10/29 In class: Topic 4.A [Related Rates] HW 4.A due next Wednesday. Friday 10/30 In class: Topic 4.A [Related Rates] HW 4.A due next Wednesday."
+     "text": "CJs for Week 10 (10/27-30) Upcoming Assessments: Accuracy 2.4 Wednesday 10/28 [2.H/Differentiation Rules] Quiz 2.2 next Tuesday 11/3 [2.F-H] Tuesday, 10/27 In class: Complete Unit 2 Differentiation Review Worksheet. Unit 2 Differentiation Review Worksheet due tomorrow. Wednesday 10/28 In class: Acc 2.4 [Topics 2.H/differentiation rules] Topic 4.A [Related Rates] HW 4.A due next Wednesday. Thursday 10/29 In class: Topic 4.A [Related Rates] HW 4.A due next Wednesday. Friday 10/30 In class: Topic 4.A [Related Rates] HW 4.A due next Wednesday"
     }
    ],
-   "updatedAt": "2026-11-01T10:17:24-05:00",
+   "updatedAt": "2026-11-01T22:03:33-05:00",
    "updatedBy": "aquarius4310",
    "via": "auto",
    "aiItems": [],
@@ -192,10 +234,10 @@
      "id": "8627734128",
      "at": "2026-10-28T09:25:00-04:00",
      "by": "Jared Kyaw",
-     "text": "Monday (10.26) NASA DAY - No School. Tuesday (10.27) Classwork: Spatial Starter #25, Unit 3.3 Notes. Homework: Work on Reading Guide. Reading Guide Due 11.06. Upcoming Exam: Mid-Unit Exam 10.29. Wednesday (10.28) Classwork: Spatial Starter #26, Unit 3.4 Notes. Homework: Work on Reading Guide. Reading Guide Due 11.06. Thursday (10.29) Classwork: Mid-Unit Exam. Friday (10.30) Classwork: Halloween Activity"
+     "text": "Monday (10.26) Classwork: NASA DAY - No School Tuesday (10.27) Classwork: Spatial Starter #25 Unit 3.3 Notes Homework: Work on Reading Guide Reading Guide Due 11.06 Upcoming Exam: Mid-Unit Exam: 10.29 Wednesday (10.28) Classwork: Spatial Starter #26 Unit 3.4 Notes Homework: Work on Reading Guide Reading Guide Due 11.06 Upcoming Exam: Mid-Unit Exam: 10.29 Thursday (10.29) Classwork: Mid-Unit Exam Friday (10.30) Classwork Halloween Activity"
     }
    ],
-   "updatedAt": "2026-11-01T10:17:24-05:00",
+   "updatedAt": "2026-11-01T22:03:33-05:00",
    "updatedBy": "aquarius4310",
    "via": "auto",
    "aiItems": [],
@@ -216,17 +258,59 @@
      "dueNote": "",
      "url": "/course/8468551473/updates",
      "src": "schoology"
+    },
+    {
+     "id": "cj-lit-rb-ch7",
+     "kind": "hw",
+     "n": "Read Reservation Blues Ch 7",
+     "tr": "",
+     "detail": "From the Week 12 post",
+     "due": "2026-11-04",
+     "dueTime": "",
+     "dueNote": "",
+     "url": "/course/8468551473/updates",
+     "src": "schoology"
+    },
+    {
+     "id": "cj-lit-rb-ch8",
+     "kind": "hw",
+     "n": "Read Reservation Blues Ch 8",
+     "tr": "",
+     "detail": "From the Week 12 post",
+     "due": "2026-11-09",
+     "dueTime": "",
+     "dueNote": "",
+     "url": "/course/8468551473/updates",
+     "src": "schoology"
+    },
+    {
+     "id": "cj-lit-frq-acc",
+     "kind": "tests",
+     "n": "FRQ Accuracy",
+     "tr": "",
+     "detail": "Post says FRQ next Friday (Accuracy)",
+     "due": "2026-11-13",
+     "dueTime": "",
+     "dueNote": "",
+     "url": "/course/8468551473/updates",
+     "src": "schoology"
     }
    ],
    "posts": [
     {
+     "id": "8632597098",
+     "at": "2026-11-01T20:59:00-05:00",
+     "by": "Celleste Stafford",
+     "text": "Week 12 CJ (11/2 - 11/6) Monday MCQ Monday HW: Read ch 7 for Wednesday Tuesday Poetry! HW: Read ch 7 for Wednesday Wednesday FRQ- Breaking Down a Passage HW: Read ch 8 for Monday Thursday FRQ- Organization HW: Read ch 8 for Monday Friday FRQ Friday HW: Read ch 8 for Monday, FRQ Next Friday (Accuracy)"
+    },
+    {
      "id": "8626653930",
      "at": "2026-10-27T12:55:00-04:00",
      "by": "Celleste Stafford",
-     "text": "Week 11 CJ (10/27 - 10/30) Monday No School. Tuesday Poetry! HW: Read ch 4, Ch 1-4 Quiz TOMORROW. Wednesday Quiz. HW: Read RB Ch 5 for Friday. Thursday Characterization and Setting in RB. HW: Finish Reading RB Ch 5. Friday FRQ Friday. HW: Read RB Ch 6"
+     "text": "Week 11 CJ (10/27 - 10/30) Monday No School Tuesday Poetry! HW: Read ch 4, Ch 1-4 Quiz TOMORROW Wednesday Quiz HW: Read RB Ch 5 for Friday Thursday Characterization and Setting in RB HW: Finish Reading RB Ch 5 Friday FRQ Friday HW: Read RB Ch 6"
     }
    ],
-   "updatedAt": "2026-11-01T10:17:24-05:00",
+   "updatedAt": "2026-11-01T22:03:33-05:00",
    "updatedBy": "aquarius4310",
    "via": "auto",
    "aiItems": [],
@@ -254,10 +338,10 @@
      "id": "8627047344",
      "at": "2026-10-27T15:59:00-04:00",
      "by": "Taylor Browne",
-     "text": "Week 10: 10/26-10/30. Monday NO SCHOOL, NASA DAY for Teachers. Tuesday Unit 3 Exam, HW: None. Wednesday Contextualizing Unit 4, HW: Pgs.163-175 and Reading Guide Questions. Thursday Jeffersonian Democracy Pt. 1, HW: Complete Lewis & Clark Evidence Lab, Due Tomorrow. Friday Jeffersonian Democracy Pt. 2, HW: Complete Marbury v. Madison, Due Monday. Upcoming: CFU 11/5"
+     "text": "AP U.S. History Week 10: 10/26-10/30. Monday NO SCHOOL NASA DAY for Teachers. Tuesday Unit 3 Exam HW: None Upcoming: CFU: 11/5. Wednesday Contextualizing Unit 4 HW: Pgs.163-175 and Reading Guide Questions Upcoming: CFU: 11/5. Thursday Jeffersonian Democracy Pt. 1 HW: Complete Lewis & Clark Evidence Lab: Due Tomorrow Upcoming: CFU: 11/5. Friday Jeffersonian Democracy Pt. 2 HW: Complete Marbury v. Madison: Due Monday Upcoming: CFU: 11/5"
     }
    ],
-   "updatedAt": "2026-11-01T10:17:24-05:00",
+   "updatedAt": "2026-11-01T22:03:33-05:00",
    "updatedBy": "aquarius4310",
    "via": "auto",
    "aiItems": [],
@@ -272,10 +356,10 @@
      "id": "8628915702",
      "at": "2026-10-28T23:34:00-04:00",
      "by": "Kevin Gilbert",
-     "text": "CJ Week 10: 26 NASA DAY. 27 End of Q1, 3.8 Apply Forces + Tension + CFU. 28 3.9 Applying Newtons. 29 Practice Questions. 30 Practice Questions."
+     "text": "CJ Week 10: 26 27 28 29 30 NASA DAY End of Q1 3.8 Apply Forces + Tension + CFUesday 3.9 Applying Newtons Practice Questions Practice Questions"
     }
    ],
-   "updatedAt": "2026-11-01T10:17:24-05:00",
+   "updatedAt": "2026-11-01T22:03:33-05:00",
    "updatedBy": "aquarius4310",
    "via": "auto",
    "aiItems": [],
@@ -290,16 +374,16 @@
      "id": "8622331350",
      "at": "2026-10-23T14:44:00-04:00",
      "by": "Yalan Li",
-     "text": "M11 Weekly CJ - W10. Mon - No school. Tues-Wed - Final paper due Wed. Thur.-Fri. Presentation / story jumper / email reply due Fri."
+     "text": "M11 Weekly CJ -W10 Mon- No school Tues-Wed-Final paper due Wed. Thur.-Fri. Presentation / story jumper / email reply due Fri."
     }
    ],
-   "updatedAt": "2026-11-01T10:17:24-05:00",
+   "updatedAt": "2026-11-01T22:03:33-05:00",
    "updatedBy": "aquarius4310",
    "via": "auto",
    "aiItems": [],
    "sections": []
   }
  },
- "updated": "2026-11-01T12:10:00-05:00",
+ "updated": "2026-11-01T22:03:33-05:00",
  "owner": "aquarius4310"
 }
