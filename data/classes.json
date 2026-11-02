@@ -5,18 +5,6 @@
    "teacher": "Fatima Mrabet",
    "items": [
     {
-     "id": "cj-bus-change-channel",
-     "kind": "hw",
-     "n": "Change the Channel Presentation Project",
-     "tr": "",
-     "detail": "From the Week 11 post",
-     "due": "2026-11-06",
-     "dueTime": "",
-     "dueNote": "",
-     "url": "/course/8468551348/updates",
-     "src": "schoology"
-    },
-    {
      "id": "cj-bus-hw26",
      "kind": "hw",
      "n": "U2 L2.6 HW",
@@ -26,7 +14,19 @@
      "dueTime": "",
      "dueNote": "",
      "url": "/course/8468551348/updates",
-     "src": "schoology"
+     "src": ""
+    },
+    {
+     "id": "cj-bus-change-channel",
+     "kind": "hw",
+     "n": "Change the Channel Presentation Project",
+     "tr": "",
+     "detail": "From the Week 11 post",
+     "due": "2026-11-06",
+     "dueTime": "",
+     "dueNote": "",
+     "url": "/course/8468551348/updates",
+     "src": ""
     },
     {
      "id": "cj-bus-hw27",
@@ -38,36 +38,18 @@
      "dueTime": "",
      "dueNote": "",
      "url": "/course/8468551348/updates",
-     "src": "schoology"
-    },
-    {
-     "id": "sgy-8568958286",
-     "kind": "hw",
-     "n": "Business Canvas Project",
-     "tr": "",
-     "detail": "Long project across Units 1-4",
-     "due": "",
-     "dueTime": "",
-     "dueNote": "no due date yet",
-     "url": "/course/8468551348/materials/gp/8568958286",
-     "src": "schoology"
+     "src": ""
     }
    ],
    "posts": [
     {
-     "id": "8632384689",
-     "at": "2026-11-01T16:36:00-05:00",
+     "id": "bus-week11",
+     "at": "2026-11-02T08:00:00-05:00",
      "by": "Fatima Mrabet",
-     "text": "Week 11 November 2nd CJ Monday: Change the Channel Presentation Project due 11/6 Tuesday: Change the Channel Presentation Project due 11/6 Wednesday:U 2 L HW 2.6 due 11/5 Thursday: U 2 L 2.7 HW due 11/9 Friday : complete any missing"
-    },
-    {
-     "id": "8623175257",
-     "at": "2026-10-25T16:40:00-04:00",
-     "by": "Fatima Mrabet",
-     "text": "Week 10 October 26th CJ Monday: No School Tuesday: U 2 L 2.4 HW due 10/28 Wednesday:U 2 L 2.5 HW due 10/29 Thursday: U 2 L 2.5 HW due 10/30 Friday : complete any missing assignmnets"
+     "text": "Week 11 November 2nd CJ. Monday: Change the Channel Presentation Project due 11/6. Tuesday: Change the Channel Presentation Project due 11/6. Wednesday: U 2 L HW 2.6 due 11/5. Thursday: U 2 L 2.7 HW due 11/9. Friday: complete any missing."
     }
    ],
-   "updatedAt": "2026-11-01T22:03:33-05:00",
+   "updatedAt": "2026-11-02T14:10:20-05:00",
    "updatedBy": "aquarius4310",
    "via": "auto",
    "aiItems": [],
@@ -87,7 +69,31 @@
      "dueTime": "",
      "dueNote": "",
      "url": "/course/8468551357/materials/gp/8627227471",
-     "src": "guide"
+     "src": ""
+    },
+    {
+     "id": "calc-4b",
+     "kind": "hw",
+     "n": "HW 4.B Extreme Value Theorem and Candidates Test",
+     "tr": "",
+     "detail": "Section 3.1 (p.171) #3-4,7,11,13,17,19,21,25-33 odd,37,43,56,66",
+     "due": "2026-11-06",
+     "dueTime": "",
+     "dueNote": "",
+     "url": "/course/8468551357/materials/gp/8627227471",
+     "src": ""
+    },
+    {
+     "id": "calc-4c",
+     "kind": "hw",
+     "n": "HW 4.C Mean Value Theorem and Rolle's Theorem",
+     "tr": "",
+     "detail": "Section 3.2 (p.178) #3,9,15,21,35,39,43,47,53,73",
+     "due": "2026-11-10",
+     "dueTime": "",
+     "dueNote": "",
+     "url": "/course/8468551357/materials/gp/8627227471",
+     "src": ""
     },
     {
      "id": "calc-q2-2",
@@ -99,19 +105,31 @@
      "dueTime": "",
      "dueNote": "",
      "url": "/course/8468551357/updates",
-     "src": "schoology"
+     "src": ""
     },
     {
-     "id": "calc-acc4-1",
+     "id": "calc-acc4a",
      "kind": "tests",
-     "n": "Acc 4.1",
+     "n": "Acc 4.A",
      "tr": "",
-     "detail": "Topics 4.A-B",
-     "due": "",
+     "detail": "From the Week 11 post",
+     "due": "2026-11-09",
      "dueTime": "",
-     "dueNote": "date not posted yet",
-     "url": "/course/8468551357/materials/gp/8627227471",
-     "src": "guide"
+     "dueNote": "",
+     "url": "/course/8468551357/updates",
+     "src": ""
+    },
+    {
+     "id": "calc-acc4b",
+     "kind": "tests",
+     "n": "Acc 4.B",
+     "tr": "",
+     "detail": "From the Week 11 post",
+     "due": "2026-11-10",
+     "dueTime": "",
+     "dueNote": "",
+     "url": "/course/8468551357/updates",
+     "src": ""
     },
     {
      "id": "calc-acc4-2",
@@ -123,7 +141,7 @@
      "dueTime": "",
      "dueNote": "date not posted yet",
      "url": "/course/8468551357/materials/gp/8627227471",
-     "src": "guide"
+     "src": ""
     },
     {
      "id": "calc-acc4-3",
@@ -135,7 +153,7 @@
      "dueTime": "",
      "dueNote": "date not posted yet",
      "url": "/course/8468551357/materials/gp/8627227471",
-     "src": "guide"
+     "src": ""
     },
     {
      "id": "calc-acc4-4",
@@ -147,7 +165,7 @@
      "dueTime": "",
      "dueNote": "date not posted yet",
      "url": "/course/8468551357/materials/gp/8627227471",
-     "src": "guide"
+     "src": ""
     },
     {
      "id": "calc-q4-1",
@@ -159,7 +177,7 @@
      "dueTime": "",
      "dueNote": "date not posted yet",
      "url": "/course/8468551357/materials/gp/8627227471",
-     "src": "guide"
+     "src": ""
     },
     {
      "id": "calc-q4-2",
@@ -171,7 +189,7 @@
      "dueTime": "",
      "dueNote": "date not posted yet",
      "url": "/course/8468551357/materials/gp/8627227471",
-     "src": "guide"
+     "src": ""
     },
     {
      "id": "calc-q4-3",
@@ -183,7 +201,7 @@
      "dueTime": "",
      "dueNote": "date not posted yet",
      "url": "/course/8468551357/materials/gp/8627227471",
-     "src": "guide"
+     "src": ""
     },
     {
      "id": "calc-u45-test",
@@ -195,18 +213,18 @@
      "dueTime": "",
      "dueNote": "date not posted yet",
      "url": "/course/8468551357/materials/gp/8627227471",
-     "src": "guide"
+     "src": ""
     }
    ],
    "posts": [
     {
-     "id": "8626535653",
-     "at": "2026-10-27T12:08:00-04:00",
+     "id": "calc-week11",
+     "at": "2026-11-02T10:33:00-05:00",
      "by": "Daniel Reich",
-     "text": "CJs for Week 10 (10/27-30) Upcoming Assessments: Accuracy 2.4 Wednesday 10/28 [2.H/Differentiation Rules] Quiz 2.2 next Tuesday 11/3 [2.F-H] Tuesday, 10/27 In class: Complete Unit 2 Differentiation Review Worksheet. Unit 2 Differentiation Review Worksheet due tomorrow. Wednesday 10/28 In class: Acc 2.4 [Topics 2.H/differentiation rules] Topic 4.A [Related Rates] HW 4.A due next Wednesday. Thursday 10/29 In class: Topic 4.A [Related Rates] HW 4.A due next Wednesday. Friday 10/30 In class: Topic 4.A [Related Rates] HW 4.A due next Wednesday"
+     "text": "CJs for Week 11 (11/2-6). Upcoming Assessments: Quiz 2.2 Tuesday [2.F-H]. Acc 4.A next Monday 11/9. Acc 4.B next Tuesday 11/10. Monday 11/2: 4.A Related Rates, HW4.A due Wednesday. Tuesday 11/3: Quiz 2.2 [Topics 2.F-H]. Wednesday 11/4: 4.B Extreme Value Theorem/Candidates Test, HW 4.B due Friday. Thursday 11/5: 4.B Extreme Value Theorem/Candidates Test, HW 4.B due Friday. Friday 11/6: 4.C Mean Value Theorem and Rolle's Theorem, HW 4.C due Tuesday."
     }
    ],
-   "updatedAt": "2026-11-01T22:03:33-05:00",
+   "updatedAt": "2026-11-02T14:10:20-05:00",
    "updatedBy": "aquarius4310",
    "via": "auto",
    "aiItems": [],
@@ -221,23 +239,35 @@
      "kind": "hw",
      "n": "Chapter 4 and 5 Reading Guide",
      "tr": "",
-     "detail": "Ch 4 + 5 guides due 11/6. PDFs in Unit 3 Reading Guide folder",
+     "detail": "PDFs in Unit 3 Reading Guide folder",
      "due": "2026-11-06",
      "dueTime": "",
      "dueNote": "",
      "url": "/course/8468551531/updates",
-     "src": "schoology"
+     "src": ""
+    },
+    {
+     "id": "sgy-8633086435",
+     "kind": "hw",
+     "n": "Exit Coordinate #14",
+     "tr": "",
+     "detail": "Came out Mon Nov 2",
+     "due": "2026-11-02",
+     "dueTime": "23:59",
+     "dueNote": "",
+     "url": "/course/8468551531/assessments/8633086435",
+     "src": ""
     }
    ],
    "posts": [
     {
-     "id": "8627734128",
-     "at": "2026-10-28T09:25:00-04:00",
+     "id": "hug-week-1026",
+     "at": "2026-10-26T08:00:00-04:00",
      "by": "Jared Kyaw",
-     "text": "Monday (10.26) Classwork: NASA DAY - No School Tuesday (10.27) Classwork: Spatial Starter #25 Unit 3.3 Notes Homework: Work on Reading Guide Reading Guide Due 11.06 Upcoming Exam: Mid-Unit Exam: 10.29 Wednesday (10.28) Classwork: Spatial Starter #26 Unit 3.4 Notes Homework: Work on Reading Guide Reading Guide Due 11.06 Upcoming Exam: Mid-Unit Exam: 10.29 Thursday (10.29) Classwork: Mid-Unit Exam Friday (10.30) Classwork Halloween Activity"
+     "text": "Monday 10.26: NASA Day, no school. Tuesday 10.27: Spatial Starter #25, Unit 3.3 Notes. HW work on Reading Guide. Reading Guide due 11.06. Mid-Unit Exam 10.29. Wednesday 10.28: Spatial Starter #26, Unit 3.4 Notes. HW work on Reading Guide, due 11.06. Thursday 10.29: Mid-Unit Exam. Friday 10.30: Halloween Activity."
     }
    ],
-   "updatedAt": "2026-11-01T22:03:33-05:00",
+   "updatedAt": "2026-11-02T14:10:20-05:00",
    "updatedBy": "aquarius4310",
    "via": "auto",
    "aiItems": [],
@@ -248,18 +278,6 @@
    "teacher": "Celleste Stafford",
    "items": [
     {
-     "id": "cj-lit-rb-ch6",
-     "kind": "hw",
-     "n": "Read Reservation Blues Ch 6",
-     "tr": "",
-     "detail": "Assigned Fri 10/30",
-     "due": "2026-11-02",
-     "dueTime": "",
-     "dueNote": "",
-     "url": "/course/8468551473/updates",
-     "src": "schoology"
-    },
-    {
      "id": "cj-lit-rb-ch7",
      "kind": "hw",
      "n": "Read Reservation Blues Ch 7",
@@ -269,7 +287,7 @@
      "dueTime": "",
      "dueNote": "",
      "url": "/course/8468551473/updates",
-     "src": "schoology"
+     "src": ""
     },
     {
      "id": "cj-lit-rb-ch8",
@@ -281,36 +299,30 @@
      "dueTime": "",
      "dueNote": "",
      "url": "/course/8468551473/updates",
-     "src": "schoology"
+     "src": ""
     },
     {
      "id": "cj-lit-frq-acc",
      "kind": "tests",
      "n": "FRQ Accuracy",
      "tr": "",
-     "detail": "Post says FRQ next Friday (Accuracy)",
+     "detail": "FRQ next Friday (Accuracy)",
      "due": "2026-11-13",
      "dueTime": "",
      "dueNote": "",
      "url": "/course/8468551473/updates",
-     "src": "schoology"
+     "src": ""
     }
    ],
    "posts": [
     {
-     "id": "8632597098",
-     "at": "2026-11-01T20:59:00-05:00",
+     "id": "lit-week12",
+     "at": "2026-11-02T08:00:00-05:00",
      "by": "Celleste Stafford",
-     "text": "Week 12 CJ (11/2 - 11/6) Monday MCQ Monday HW: Read ch 7 for Wednesday Tuesday Poetry! HW: Read ch 7 for Wednesday Wednesday FRQ- Breaking Down a Passage HW: Read ch 8 for Monday Thursday FRQ- Organization HW: Read ch 8 for Monday Friday FRQ Friday HW: Read ch 8 for Monday, FRQ Next Friday (Accuracy)"
-    },
-    {
-     "id": "8626653930",
-     "at": "2026-10-27T12:55:00-04:00",
-     "by": "Celleste Stafford",
-     "text": "Week 11 CJ (10/27 - 10/30) Monday No School Tuesday Poetry! HW: Read ch 4, Ch 1-4 Quiz TOMORROW Wednesday Quiz HW: Read RB Ch 5 for Friday Thursday Characterization and Setting in RB HW: Finish Reading RB Ch 5 Friday FRQ Friday HW: Read RB Ch 6"
+     "text": "Week 12 CJ (11/2 - 11/6). Monday: MCQ Monday, HW Read ch 7 for Wednesday. Tuesday: Poetry, HW Read ch 7 for Wednesday. Wednesday: FRQ Breaking Down a Passage, HW Read ch 8 for Monday. Thursday: FRQ Organization, HW Read ch 8 for Monday. Friday: FRQ Friday, HW Read ch 8 for Monday, FRQ Next Friday (Accuracy)."
     }
    ],
-   "updatedAt": "2026-11-01T22:03:33-05:00",
+   "updatedAt": "2026-11-02T14:10:20-05:00",
    "updatedBy": "aquarius4310",
    "via": "auto",
    "aiItems": [],
@@ -321,6 +333,18 @@
    "teacher": "Taylor Browne",
    "items": [
     {
+     "id": "sgy-8633633862",
+     "kind": "hw",
+     "n": "Lesson Wrap Up - Jefferson",
+     "tr": "",
+     "detail": "Discussion post 6-8 sentences plus 1 reply",
+     "due": "2026-11-02",
+     "dueTime": "07:30",
+     "dueNote": "",
+     "url": "/course/8468551619/materials/discussion/view/8633633862",
+     "src": ""
+    },
+    {
      "id": "cj-apush-cfu-1105",
      "kind": "tests",
      "n": "CFU",
@@ -330,18 +354,18 @@
      "dueTime": "",
      "dueNote": "",
      "url": "/course/8468551619/updates",
-     "src": "schoology"
+     "src": ""
     }
    ],
    "posts": [
     {
-     "id": "8627047344",
-     "at": "2026-10-27T15:59:00-04:00",
+     "id": "apush-week10",
+     "at": "2026-10-26T08:00:00-04:00",
      "by": "Taylor Browne",
-     "text": "AP U.S. History Week 10: 10/26-10/30. Monday NO SCHOOL NASA DAY for Teachers. Tuesday Unit 3 Exam HW: None Upcoming: CFU: 11/5. Wednesday Contextualizing Unit 4 HW: Pgs.163-175 and Reading Guide Questions Upcoming: CFU: 11/5. Thursday Jeffersonian Democracy Pt. 1 HW: Complete Lewis & Clark Evidence Lab: Due Tomorrow Upcoming: CFU: 11/5. Friday Jeffersonian Democracy Pt. 2 HW: Complete Marbury v. Madison: Due Monday Upcoming: CFU: 11/5"
+     "text": "Week 10: 10/26-10/30. Monday no school, NASA Day for teachers. Tuesday Unit 3 Exam, HW none, upcoming CFU 11/5. Wednesday Contextualizing Unit 4, HW pgs.163-175 and Reading Guide Questions. Thursday Jeffersonian Democracy Pt. 1, HW complete Lewis & Clark Evidence Lab due tomorrow. Friday Jeffersonian Democracy Pt. 2, HW complete Marbury v. Madison due Monday. Upcoming CFU 11/5."
     }
    ],
-   "updatedAt": "2026-11-01T22:03:33-05:00",
+   "updatedAt": "2026-11-02T14:10:20-05:00",
    "updatedBy": "aquarius4310",
    "via": "auto",
    "aiItems": [],
@@ -350,16 +374,29 @@
   "honors-physics--kevin-gilbert": {
    "title": "Honors Physics",
    "teacher": "Kevin Gilbert",
-   "items": [],
-   "posts": [
+   "items": [
     {
-     "id": "8628915702",
-     "at": "2026-10-28T23:34:00-04:00",
-     "by": "Kevin Gilbert",
-     "text": "CJ Week 10: 26 27 28 29 30 NASA DAY End of Q1 3.8 Apply Forces + Tension + CFUesday 3.9 Applying Newtons Practice Questions Practice Questions"
+     "id": "sgy-8633091476",
+     "kind": "hw",
+     "n": "Unit 3 Practice 2",
+     "tr": "",
+     "detail": "Problems 26-28 and 43-46",
+     "due": "2026-11-03",
+     "dueTime": "23:59",
+     "dueNote": "",
+     "url": "/assignment/8633091476",
+     "src": ""
     }
    ],
-   "updatedAt": "2026-11-01T22:03:33-05:00",
+   "posts": [
+    {
+     "id": "phys-week10",
+     "at": "2026-10-26T08:00:00-04:00",
+     "by": "Kevin Gilbert",
+     "text": "CJ Week 10: 26 NASA Day. 27 End of Q1, 3.8 Apply Forces + Tension + CFUesday. 28 3.9 Applying Newtons. 29 Practice Questions. 30 Practice Questions."
+    }
+   ],
+   "updatedAt": "2026-11-02T14:10:20-05:00",
    "updatedBy": "aquarius4310",
    "via": "auto",
    "aiItems": [],
@@ -368,22 +405,47 @@
   "mandarin-iv--yalan-li": {
    "title": "Mandarin IV",
    "teacher": "Yalan Li",
-   "items": [],
-   "posts": [
+   "items": [
     {
-     "id": "8622331350",
-     "at": "2026-10-23T14:44:00-04:00",
-     "by": "Yalan Li",
-     "text": "M11 Weekly CJ -W10 Mon- No school Tues-Wed-Final paper due Wed. Thur.-Fri. Presentation / story jumper / email reply due Fri."
+     "id": "cj-man-storyjumper",
+     "kind": "hw",
+     "n": "Storyjumper project",
+     "tr": "",
+     "detail": "From the weekly post",
+     "due": "2026-11-03",
+     "dueTime": "",
+     "dueNote": "",
+     "url": "/course/8468551895/updates",
+     "src": ""
+    },
+    {
+     "id": "cj-man-unit-test",
+     "kind": "tests",
+     "n": "Unit Test",
+     "tr": "",
+     "detail": "Review Wed and Thu",
+     "due": "2026-11-06",
+     "dueTime": "",
+     "dueNote": "",
+     "url": "/course/8468551895/updates",
+     "src": ""
     }
    ],
-   "updatedAt": "2026-11-01T22:03:33-05:00",
+   "posts": [
+    {
+     "id": "man-week11",
+     "at": "2026-11-02T08:00:00-05:00",
+     "by": "Yalan Li",
+     "text": "M11 Weekly CJ W11. Mon-Tues Storyjumper project due Tues. Wed-Thur Review. Fri Unit Test."
+    }
+   ],
+   "updatedAt": "2026-11-02T14:10:20-05:00",
    "updatedBy": "aquarius4310",
    "via": "auto",
    "aiItems": [],
    "sections": []
   }
  },
- "updated": "2026-11-01T22:03:33-05:00",
+ "updated": "2026-11-02T14:10:20-05:00",
  "owner": "aquarius4310"
 }
