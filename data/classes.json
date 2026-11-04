@@ -424,18 +424,6 @@
    "teacher": "Kevin Gilbert",
    "items": [
     {
-     "id": "sgy-8633091476",
-     "kind": "hw",
-     "n": "Unit 3 Practice 2",
-     "tr": "",
-     "detail": "Problems 26-28 and 43-46",
-     "due": "2026-11-03",
-     "dueTime": "23:59",
-     "dueNote": "",
-     "url": "/assignment/8633091476",
-     "src": ""
-    },
-    {
      "id": "sgy-8635071894",
      "kind": "hw",
      "n": "Unit 3 Practice 3",
@@ -479,18 +467,6 @@
    "teacher": "Yalan Li",
    "items": [
     {
-     "id": "cj-man-storyjumper",
-     "kind": "hw",
-     "n": "Storyjumper project",
-     "tr": "",
-     "detail": "Not on Schoology, from the weekly post",
-     "due": "2026-11-03",
-     "dueTime": "",
-     "dueNote": "",
-     "url": "/course/8468551895/updates",
-     "src": ""
-    },
-    {
      "id": "cj-man-unit-test",
      "kind": "tests",
      "n": "Unit Test",
@@ -518,6 +494,6 @@
    "sections": []
   }
  },
- "updated": "2026-11-03T22:04:25-05:00",
+ "updated": "2026-11-04T13:40:36-05:00",
  "owner": "aquarius4310"
 }
