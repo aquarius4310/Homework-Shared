@@ -72,18 +72,6 @@
    "teacher": "Daniel Reich",
    "items": [
     {
-     "id": "calc-4a",
-     "kind": "hw",
-     "n": "HW 4.A Related Rates",
-     "tr": "",
-     "detail": "Section 2.6 (p.157) #3,5,13,17,20a,21,27,29,38,42",
-     "due": "2026-11-04",
-     "dueTime": "",
-     "dueNote": "",
-     "url": "/course/8468551357/materials/gp/8627227471",
-     "src": ""
-    },
-    {
      "id": "calc-4b",
      "kind": "hw",
      "n": "HW 4.B Extreme Value Theorem and Candidates Test",
@@ -290,18 +278,6 @@
    "teacher": "Celleste Stafford",
    "items": [
     {
-     "id": "cj-lit-rb-ch7",
-     "kind": "hw",
-     "n": "Read Reservation Blues Ch 7",
-     "tr": "",
-     "detail": "From the Week 12 post",
-     "due": "2026-11-04",
-     "dueTime": "",
-     "dueNote": "",
-     "url": "/course/8468551473/updates",
-     "src": ""
-    },
-    {
      "id": "cj-lit-rb-ch8",
      "kind": "hw",
      "n": "Read Reservation Blues Ch 8",
@@ -344,18 +320,6 @@
    "title": "AP U.S. History",
    "teacher": "Taylor Browne",
    "items": [
-    {
-     "id": "cj-apush-rg-p8-9",
-     "kind": "hw",
-     "n": "Read p.175-183 and Reading Guide p.8-9",
-     "tr": "",
-     "detail": "Reading guide check Wed",
-     "due": "2026-11-04",
-     "dueTime": "",
-     "dueNote": "",
-     "url": "/course/8468551619/materials/gp/8626973092",
-     "src": ""
-    },
     {
      "id": "cj-apush-classnotes",
      "kind": "hw",
@@ -424,18 +388,6 @@
    "teacher": "Kevin Gilbert",
    "items": [
     {
-     "id": "sgy-8635071894",
-     "kind": "hw",
-     "n": "Unit 3 Practice 3",
-     "tr": "",
-     "detail": "Problems 13-19",
-     "due": "2026-11-04",
-     "dueTime": "23:59",
-     "dueNote": "",
-     "url": "/assignment/8635071894",
-     "src": ""
-    },
-    {
      "id": "cj-phys-u3-test",
      "kind": "tests",
      "n": "Unit 3 Test",
@@ -494,6 +446,6 @@
    "sections": []
   }
  },
- "updated": "2026-11-04T13:40:36-05:00",
+ "updated": "2026-11-05T13:49:38-05:00",
  "owner": "aquarius4310"
 }
