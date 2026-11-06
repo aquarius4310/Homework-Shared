@@ -5,18 +5,6 @@
    "teacher": "Fatima Mrabet",
    "items": [
     {
-     "id": "cj-bus-hw26",
-     "kind": "hw",
-     "n": "U2 L2.6 HW",
-     "tr": "",
-     "detail": "From the Week 11 post",
-     "due": "2026-11-05",
-     "dueTime": "",
-     "dueNote": "",
-     "url": "/course/8468551348/updates",
-     "src": ""
-    },
-    {
      "id": "cj-bus-change-channel",
      "kind": "hw",
      "n": "Change the Channel Presentation Project",
@@ -321,18 +309,6 @@
    "teacher": "Taylor Browne",
    "items": [
     {
-     "id": "cj-apush-classnotes",
-     "kind": "hw",
-     "n": "Complete class notes, Postwar Regional Interests",
-     "tr": "",
-     "detail": "From the Week 11 post",
-     "due": "2026-11-05",
-     "dueTime": "",
-     "dueNote": "",
-     "url": "/course/8468551619/updates",
-     "src": ""
-    },
-    {
      "id": "cj-apush-lesson-wrap",
      "kind": "hw",
      "n": "Lesson Wrap, Missouri Compromise and Monroe Doctrine",
@@ -446,6 +422,6 @@
    "sections": []
   }
  },
- "updated": "2026-11-05T13:49:38-05:00",
+ "updated": "2026-11-06T13:06:07-05:00",
  "owner": "aquarius4310"
 }
