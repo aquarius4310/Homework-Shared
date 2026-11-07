@@ -5,18 +5,6 @@
    "teacher": "Fatima Mrabet",
    "items": [
     {
-     "id": "cj-bus-change-channel",
-     "kind": "hw",
-     "n": "Change the Channel Presentation Project",
-     "tr": "",
-     "detail": "8 slides, 5-7 min talk, pairs",
-     "due": "2026-11-06",
-     "dueTime": "23:59",
-     "dueNote": "",
-     "url": "/assignment/8636573838",
-     "src": ""
-    },
-    {
      "id": "cj-bus-hw27",
      "kind": "hw",
      "n": "U2 L2.7 HW",
@@ -59,18 +47,6 @@
    "title": "AP Calculus AB",
    "teacher": "Daniel Reich",
    "items": [
-    {
-     "id": "calc-4b",
-     "kind": "hw",
-     "n": "HW 4.B Extreme Value Theorem and Candidates Test",
-     "tr": "",
-     "detail": "Section 3.1 (p.171) #3-4,7,11,13,17,19,21,25-33 odd,37,43,56,66",
-     "due": "2026-11-06",
-     "dueTime": "",
-     "dueNote": "",
-     "url": "/course/8468551357/materials/gp/8627227471",
-     "src": ""
-    },
     {
      "id": "calc-4c",
      "kind": "hw",
@@ -126,18 +102,6 @@
    "title": "AP Human Geography",
    "teacher": "Jared Kyaw",
    "items": [
-    {
-     "id": "cj-hug-rg4",
-     "kind": "hw",
-     "n": "Chapter 4 and 5 Reading Guide",
-     "tr": "",
-     "detail": "Ch 4 + 5 guides. PDFs in Unit 3 Reading Guide folder",
-     "due": "2026-11-06",
-     "dueTime": "",
-     "dueNote": "",
-     "url": "/course/8468551531/updates",
-     "src": ""
-    },
     {
      "id": "sgy-8638463161",
      "kind": "hw",
@@ -213,18 +177,6 @@
    "teacher": "Taylor Browne",
    "items": [
     {
-     "id": "cj-apush-lesson-wrap",
-     "kind": "hw",
-     "n": "Lesson Wrap, Missouri Compromise and Monroe Doctrine",
-     "tr": "",
-     "detail": "From the Week 11 post",
-     "due": "2026-11-06",
-     "dueTime": "",
-     "dueNote": "",
-     "url": "/course/8468551619/updates",
-     "src": ""
-    },
-    {
      "id": "cj-apush-rg-p14",
      "kind": "hw",
      "n": "Reading Guide up to p.14",
@@ -297,20 +249,7 @@
   "mandarin-iv--yalan-li": {
    "title": "Mandarin IV",
    "teacher": "Yalan Li",
-   "items": [
-    {
-     "id": "cj-man-unit-test",
-     "kind": "tests",
-     "n": "Unit Test",
-     "tr": "",
-     "detail": "Review Wed and Thu",
-     "due": "2026-11-06",
-     "dueTime": "",
-     "dueNote": "",
-     "url": "/course/8468551895/updates",
-     "src": ""
-    }
-   ],
+   "items": [],
    "posts": [
     {
      "id": "46373677889",
@@ -326,6 +265,6 @@
    "sections": []
   }
  },
- "updated": "2026-11-06T19:02:31-05:00",
+ "updated": "2026-11-07T11:53:24-05:00",
  "owner": "aquarius4310"
 }
