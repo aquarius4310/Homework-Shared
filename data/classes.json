@@ -84,18 +84,6 @@
      "src": ""
     },
     {
-     "id": "calc-acc4a",
-     "kind": "tests",
-     "n": "Acc 4.A",
-     "tr": "",
-     "detail": "Topic 4.A Related Rates",
-     "due": "2026-11-09",
-     "dueTime": "",
-     "dueNote": "",
-     "url": "/course/8468551357/updates",
-     "src": ""
-    },
-    {
      "id": "calc-acc4b",
      "kind": "tests",
      "n": "Acc 4.B",
@@ -150,18 +138,6 @@
    "title": "AP Human Geography",
    "teacher": "Jared Kyaw",
    "items": [
-    {
-     "id": "sgy-8642763685",
-     "kind": "hw",
-     "n": "Exit Coordinate #18",
-     "tr": "",
-     "detail": "Came out Mon Nov 9",
-     "due": "2026-11-09",
-     "dueTime": "23:59",
-     "dueNote": "",
-     "url": "/course/8468551521/assessments/8642763685",
-     "src": ""
-    },
     {
      "id": "sgy-8638463161",
      "kind": "hw",
@@ -448,18 +424,6 @@
    "teacher": "Kevin Gilbert",
    "items": [
     {
-     "id": "sgy-8642821328",
-     "kind": "hw",
-     "n": "Unit 3 Mastery Assignment",
-     "tr": "",
-     "detail": "Answer on paper, upload a clear picture of your work",
-     "due": "2026-11-09",
-     "dueTime": "23:59",
-     "dueNote": "",
-     "url": "/assignment/8642821328",
-     "src": ""
-    },
-    {
      "id": "sgy-8644162479",
      "kind": "hw",
      "n": "Orbital Force Homework",
@@ -469,18 +433,6 @@
      "dueTime": "23:59",
      "dueNote": "",
      "url": "/assignment/8644162479",
-     "src": ""
-    },
-    {
-     "id": "cj-phys-u3-test",
-     "kind": "tests",
-     "n": "Unit 3 Test",
-     "tr": "",
-     "detail": "Unit 3 Take Home Test",
-     "due": "2026-11-09",
-     "dueTime": "",
-     "dueNote": "",
-     "url": "/course/8468551179/updates",
      "src": ""
     }
    ],
@@ -542,6 +494,6 @@
    "sections": []
   }
  },
- "updated": "2026-11-09T22:05:05-05:00",
+ "updated": "2026-11-10T13:42:21-05:00",
  "owner": "aquarius4310"
 }
