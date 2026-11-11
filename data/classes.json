@@ -94,18 +94,6 @@
      "dueNote": "",
      "url": "/course/8468551357/updates",
      "src": "schoology"
-    },
-    {
-     "id": "calc-4c",
-     "kind": "hw",
-     "n": "HW 4.C Mean Value Theorem and Rolle's Theorem",
-     "tr": "",
-     "detail": "Section 3.2 (p.178) #3,9,15,21,35,39,43,47,53,73",
-     "due": "2026-11-10",
-     "dueTime": "",
-     "dueNote": "",
-     "url": "/course/8468551357/materials/gp/8627227471",
-     "src": "guide"
     }
    ],
    "posts": [
@@ -458,6 +446,6 @@
    "sections": []
   }
  },
- "updated": "2026-11-10T22:01:59-05:00",
+ "updated": "2026-11-11T13:44:14-05:00",
  "owner": "aquarius4310"
 }
