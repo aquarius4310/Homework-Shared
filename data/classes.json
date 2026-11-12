@@ -374,20 +374,7 @@
   "honors-physics--kevin-gilbert": {
    "title": "Honors Physics",
    "teacher": "Kevin Gilbert",
-   "items": [
-    {
-     "id": "sgy-8644162479",
-     "kind": "hw",
-     "n": "Orbital Force Homework",
-     "tr": "",
-     "detail": "Orbit speed worksheet, 3 questions. Do on paper, upload a picture",
-     "due": "2026-11-11",
-     "dueTime": "23:59",
-     "dueNote": "",
-     "url": "/assignment/8644162479",
-     "src": "schoology"
-    }
-   ],
+   "items": [],
    "posts": [
     {
      "id": "8644117542",
@@ -446,6 +433,6 @@
    "sections": []
   }
  },
- "updated": "2026-11-11T13:44:14-05:00",
+ "updated": "2026-11-12T13:58:23-05:00",
  "owner": "aquarius4310"
 }
