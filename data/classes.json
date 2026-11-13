@@ -5,18 +5,6 @@
    "teacher": "Fatima Mrabet",
    "items": [
     {
-     "id": "cj-bus-hw27",
-     "kind": "hw",
-     "n": "U2 L2.7 HW",
-     "tr": "",
-     "detail": "Week 12 post moved it to Thu 11/12. Week 11 post said 11/9",
-     "due": "2026-11-12",
-     "dueTime": "",
-     "dueNote": "",
-     "url": "/course/8468551348/updates",
-     "src": "schoology"
-    },
-    {
      "id": "sgy-8568958286",
      "kind": "hw",
      "n": "Business Canvas Project",
@@ -182,18 +170,6 @@
    "teacher": "Celleste Stafford",
    "items": [
     {
-     "id": "cj-lit-rb-ch9",
-     "kind": "hw",
-     "n": "Read Reservation Blues Ch 9",
-     "tr": "",
-     "detail": "From the Week 13 post",
-     "due": "2026-11-12",
-     "dueTime": "",
-     "dueNote": "",
-     "url": "/course/8468551473/updates",
-     "src": "schoology"
-    },
-    {
      "id": "cj-lit-rb-finish",
      "kind": "hw",
      "n": "Finish Reservation Blues",
@@ -309,48 +285,12 @@
    "teacher": "Taylor Browne",
    "items": [
     {
-     "id": "sgy-8644437876",
-     "kind": "hw",
-     "n": "Lesson Wrap Up: Politics and Regional Interest",
-     "tr": "",
-     "detail": "Discussion post 6-8 sentences plus 1 comment",
-     "due": "2026-11-12",
-     "dueTime": "07:30",
-     "dueNote": "",
-     "url": "/course/8468551619/materials/discussion/view/8644437876",
-     "src": "schoology"
-    },
-    {
-     "id": "cj-apush-lab-1110",
-     "kind": "hw",
-     "n": "Evidence Lab, Postwar Regional Interests pt 2",
-     "tr": "",
-     "detail": "Assigned Tue 11/10. Lesson Wrap is its own item",
-     "due": "2026-11-12",
-     "dueTime": "",
-     "dueNote": "",
-     "url": "/course/8468551619/updates",
-     "src": "schoology"
-    },
-    {
      "id": "cj-apush-lab-1112",
      "kind": "hw",
      "n": "Evidence Lab, Missouri Compromise and Monroe Doctrine",
      "tr": "",
      "detail": "Assigned Thu 11/12",
      "due": "2026-11-13",
-     "dueTime": "",
-     "dueNote": "",
-     "url": "/course/8468551619/updates",
-     "src": "schoology"
-    },
-    {
-     "id": "cj-apush-cfu-1105",
-     "kind": "tests",
-     "n": "CFU",
-     "tr": "",
-     "detail": "Week 12 post says Thursday 11/12",
-     "due": "2026-11-12",
      "dueTime": "",
      "dueNote": "",
      "url": "/course/8468551619/updates",
@@ -394,18 +334,6 @@
    "teacher": "Yalan Li",
    "items": [
     {
-     "id": "cj-man-test-correction",
-     "kind": "hw",
-     "n": "Unit test correction",
-     "tr": "",
-     "detail": "From the Week 12 post",
-     "due": "2026-11-12",
-     "dueTime": "",
-     "dueNote": "",
-     "url": "/course/8468551895/updates",
-     "src": "schoology"
-    },
-    {
      "id": "cj-man-email",
      "kind": "hw",
      "n": "Writing email",
@@ -433,6 +361,6 @@
    "sections": []
   }
  },
- "updated": "2026-11-12T13:58:23-05:00",
+ "updated": "2026-11-13T13:34:48-05:00",
  "owner": "aquarius4310"
 }
