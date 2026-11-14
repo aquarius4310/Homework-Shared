@@ -36,18 +36,6 @@
    "teacher": "Daniel Reich",
    "items": [
     {
-     "id": "calc-4d",
-     "kind": "hw",
-     "n": "HW 4.D Increasing and Decreasing Functions and the First Derivative Test",
-     "tr": "",
-     "detail": "Section 3.3 (p.187) #3,13,23,25,29,35,37,39,41,63-66,70-71,83,93,95",
-     "due": "2026-11-13",
-     "dueTime": "",
-     "dueNote": "",
-     "url": "/course/8468551357/materials/gp/8627227471",
-     "src": ""
-    },
-    {
      "id": "calc-4e",
      "kind": "hw",
      "n": "HW 4.E Concavity and the Second Derivative Test",
@@ -125,30 +113,6 @@
      "dueNote": "no due date yet",
      "url": "/course/8468551521/assessments/8638463161",
      "src": ""
-    },
-    {
-     "id": "cj-hug-frq3-acc",
-     "kind": "tests",
-     "n": "FRQ #3 Accuracy Attempt",
-     "tr": "",
-     "detail": "Due by 11:59 pm",
-     "due": "2026-11-13",
-     "dueTime": "",
-     "dueNote": "",
-     "url": "/course/8468551531/updates",
-     "src": ""
-    },
-    {
-     "id": "cj-hug-eou3",
-     "kind": "tests",
-     "n": "Unit 3 Exam",
-     "tr": "",
-     "detail": "",
-     "due": "2026-11-13",
-     "dueTime": "",
-     "dueNote": "",
-     "url": "/course/8468551531/updates",
-     "src": ""
     }
    ],
    "posts": [
@@ -200,18 +164,6 @@
      "tr": "",
      "detail": "Comments due 12/4",
      "due": "2026-12-02",
-     "dueTime": "",
-     "dueNote": "",
-     "url": "/course/8468551473/updates",
-     "src": ""
-    },
-    {
-     "id": "cj-lit-frq-acc",
-     "kind": "tests",
-     "n": "FRQ Accuracy",
-     "tr": "",
-     "detail": "",
-     "due": "2026-11-13",
      "dueTime": "",
      "dueNote": "",
      "url": "/course/8468551473/updates",
@@ -334,18 +286,6 @@
    "teacher": "Yalan Li",
    "items": [
     {
-     "id": "cj-man-email",
-     "kind": "hw",
-     "n": "Writing email",
-     "tr": "",
-     "detail": "Paper only",
-     "due": "2026-11-13",
-     "dueTime": "",
-     "dueNote": "",
-     "url": "/course/8468551895/updates",
-     "src": ""
-    },
-    {
      "id": "sgy-8648960515",
      "kind": "hw",
      "n": "青春派 movie review",
@@ -415,6 +355,6 @@
    "sections": []
   }
  },
- "updated": "2026-11-13T22:02:07-05:00",
+ "updated": "2026-11-14T12:12:30-05:00",
  "owner": "aquarius4310"
 }
