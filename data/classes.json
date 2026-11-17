@@ -120,18 +120,6 @@
      "src": "schoology"
     },
     {
-     "id": "calc-acc4cd",
-     "kind": "tests",
-     "n": "Acc 4.C-D",
-     "tr": "",
-     "detail": "Topics 4.C-D",
-     "due": "2026-11-16",
-     "dueTime": "",
-     "dueNote": "",
-     "url": "/course/8468551357/updates",
-     "src": "schoology"
-    },
-    {
      "id": "calc-q4-1",
      "kind": "tests",
      "n": "Quiz 4.A-D",
@@ -174,30 +162,6 @@
    "title": "AP Human Geography",
    "teacher": "Jared Kyaw",
    "items": [
-    {
-     "id": "cj-hug-ch6-rg",
-     "kind": "hw",
-     "n": "Chapter 6 Reading Guide",
-     "tr": "",
-     "detail": "",
-     "due": "2026-11-16",
-     "dueTime": "",
-     "dueNote": "",
-     "url": "/course/8468551531/materials/gp/8642887107",
-     "src": "schoology"
-    },
-    {
-     "id": "sgy-8652838186",
-     "kind": "hw",
-     "n": "Exit Coordinate #19",
-     "tr": "",
-     "detail": "Came out Mon Nov 16",
-     "due": "2026-11-16",
-     "dueTime": "",
-     "dueNote": "",
-     "url": "/course/8468551531/assessments/8652838186",
-     "src": "schoology"
-    },
     {
      "id": "cj-hug-ch8-rg",
      "kind": "hw",
@@ -254,18 +218,6 @@
    "teacher": "Celleste Stafford",
    "items": [
     {
-     "id": "cj-lit-rb-finish",
-     "kind": "hw",
-     "n": "Finish Reservation Blues",
-     "tr": "",
-     "detail": "",
-     "due": "2026-11-16",
-     "dueTime": "",
-     "dueNote": "",
-     "url": "/course/8468551473/updates",
-     "src": "schoology"
-    },
-    {
      "id": "cj-lit-poster",
      "kind": "hw",
      "n": "Character Poster",
@@ -284,18 +236,6 @@
      "tr": "",
      "detail": "Comments due 12/4",
      "due": "2026-12-02",
-     "dueTime": "",
-     "dueNote": "",
-     "url": "/course/8468551473/updates",
-     "src": "schoology"
-    },
-    {
-     "id": "cj-lit-mcq-1116",
-     "kind": "tests",
-     "n": "MCQ Monday (Accuracy)",
-     "tr": "",
-     "detail": "",
-     "due": "2026-11-16",
      "dueTime": "",
      "dueNote": "",
      "url": "/course/8468551473/updates",
@@ -478,18 +418,6 @@
    "teacher": "Yalan Li",
    "items": [
     {
-     "id": "sgy-8648960515",
-     "kind": "hw",
-     "n": "青春派 movie review",
-     "tr": "Young Style",
-     "detail": "Padlet post",
-     "due": "2026-11-16",
-     "dueTime": "",
-     "dueNote": "",
-     "url": "/course/8468551895/materials/link/view/8648960515",
-     "src": "schoology"
-    },
-    {
      "id": "cj-man-l12-words",
      "kind": "hw",
      "n": "L12 Food 1 word sheet",
@@ -541,6 +469,6 @@
    "sections": []
   }
  },
- "updated": "2026-11-16T22:03:26-05:00",
+ "updated": "2026-11-17T14:54:14-05:00",
  "owner": "aquarius4310"
 }
