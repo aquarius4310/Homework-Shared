@@ -5,64 +5,40 @@
    "teacher": "Fatima Mrabet",
    "items": [
     {
-     "id": "sgy-8652639623",
-     "kind": "hw",
-     "n": "Brand Identity",
-     "tr": "",
-     "detail": "Product Brand. Make a Brand Identity Board",
-     "due": "2026-11-17",
-     "dueTime": "",
-     "dueNote": "",
-     "url": "/assignment/8652639623",
-     "src": "schoology"
-    },
-    {
      "id": "cj-bus-promote",
      "kind": "hw",
      "n": "Promote Your Business",
      "tr": "",
-     "detail": "",
+     "detail": "From the Week 13 post",
      "due": "2026-11-20",
      "dueTime": "",
      "dueNote": "",
      "url": "/course/8468551348/updates",
-     "src": "schoology"
+     "src": ""
     },
     {
      "id": "cj-bus-u3l1",
      "kind": "hw",
      "n": "U 3 L 1 HW",
      "tr": "",
-     "detail": "",
+     "detail": "From the Week 13 post",
      "due": "2026-11-20",
      "dueTime": "",
      "dueNote": "",
      "url": "/course/8468551348/updates",
-     "src": "schoology"
+     "src": ""
     },
     {
      "id": "cj-bus-u3l2",
      "kind": "hw",
      "n": "U 3 L 2 HW",
      "tr": "",
-     "detail": "",
+     "detail": "From the Week 13 post",
      "due": "2026-11-23",
      "dueTime": "",
      "dueNote": "",
      "url": "/course/8468551348/updates",
-     "src": "schoology"
-    },
-    {
-     "id": "sgy-8568958286",
-     "kind": "hw",
-     "n": "Business Canvas Project",
-     "tr": "",
-     "detail": "Long project across Units 1-4",
-     "due": "",
-     "dueTime": "",
-     "dueNote": "no due date yet",
-     "url": "/course/8468551348/materials/gp/8568958286",
-     "src": "schoology"
+     "src": ""
     }
    ],
    "posts": [
@@ -70,10 +46,10 @@
      "id": "8652515157",
      "at": "2026-11-16T12:31:13.000Z",
      "by": "Fatima Mrabet",
-     "text": "Week 13 November 16th CJ\nMonday: Product Brand due 11/17\nTuesday: Promote Your Business due 11/20\nWednesday: Class Canceled\nThursday: U 3 L 1 due 11/20\nFriday: U 3 L 2 due 11/23"
+     "text": "Week 13 November 16 th CJ Monday: Product Brand due 11/17 Tuesday: Promote Your Business due 11/20 Wednesday: Class Canceled Thursday: U 3 L 1 due 11/20 Friday : U 3 L 2 due 11/23"
     }
    ],
-   "updatedAt": "2026-11-16T22:03:24-05:00",
+   "updatedAt": "2026-11-17T22:06:52-05:00",
    "updatedBy": "aquarius4310",
    "via": "auto",
    "aiItems": [],
@@ -84,18 +60,6 @@
    "teacher": "Daniel Reich",
    "items": [
     {
-     "id": "calc-4e",
-     "kind": "hw",
-     "n": "HW 4.E Concavity and the Second Derivative Test",
-     "tr": "",
-     "detail": "Section 3.4 (p.196) #3,7,13,17,21,23,27,35,37,41,43,49-50,53,75-78",
-     "due": "2026-11-17",
-     "dueTime": "",
-     "dueNote": "",
-     "url": "/course/8468551357/materials/gp/8627227471",
-     "src": "schoology"
-    },
-    {
      "id": "calc-4f",
      "kind": "hw",
      "n": "HW 4.F Linear Approximation",
@@ -105,7 +69,7 @@
      "dueTime": "",
      "dueNote": "",
      "url": "/course/8468551357/materials/gp/8654197653",
-     "src": "schoology"
+     "src": ""
     },
     {
      "id": "calc-4g",
@@ -117,31 +81,31 @@
      "dueTime": "",
      "dueNote": "",
      "url": "/course/8468551357/materials/gp/8627227471",
-     "src": "schoology"
+     "src": ""
     },
     {
      "id": "calc-q4-1",
      "kind": "tests",
      "n": "Quiz 4.A-D",
      "tr": "",
-     "detail": "Topics 4.A-D",
+     "detail": "Topics 4.A to 4.D",
      "due": "2026-11-23",
      "dueTime": "",
      "dueNote": "",
      "url": "/course/8468551357/updates",
-     "src": "schoology"
+     "src": ""
     },
     {
      "id": "calc-acc4ef",
      "kind": "tests",
      "n": "Acc 4.E-F",
      "tr": "",
-     "detail": "Topics 4.E-F",
+     "detail": "Topics 4.E Concavity and Second Derivative Test, 4.F Linear Approximation",
      "due": "2026-11-24",
      "dueTime": "",
      "dueNote": "",
      "url": "/course/8468551357/updates",
-     "src": "schoology"
+     "src": ""
     }
    ],
    "posts": [
@@ -149,10 +113,10 @@
      "id": "8652700621",
      "at": "2026-11-16T13:26:10.000Z",
      "by": "Daniel Reich",
-     "text": "CJs for Week 13 (11/16-20)\nUpcoming Assessments: Acc 4.C-D Monday 11/16. Quiz 4.A-D Monday 11/23. Acc 4.E-F Tuesday 11/24.\nMon 11/16: Accuracy 4.C-D. 4.E Concavity and the Second Derivative Test. HW 4.E due Tuesday\nTue 11/17: 4.F Linear Approximation. HW 4.F due Thursday\nWed 11/18: 4.F Linear Approximation. HW 4.F due Thursday\nThu 11/19: 4.G Optimization. HW 4.G due Tuesday\nFri 11/20: 4.G Optimization. HW 4.G due Tuesday"
+     "text": "CJs for Week 13 (11/16-20) Upcoming Assessments: Acc 4.C-D Monday 11/16 ;Quiz 4.A-D Monday 11/23 Acc 4.E-F Tuesday 11/24 Monday, 11/16 Accuracy 4.C-D, 4.E Concavity and the Second Derivative Test, HW 4.E due Tuesday. Tuesday, 11/17 4.F Linear Approximation, HW 4.F due Thursday. Wednesday 11/18 4.F Linear Approximation, HW 4.F due Thursday. Thursday 11/19 4.G Optimization, HW 4.G due Tuesday. Friday 11/20 4.G Optimization, HW 4.G due Tuesday"
     }
    ],
-   "updatedAt": "2026-11-16T22:03:24-05:00",
+   "updatedAt": "2026-11-17T22:06:52-05:00",
    "updatedBy": "aquarius4310",
    "via": "auto",
    "aiItems": [],
@@ -172,7 +136,19 @@
      "dueTime": "",
      "dueNote": "",
      "url": "/course/8468551531/materials/gp/8652656039",
-     "src": "schoology"
+     "src": ""
+    },
+    {
+     "id": "sgy-8654865068",
+     "kind": "hw",
+     "n": "Exit Coordinate #20",
+     "tr": "",
+     "detail": "Came out Tue Nov 17. Weekly post lists it as Wed 11/18 hw",
+     "due": "",
+     "dueTime": "",
+     "dueNote": "no due date yet",
+     "url": "/course/8468551531/assessments/8654865068",
+     "src": ""
     },
     {
      "id": "sgy-8638463161",
@@ -183,20 +159,20 @@
      "due": "",
      "dueTime": "",
      "dueNote": "no due date yet",
-     "url": "/course/8468551531/assessments/8638463161",
-     "src": "schoology"
+     "url": "/course/8468551521/assessments/8638463161",
+     "src": ""
     },
     {
      "id": "cj-hug-exam-1202",
      "kind": "tests",
      "n": "Unit 4 Exam",
      "tr": "",
-     "detail": "",
+     "detail": "From the weekly post",
      "due": "2026-12-02",
      "dueTime": "",
      "dueNote": "",
      "url": "/course/8468551531/updates",
-     "src": "schoology"
+     "src": ""
     }
    ],
    "posts": [
@@ -204,10 +180,10 @@
      "id": "8652918705",
      "at": "2026-11-16T14:17:41.000Z",
      "by": "Jared Kyaw",
-     "text": "Mon 11.16: Spatial Starter #30, Unit 4.1 Notes. HW: Exit Coordinate #19, AMSCO Chapter 8 Reading Guide Due 11.24. Exam 12.02.2026\nTue 11.17: Spatial Starter #31, Unit 4.2 Day 1 Notes. HW: AMSCO Ch 8 Reading Guide Due 11.24\nWed 11.18: Spatial Starter #32, Unit 4.2 Day 2 Notes. HW: Exit Coordinate #20, Ch 8 Reading Guide\nThu 11.19: Spatial Starter #33, Unit 4.3 Notes. HW: Ch 8 Reading Guide, Exit Coordinate #21\nFri 11.20: Spatial Starter #34, Unit 4.4 Notes. HW: Ch 8 Reading Guide, Exit Coordinate #22\nExam: 12.02.2026"
+     "text": "Mon 11.16: Spatial Starter #30, Unit 4.1 Notes. HW: Exit Coordinate #19, AMSCO Chapter 8 Reading Guide Due 11.24. Tue 11.17: Spatial Starter #31, Unit 4.2 Day 1 Notes. HW: AMSCO Ch 8 Reading Guide Due 11.24. Wed 11.18: Spatial Starter #32, Unit 4.2 Day 2 Notes. HW: Exit Coordinate #20, AMSCO Ch 8 RG. Thu 11.19: Spatial Starter #33, Unit 4.3 Notes. HW: AMSCO Ch 8 RG, Exit Coordinate #21. Fri 11.20: Spatial Starter #34, Unit 4.4 Notes. HW: AMSCO Ch 8 RG, Exit Coordinate #22. Exam: 12.02.2026"
     }
    ],
-   "updatedAt": "2026-11-16T22:03:24-05:00",
+   "updatedAt": "2026-11-17T22:06:52-05:00",
    "updatedBy": "aquarius4310",
    "via": "auto",
    "aiItems": [],
@@ -222,36 +198,48 @@
      "kind": "hw",
      "n": "Character Poster",
      "tr": "",
-     "detail": "Graded as accuracy",
+     "detail": "Graded as accuracy. RB Character Poster.docx is in the Reservation Blues folder",
      "due": "2026-11-19",
      "dueTime": "",
      "dueNote": "",
+     "url": "/course/8468551473/materials/gp/8655381986",
+     "src": ""
+    },
+    {
+     "id": "cj-lit-data-sheet",
+     "kind": "hw",
+     "n": "Major Data Sheet",
+     "tr": "",
+     "detail": "From the Week 14 post",
+     "due": "2026-11-23",
+     "dueTime": "",
+     "dueNote": "",
      "url": "/course/8468551473/updates",
-     "src": "schoology"
+     "src": ""
     },
     {
      "id": "cj-lit-blog2",
      "kind": "hw",
      "n": "Individual Post Blog #2",
      "tr": "",
-     "detail": "Comments due 12/4",
+     "detail": "Introduced Thu 11/19. Comments due 12/4",
      "due": "2026-12-02",
      "dueTime": "",
      "dueNote": "",
      "url": "/course/8468551473/updates",
-     "src": "schoology"
+     "src": ""
     },
     {
      "id": "cj-lit-rb-quiz",
      "kind": "tests",
      "n": "Reservation Blues Quiz (Mastery)",
      "tr": "",
-     "detail": "",
+     "detail": "Ch 5 to end",
      "due": "2026-11-18",
      "dueTime": "",
      "dueNote": "",
      "url": "/course/8468551473/updates",
-     "src": "schoology"
+     "src": ""
     },
     {
      "id": "cj-lit-frq-1120",
@@ -263,7 +251,7 @@
      "dueTime": "",
      "dueNote": "",
      "url": "/course/8468551473/updates",
-     "src": "schoology"
+     "src": ""
     },
     {
      "id": "cj-lit-frq-1204",
@@ -275,18 +263,18 @@
      "dueTime": "",
      "dueNote": "",
      "url": "/course/8468551473/updates",
-     "src": "schoology"
+     "src": ""
     }
    ],
    "posts": [
     {
-     "id": "8642536602",
-     "at": "2026-11-09T12:58:04.000Z",
+     "id": "8655392870",
+     "at": "2026-11-17T17:18:06.000Z",
      "by": "Celleste Stafford",
-     "text": "Week 13 CJ\nMon: MCQ Monday. HW: Read ch 9 for Thursday, Major Data Sheet due 11/18\nTue: Poetry! HW: Read ch 9 for Thursday\nWed: No School\nThu: Character Poster. HW: Finish novel for Monday, Character Poster due 11/19, Novel Quiz next Wednesday\nFri: FRQ Friday\nUpcoming Assessments: 11/16 MCQ Monday (Accuracy). 11/18 RB Quiz (Mastery). 11/19 Character Poster (accuracy). 11/20 FRQ Friday (Accuracy). 11/23 Major Data Sheet (Accuracy). 12/2 Individual Post Blog #2 (Comments due 12/4). 12/4 FRQ Friday (Mastery)."
+     "text": "Week 14 CJ (11/16 - 11/20) Monday MCQ Monday (Accuracy) HW: RB Ch 5- end Quiz Wedesday, Poster Due Thursday, Major Data Sheet due 11/23, FRQ Friday. Tuesday Work on Character Poster. Wednesday Quiz, Continue Poster HW: Poster Due Thursday, Major Data Sheet due 11/23, FRQ Friday. Thursday Introduce Blog Post #2, Finish Character Poster HW: Blog Post due 12/2 (Comments due 12/4), Major Data Sheet due 11/23, FRQ TOMORROW. Friday FRQ Friday (Accuracy) HW: Major Data Sheet due MONDAY, Blog Post due 12/2 (Comments due 12/4)"
     }
    ],
-   "updatedAt": "2026-11-16T22:03:24-05:00",
+   "updatedAt": "2026-11-17T22:06:52-05:00",
    "updatedBy": "aquarius4310",
    "via": "auto",
    "aiItems": [],
@@ -297,40 +285,28 @@
    "teacher": "Taylor Browne",
    "items": [
     {
-     "id": "cj-apush-notes-1116",
+     "id": "cj-apush-wrap-1117",
      "kind": "hw",
-     "n": "Market Revolution: Industrialization class notes",
+     "n": "Lesson Wrap Up: Expanding Democracy",
      "tr": "",
-     "detail": "",
-     "due": "2026-11-17",
+     "detail": "From the Week 13 post",
+     "due": "2026-11-18",
      "dueTime": "",
      "dueNote": "",
      "url": "/course/8468551619/updates",
-     "src": "schoology"
+     "src": ""
     },
     {
      "id": "cj-apush-notes-1117",
      "kind": "hw",
      "n": "Market Revolution: Society and Culture class notes",
      "tr": "",
-     "detail": "",
+     "detail": "From the Week 13 post",
      "due": "2026-11-18",
      "dueTime": "",
      "dueNote": "",
      "url": "/course/8468551619/updates",
-     "src": "schoology"
-    },
-    {
-     "id": "cj-apush-wrap-1117",
-     "kind": "hw",
-     "n": "Lesson Wrap Up: Expanding Democracy",
-     "tr": "",
-     "detail": "",
-     "due": "2026-11-18",
-     "dueTime": "",
-     "dueNote": "",
-     "url": "/course/8468551619/updates",
-     "src": "schoology"
+     "src": ""
     },
     {
      "id": "cj-apush-lab-1118",
@@ -339,22 +315,22 @@
      "tr": "",
      "detail": "Due by midnight",
      "due": "2026-11-19",
-     "dueTime": "",
+     "dueTime": "23:59",
      "dueNote": "",
      "url": "/course/8468551619/updates",
-     "src": "schoology"
+     "src": ""
     },
     {
      "id": "cj-apush-wrap-1119",
      "kind": "hw",
      "n": "Lesson Wrap Up: Jackson and Federal Power pt 2",
      "tr": "",
-     "detail": "",
+     "detail": "From the Week 13 post",
      "due": "2026-11-20",
      "dueTime": "",
      "dueNote": "",
      "url": "/course/8468551619/updates",
-     "src": "schoology"
+     "src": ""
     },
     {
      "id": "cj-apush-rg-p14",
@@ -366,19 +342,19 @@
      "dueTime": "",
      "dueNote": "",
      "url": "/course/8468551619/materials/gp/8626973092",
-     "src": "schoology"
+     "src": ""
     },
     {
      "id": "cj-apush-cfu-1123",
      "kind": "tests",
      "n": "CFU",
      "tr": "",
-     "detail": "",
+     "detail": "From the Week 13 post",
      "due": "2026-11-23",
      "dueTime": "",
      "dueNote": "",
      "url": "/course/8468551619/updates",
-     "src": "schoology"
+     "src": ""
     }
    ],
    "posts": [
@@ -386,10 +362,10 @@
      "id": "8651790883",
      "at": "2026-11-15T15:04:03.000Z",
      "by": "Taylor Browne",
-     "text": "Week 13: 11/16-11/20\nMon: Market Revolution: Industrialization. HW: Complete Class Notes\nTue: Market Revolution: Society and Culture. HW: Complete Class notes\nWed: Expanding Democracy. HW: Complete Lesson Wrap Up, due tomorrow\nThu: Jackson and Federal Power Pt. 1. HW: Complete Evidence Lab, due tomorrow by midnight\nFri: Jackson and Federal Power Pt. 2. HW: Complete Lesson Wrap Up, due tomorrow\nUpcoming: CFU 11/23 and Reading Guide Packet due 12/1"
+     "text": "AP U.S. History Week 13: 11/16 – 11/20. Mon: Market Revolution: Industrialization HW: Complete Class Notes. Tue: Market Revolution: Society and Culture HW: Complete Class notes. Wed: Expanding Democracy HW: Complete Lesson Wrap Up: Due Tomorrow. Thu: Jackson and Federal Power Pt. 1 HW: Complete Evidence Lab; Due Tomorrow by midnight. Fri: Jackson and Federal Power Pt. 2 HW: Complete Lesson Wrap Up: Due tomorrow. Upcoming: CFU: 11/23 AND Reading Guide Packet; Due 12/1"
     }
    ],
-   "updatedAt": "2026-11-16T22:03:25-05:00",
+   "updatedAt": "2026-11-17T22:06:52-05:00",
    "updatedBy": "aquarius4310",
    "via": "auto",
    "aiItems": [],
@@ -404,10 +380,10 @@
      "id": "8653233561",
      "at": "2026-11-16T15:35:07.000Z",
      "by": "Kevin Gilbert",
-     "text": "CJ Week 13:\n16: Unit 4.2 Circular motion Forces\n17: Unit 4.3 Sports\n18: 4.4 Universal Gravitation\n19: 4.5 Centripital Force and Gravity\n20: 4.6 Geo Sync Orbit"
+     "text": "CJ Week 13: 16 17 18 19 20 Unit 4.2 Circular motion Forces Unit 4.3 Sports 4.4 Universal Gravitation 4.5 Centripital Force and Gravity 4.6 Geo Sync Orbit"
     }
    ],
-   "updatedAt": "2026-11-16T22:03:24-05:00",
+   "updatedAt": "2026-11-17T22:06:52-05:00",
    "updatedBy": "aquarius4310",
    "via": "auto",
    "aiItems": [],
@@ -427,7 +403,7 @@
      "dueTime": "",
      "dueNote": "",
      "url": "/course/8468551895/updates",
-     "src": "schoology"
+     "src": ""
     },
     {
      "id": "cj-man-quiz-practice",
@@ -439,7 +415,7 @@
      "dueTime": "",
      "dueNote": "",
      "url": "/course/8468551895/updates",
-     "src": "schoology"
+     "src": ""
     },
     {
      "id": "cj-man-word-quiz1",
@@ -451,7 +427,7 @@
      "dueTime": "",
      "dueNote": "",
      "url": "/course/8468551895/updates",
-     "src": "schoology"
+     "src": ""
     }
    ],
    "posts": [
@@ -459,16 +435,16 @@
      "id": "8651225926",
      "at": "2026-11-13T20:16:31.000Z",
      "by": "Yalan Li",
-     "text": "M11 Weekly CJ -W13\nMon- Complete the movie review on padlet\nTues. Thur. - L12 Food 1 word sheet due Thur.\nThur.-Fri. - word quiz practice sheet due Fri. word Quiz1 on next Tues."
+     "text": "M11 Weekly CJ -W13 Mon- Complete the movie review on padlet Tues. Thur. - L12 Food 1 word sheet due Thur. Thur.-Fri. - word quiz practice sheet due Fri. word Quiz1 on next Tues."
     }
    ],
-   "updatedAt": "2026-11-16T22:03:24-05:00",
+   "updatedAt": "2026-11-17T22:06:52-05:00",
    "updatedBy": "aquarius4310",
    "via": "auto",
    "aiItems": [],
    "sections": []
   }
  },
- "updated": "2026-11-17T14:54:14-05:00",
+ "updated": "2026-11-17T22:06:53-05:00",
  "owner": "aquarius4310"
 }
