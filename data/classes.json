@@ -230,18 +230,6 @@
      "src": ""
     },
     {
-     "id": "cj-lit-rb-quiz",
-     "kind": "tests",
-     "n": "Reservation Blues Quiz (Mastery)",
-     "tr": "",
-     "detail": "Ch 5 to end",
-     "due": "2026-11-18",
-     "dueTime": "",
-     "dueNote": "",
-     "url": "/course/8468551473/updates",
-     "src": ""
-    },
-    {
      "id": "cj-lit-frq-1120",
      "kind": "tests",
      "n": "FRQ Friday (Accuracy)",
@@ -284,30 +272,6 @@
    "title": "AP U.S. History",
    "teacher": "Taylor Browne",
    "items": [
-    {
-     "id": "cj-apush-wrap-1117",
-     "kind": "hw",
-     "n": "Lesson Wrap Up: Expanding Democracy",
-     "tr": "",
-     "detail": "From the Week 13 post",
-     "due": "2026-11-18",
-     "dueTime": "",
-     "dueNote": "",
-     "url": "/course/8468551619/updates",
-     "src": ""
-    },
-    {
-     "id": "cj-apush-notes-1117",
-     "kind": "hw",
-     "n": "Market Revolution: Society and Culture class notes",
-     "tr": "",
-     "detail": "From the Week 13 post",
-     "due": "2026-11-18",
-     "dueTime": "",
-     "dueNote": "",
-     "url": "/course/8468551619/updates",
-     "src": ""
-    },
     {
      "id": "cj-apush-lab-1118",
      "kind": "hw",
@@ -445,6 +409,6 @@
    "sections": []
   }
  },
- "updated": "2026-11-18T14:25:28-05:00",
+ "updated": "2026-11-19T14:31:01-05:00",
  "owner": "aquarius4310"
 }
