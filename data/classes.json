@@ -60,18 +60,6 @@
    "teacher": "Daniel Reich",
    "items": [
     {
-     "id": "calc-4f",
-     "kind": "hw",
-     "n": "HW 4.F Linear Approximation",
-     "tr": "",
-     "detail": "HW 4.F worksheet, problems 1-8, no calculator",
-     "due": "2026-11-19",
-     "dueTime": "",
-     "dueNote": "",
-     "url": "/course/8468551357/materials/gp/8654197653",
-     "src": ""
-    },
-    {
      "id": "calc-4g",
      "kind": "hw",
      "n": "HW 4.G Optimization",
@@ -194,18 +182,6 @@
    "teacher": "Celleste Stafford",
    "items": [
     {
-     "id": "cj-lit-poster",
-     "kind": "hw",
-     "n": "Character Poster",
-     "tr": "",
-     "detail": "Graded as accuracy. RB Character Poster.docx is in the Reservation Blues folder",
-     "due": "2026-11-19",
-     "dueTime": "",
-     "dueNote": "",
-     "url": "/course/8468551473/materials/gp/8655381986",
-     "src": ""
-    },
-    {
      "id": "cj-lit-data-sheet",
      "kind": "hw",
      "n": "Major Data Sheet",
@@ -272,18 +248,6 @@
    "title": "AP U.S. History",
    "teacher": "Taylor Browne",
    "items": [
-    {
-     "id": "cj-apush-lab-1118",
-     "kind": "hw",
-     "n": "Evidence Lab: Jackson and Federal Power pt 1",
-     "tr": "",
-     "detail": "Due by midnight",
-     "due": "2026-11-19",
-     "dueTime": "23:59",
-     "dueNote": "",
-     "url": "/course/8468551619/updates",
-     "src": ""
-    },
     {
      "id": "cj-apush-wrap-1119",
      "kind": "hw",
@@ -358,18 +322,6 @@
    "teacher": "Yalan Li",
    "items": [
     {
-     "id": "cj-man-l12-words",
-     "kind": "hw",
-     "n": "L12 Food 1 word sheet",
-     "tr": "",
-     "detail": "Paper only",
-     "due": "2026-11-19",
-     "dueTime": "",
-     "dueNote": "",
-     "url": "/course/8468551895/updates",
-     "src": ""
-    },
-    {
      "id": "cj-man-quiz-practice",
      "kind": "hw",
      "n": "Word quiz practice sheet",
@@ -409,6 +361,6 @@
    "sections": []
   }
  },
- "updated": "2026-11-19T14:31:01-05:00",
+ "updated": "2026-11-20T14:08:29-05:00",
  "owner": "aquarius4310"
 }
