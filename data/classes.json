@@ -5,30 +5,6 @@
    "teacher": "Fatima Mrabet",
    "items": [
     {
-     "id": "cj-bus-promote",
-     "kind": "hw",
-     "n": "Promote Your Business",
-     "tr": "",
-     "detail": "From the Week 13 post",
-     "due": "2026-11-20",
-     "dueTime": "",
-     "dueNote": "",
-     "url": "/course/8468551348/updates",
-     "src": ""
-    },
-    {
-     "id": "cj-bus-u3l1",
-     "kind": "hw",
-     "n": "U 3 L 1 HW",
-     "tr": "",
-     "detail": "From the Week 13 post",
-     "due": "2026-11-20",
-     "dueTime": "",
-     "dueNote": "",
-     "url": "/course/8468551348/updates",
-     "src": ""
-    },
-    {
      "id": "cj-bus-u3l2",
      "kind": "hw",
      "n": "U 3 L 2 HW",
@@ -206,18 +182,6 @@
      "src": ""
     },
     {
-     "id": "cj-lit-frq-1120",
-     "kind": "tests",
-     "n": "FRQ Friday (Accuracy)",
-     "tr": "",
-     "detail": "",
-     "due": "2026-11-20",
-     "dueTime": "",
-     "dueNote": "",
-     "url": "/course/8468551473/updates",
-     "src": ""
-    },
-    {
      "id": "cj-lit-frq-1204",
      "kind": "tests",
      "n": "FRQ Friday (Mastery)",
@@ -248,18 +212,6 @@
    "title": "AP U.S. History",
    "teacher": "Taylor Browne",
    "items": [
-    {
-     "id": "cj-apush-wrap-1119",
-     "kind": "hw",
-     "n": "Lesson Wrap Up: Jackson and Federal Power pt 2",
-     "tr": "",
-     "detail": "From the Week 13 post",
-     "due": "2026-11-20",
-     "dueTime": "",
-     "dueNote": "",
-     "url": "/course/8468551619/updates",
-     "src": ""
-    },
     {
      "id": "cj-apush-rg-p14",
      "kind": "hw",
@@ -322,18 +274,6 @@
    "teacher": "Yalan Li",
    "items": [
     {
-     "id": "cj-man-quiz-practice",
-     "kind": "hw",
-     "n": "Word quiz practice sheet",
-     "tr": "",
-     "detail": "Paper only",
-     "due": "2026-11-20",
-     "dueTime": "",
-     "dueNote": "",
-     "url": "/course/8468551895/updates",
-     "src": ""
-    },
-    {
      "id": "cj-man-word-quiz1",
      "kind": "tests",
      "n": "Word Quiz 1",
@@ -361,6 +301,6 @@
    "sections": []
   }
  },
- "updated": "2026-11-20T14:08:29-05:00",
+ "updated": "2026-11-21T13:02:57-05:00",
  "owner": "aquarius4310"
 }
