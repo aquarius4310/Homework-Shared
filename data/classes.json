@@ -3,20 +3,7 @@
   "ap-business-with-personal-finance--fatima-mrabet": {
    "title": "AP Business with Personal Finance",
    "teacher": "Fatima Mrabet",
-   "items": [
-    {
-     "id": "cj-bus-u3l2",
-     "kind": "hw",
-     "n": "U 3 L 2 HW",
-     "tr": "",
-     "detail": "From the Week 13 post",
-     "due": "2026-11-23",
-     "dueTime": "",
-     "dueNote": "",
-     "url": "/course/8468551348/updates",
-     "src": ""
-    }
-   ],
+   "items": [],
    "posts": [
     {
      "id": "8652515157",
@@ -45,18 +32,6 @@
      "dueTime": "",
      "dueNote": "",
      "url": "/course/8468551357/materials/gp/8627227471",
-     "src": ""
-    },
-    {
-     "id": "calc-q4-1",
-     "kind": "tests",
-     "n": "Quiz 4.A-D",
-     "tr": "",
-     "detail": "Topics 4.A to 4.D",
-     "due": "2026-11-23",
-     "dueTime": "",
-     "dueNote": "",
-     "url": "/course/8468551357/updates",
      "src": ""
     },
     {
@@ -158,18 +133,6 @@
    "teacher": "Celleste Stafford",
    "items": [
     {
-     "id": "cj-lit-data-sheet",
-     "kind": "hw",
-     "n": "Major Data Sheet",
-     "tr": "",
-     "detail": "From the Week 14 post",
-     "due": "2026-11-23",
-     "dueTime": "",
-     "dueNote": "",
-     "url": "/course/8468551473/updates",
-     "src": ""
-    },
-    {
      "id": "cj-lit-blog2",
      "kind": "hw",
      "n": "Individual Post Blog #2",
@@ -222,18 +185,6 @@
      "dueTime": "",
      "dueNote": "",
      "url": "/course/8468551619/materials/gp/8626973092",
-     "src": ""
-    },
-    {
-     "id": "cj-apush-cfu-1123",
-     "kind": "tests",
-     "n": "CFU",
-     "tr": "",
-     "detail": "From the Week 13 post",
-     "due": "2026-11-23",
-     "dueTime": "",
-     "dueNote": "",
-     "url": "/course/8468551619/updates",
      "src": ""
     }
    ],
@@ -301,6 +252,6 @@
    "sections": []
   }
  },
- "updated": "2026-11-23T17:43:01-05:00",
+ "updated": "2026-11-24T16:20:57-05:00",
  "owner": "aquarius4310"
 }
