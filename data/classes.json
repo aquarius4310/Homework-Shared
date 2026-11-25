@@ -21,32 +21,7 @@
   "ap-calculus-ab--daniel-reich": {
    "title": "AP Calculus AB",
    "teacher": "Daniel Reich",
-   "items": [
-    {
-     "id": "calc-4g",
-     "kind": "hw",
-     "n": "HW 4.G Optimization",
-     "tr": "",
-     "detail": "Section 3.7 (p.224) #7,11,15,19,21,23,27,41,50",
-     "due": "2026-11-24",
-     "dueTime": "",
-     "dueNote": "",
-     "url": "/course/8468551357/materials/gp/8627227471",
-     "src": ""
-    },
-    {
-     "id": "calc-acc4ef",
-     "kind": "tests",
-     "n": "Acc 4.E-F",
-     "tr": "",
-     "detail": "Topics 4.E Concavity and Second Derivative Test, 4.F Linear Approximation",
-     "due": "2026-11-24",
-     "dueTime": "",
-     "dueNote": "",
-     "url": "/course/8468551357/updates",
-     "src": ""
-    }
-   ],
+   "items": [],
    "posts": [
     {
      "id": "8652700621",
@@ -65,18 +40,6 @@
    "title": "AP Human Geography",
    "teacher": "Jared Kyaw",
    "items": [
-    {
-     "id": "cj-hug-ch8-rg",
-     "kind": "hw",
-     "n": "AMSCO Chapter 8 Reading Guide",
-     "tr": "",
-     "detail": "AMSCO Ch 8 is in Link to Resources",
-     "due": "2026-11-24",
-     "dueTime": "",
-     "dueNote": "",
-     "url": "/course/8468551531/materials/gp/8652656039",
-     "src": ""
-    },
     {
      "id": "sgy-8654865068",
      "kind": "hw",
@@ -223,20 +186,7 @@
   "mandarin-iv--yalan-li": {
    "title": "Mandarin IV",
    "teacher": "Yalan Li",
-   "items": [
-    {
-     "id": "cj-man-word-quiz1",
-     "kind": "tests",
-     "n": "Word Quiz 1",
-     "tr": "",
-     "detail": "L12 Food words",
-     "due": "2026-11-24",
-     "dueTime": "",
-     "dueNote": "",
-     "url": "/course/8468551895/updates",
-     "src": ""
-    }
-   ],
+   "items": [],
    "posts": [
     {
      "id": "8651225926",
@@ -252,6 +202,6 @@
    "sections": []
   }
  },
- "updated": "2026-11-24T16:20:57-05:00",
+ "updated": "2026-11-25T15:30:01-05:00",
  "owner": "aquarius4310"
 }
