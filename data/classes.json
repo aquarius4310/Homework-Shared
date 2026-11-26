@@ -3,16 +3,41 @@
   "ap-business-with-personal-finance--fatima-mrabet": {
    "title": "AP Business with Personal Finance",
    "teacher": "Fatima Mrabet",
-   "items": [],
-   "posts": [
+   "items": [
     {
-     "id": "8652515157",
-     "at": "2026-11-16T12:31:13.000Z",
-     "by": "Fatima Mrabet",
-     "text": "Week 13 November 16 th CJ Monday: Product Brand due 11/17 Tuesday: Promote Your Business due 11/20 Wednesday: Class Canceled Thursday: U 3 L 1 due 11/20 Friday : U 3 L 2 due 11/23"
+     "id": "sgy-8658920195",
+     "kind": "hw",
+     "n": "Pricing Strategy",
+     "tr": "",
+     "detail": "Mastery grade",
+     "due": "2026-12-03",
+     "dueTime": "23:59",
+     "dueNote": "",
+     "url": "/assignment/8658920195",
+     "src": ""
+    },
+    {
+     "id": "cj-bus-u2-test",
+     "kind": "tests",
+     "n": "U 2 Test",
+     "tr": "",
+     "detail": "Week 14 post says due 12/2",
+     "due": "2026-12-02",
+     "dueTime": "",
+     "dueNote": "",
+     "url": "/course/8468551348/updates",
+     "src": ""
     }
    ],
-   "updatedAt": "2026-11-17T22:06:52-05:00",
+   "posts": [
+    {
+     "id": "8660839835",
+     "at": "2026-11-23T13:30:09Z",
+     "by": "Fatima Mrabet",
+     "text": "Week 14 November 23rd CJ. Monday: U 2 Test due 12/2. Tuesday: Pricing Strategy due 12/3. Wednesday to Friday: Thanksgiving Break"
+    }
+   ],
+   "updatedAt": "2026-11-26T12:42:26-05:00",
    "updatedBy": "aquarius4310",
    "via": "auto",
    "aiItems": [],
@@ -21,16 +46,29 @@
   "ap-calculus-ab--daniel-reich": {
    "title": "AP Calculus AB",
    "teacher": "Daniel Reich",
-   "items": [],
-   "posts": [
+   "items": [
     {
-     "id": "8652700621",
-     "at": "2026-11-16T13:26:10.000Z",
-     "by": "Daniel Reich",
-     "text": "CJs for Week 13 (11/16-20) Upcoming Assessments: Acc 4.C-D Monday 11/16 ;Quiz 4.A-D Monday 11/23 Acc 4.E-F Tuesday 11/24 Monday, 11/16 Accuracy 4.C-D, 4.E Concavity and the Second Derivative Test, HW 4.E due Tuesday. Tuesday, 11/17 4.F Linear Approximation, HW 4.F due Thursday. Wednesday 11/18 4.F Linear Approximation, HW 4.F due Thursday. Thursday 11/19 4.G Optimization, HW 4.G due Tuesday. Friday 11/20 4.G Optimization, HW 4.G due Tuesday"
+     "id": "calc-4g",
+     "kind": "hw",
+     "n": "HW 4.G Optimization",
+     "tr": "",
+     "detail": "Section 3.7 (p.224) #7,11,15,19,21,23,27,41,50",
+     "due": "2026-12-02",
+     "dueTime": "",
+     "dueNote": "",
+     "url": "/course/8468551357/materials/gp/8627227471",
+     "src": ""
     }
    ],
-   "updatedAt": "2026-11-17T22:06:52-05:00",
+   "posts": [
+    {
+     "id": "8661027739",
+     "at": "2026-11-23T15:08:49Z",
+     "by": "Daniel Reich",
+     "text": "CJs for Week 14 (11/23-24). Upcoming Assessments: Quiz 4.A-D Monday 11/23, Acc 4.E-F Tuesday 11/24. Monday 11/23: Quiz 4.A-D. Tuesday 11/24: Acc 4.E-F, Topic 4.G [Optimization], HW 4.G due Wednesday after break. HAPPY THANKSGIVING!!!"
+    }
+   ],
+   "updatedAt": "2026-11-26T12:42:26-05:00",
    "updatedBy": "aquarius4310",
    "via": "auto",
    "aiItems": [],
@@ -41,11 +79,23 @@
    "teacher": "Jared Kyaw",
    "items": [
     {
+     "id": "sgy-8657985645",
+     "kind": "hw",
+     "n": "Exit Coordinate #21",
+     "tr": "",
+     "detail": "Came out Wed Nov 25",
+     "due": "",
+     "dueTime": "",
+     "dueNote": "no due date yet",
+     "url": "/course/8468551521/assessments/8657985645",
+     "src": ""
+    },
+    {
      "id": "sgy-8654865068",
      "kind": "hw",
      "n": "Exit Coordinate #20",
      "tr": "",
-     "detail": "Came out Tue Nov 17. Weekly post lists it as Wed 11/18 hw",
+     "detail": "Came out Tue Nov 17",
      "due": "",
      "dueTime": "",
      "dueNote": "no due date yet",
@@ -79,13 +129,13 @@
    ],
    "posts": [
     {
-     "id": "8652918705",
-     "at": "2026-11-16T14:17:41.000Z",
+     "id": "8661152293",
+     "at": "2026-11-23T16:26:59Z",
      "by": "Jared Kyaw",
-     "text": "Mon 11.16: Spatial Starter #30, Unit 4.1 Notes. HW: Exit Coordinate #19, AMSCO Chapter 8 Reading Guide Due 11.24. Tue 11.17: Spatial Starter #31, Unit 4.2 Day 1 Notes. HW: AMSCO Ch 8 Reading Guide Due 11.24. Wed 11.18: Spatial Starter #32, Unit 4.2 Day 2 Notes. HW: Exit Coordinate #20, AMSCO Ch 8 RG. Thu 11.19: Spatial Starter #33, Unit 4.3 Notes. HW: AMSCO Ch 8 RG, Exit Coordinate #21. Fri 11.20: Spatial Starter #34, Unit 4.4 Notes. HW: AMSCO Ch 8 RG, Exit Coordinate #22. Exam: 12.02.2026"
+     "text": "Monday 11.23: Classwork: Unit 4 Reading Guide Work Day. Homework: AMSCO Chapter 8 Reading Guide Due 11.24. Exam: 12.02.2026. Tuesday 11.24: Classwork: Unit 4 Mid-Unit Review Day. Homework: AMSCO Chapter 8 Reading Guide Due 11.24. Exam: 12.02.2026. Thanksgiving Break! See You Back on Tuesday 12.02"
     }
    ],
-   "updatedAt": "2026-11-17T22:06:52-05:00",
+   "updatedAt": "2026-11-26T12:42:26-05:00",
    "updatedBy": "aquarius4310",
    "via": "auto",
    "aiItems": [],
@@ -100,7 +150,7 @@
      "kind": "hw",
      "n": "Individual Post Blog #2",
      "tr": "",
-     "detail": "Introduced Thu 11/19. Comments due 12/4",
+     "detail": "Blog due 12/2, comments due 12/4",
      "due": "2026-12-02",
      "dueTime": "",
      "dueNote": "",
@@ -122,13 +172,13 @@
    ],
    "posts": [
     {
-     "id": "8655392870",
-     "at": "2026-11-17T17:18:06.000Z",
+     "id": "8661172449",
+     "at": "2026-11-23T16:40:14Z",
      "by": "Celleste Stafford",
-     "text": "Week 14 CJ (11/16 - 11/20) Monday MCQ Monday (Accuracy) HW: RB Ch 5- end Quiz Wedesday, Poster Due Thursday, Major Data Sheet due 11/23, FRQ Friday. Tuesday Work on Character Poster. Wednesday Quiz, Continue Poster HW: Poster Due Thursday, Major Data Sheet due 11/23, FRQ Friday. Thursday Introduce Blog Post #2, Finish Character Poster HW: Blog Post due 12/2 (Comments due 12/4), Major Data Sheet due 11/23, FRQ TOMORROW. Friday FRQ Friday (Accuracy) HW: Major Data Sheet due MONDAY, Blog Post due 12/2 (Comments due 12/4)"
+     "text": "Week 15 CJ (11/23 - 11/24). Monday: Finish Major Data Sheet. HW: Blog due 12/2, Comments due 12/4. Tuesday: Blog Post / Chess+ Checkers Activity. HW: Blog due 12/2, Comments due 12/4"
     }
    ],
-   "updatedAt": "2026-11-17T22:06:52-05:00",
+   "updatedAt": "2026-11-26T12:42:26-05:00",
    "updatedBy": "aquarius4310",
    "via": "auto",
    "aiItems": [],
@@ -153,13 +203,13 @@
    ],
    "posts": [
     {
-     "id": "8651790883",
-     "at": "2026-11-15T15:04:03.000Z",
+     "id": "8661176213",
+     "at": "2026-11-23T16:42:56Z",
      "by": "Taylor Browne",
-     "text": "AP U.S. History Week 13: 11/16 – 11/20. Mon: Market Revolution: Industrialization HW: Complete Class Notes. Tue: Market Revolution: Society and Culture HW: Complete Class notes. Wed: Expanding Democracy HW: Complete Lesson Wrap Up: Due Tomorrow. Thu: Jackson and Federal Power Pt. 1 HW: Complete Evidence Lab; Due Tomorrow by midnight. Fri: Jackson and Federal Power Pt. 2 HW: Complete Lesson Wrap Up: Due tomorrow. Upcoming: CFU: 11/23 AND Reading Guide Packet; Due 12/1"
+     "text": "Week 14: 11/23 - 11/27. Monday: Mid-Unit 4 CFU. HW: Continue working on Unit 4 Reading Guide Packet. Upcoming: Reading Guide Packet due 12/1. Tuesday: Student Choice Day. HW: Continue working on Unit 4 Reading Guide Packet. Upcoming: Reading Guide Packet due 12/1. Wednesday to Friday: Thanksgiving Break, No School"
     }
    ],
-   "updatedAt": "2026-11-17T22:06:52-05:00",
+   "updatedAt": "2026-11-26T12:42:26-05:00",
    "updatedBy": "aquarius4310",
    "via": "auto",
    "aiItems": [],
@@ -168,16 +218,29 @@
   "honors-physics--kevin-gilbert": {
    "title": "Honors Physics",
    "teacher": "Kevin Gilbert",
-   "items": [],
-   "posts": [
+   "items": [
     {
-     "id": "8653233561",
-     "at": "2026-11-16T15:35:07.000Z",
-     "by": "Kevin Gilbert",
-     "text": "CJ Week 13: 16 17 18 19 20 Unit 4.2 Circular motion Forces Unit 4.3 Sports 4.4 Universal Gravitation 4.5 Centripital Force and Gravity 4.6 Geo Sync Orbit"
+     "id": "sgy-8660805042",
+     "kind": "hw",
+     "n": "Extra Credurkey",
+     "tr": "",
+     "detail": "Extra credit. Plan to cook a turkey with physics, edit the doc and upload",
+     "due": "2026-12-01",
+     "dueTime": "23:59",
+     "dueNote": "",
+     "url": "/assignment/8660805042",
+     "src": ""
     }
    ],
-   "updatedAt": "2026-11-17T22:06:52-05:00",
+   "posts": [
+    {
+     "id": "8660882137",
+     "at": "2026-11-23T13:51:48Z",
+     "by": "Kevin Gilbert",
+     "text": "CJ Week 14: 23 and 24: Extra Credurkey Due 12/1. 25-27: Thanksgiving Break"
+    }
+   ],
+   "updatedAt": "2026-11-26T12:42:26-05:00",
    "updatedBy": "aquarius4310",
    "via": "auto",
    "aiItems": [],
@@ -186,22 +249,59 @@
   "mandarin-iv--yalan-li": {
    "title": "Mandarin IV",
    "teacher": "Yalan Li",
-   "items": [],
-   "posts": [
+   "items": [
     {
-     "id": "8651225926",
-     "at": "2026-11-13T20:16:31.000Z",
-     "by": "Yalan Li",
-     "text": "M11 Weekly CJ -W13 Mon- Complete the movie review on padlet Tues. Thur. - L12 Food 1 word sheet due Thur. Thur.-Fri. - word quiz practice sheet due Fri. word Quiz1 on next Tues."
+     "id": "cj-man-grammar1",
+     "kind": "hw",
+     "n": "Grammar 1",
+     "tr": "",
+     "detail": "Info packet p.44 A. Practice packet p.29-30 B and C",
+     "due": "2026-12-02",
+     "dueTime": "",
+     "dueNote": "",
+     "url": "/course/8468551895/updates",
+     "src": ""
+    },
+    {
+     "id": "sgy-8656682942",
+     "kind": "hw",
+     "n": "Blooket L12-1 vocab assignment",
+     "tr": "",
+     "detail": "Blooket link in the L12 Food folder",
+     "due": "",
+     "dueTime": "",
+     "dueNote": "no due date yet",
+     "url": "/course/8468551895/materials/link/view/8656682942",
+     "src": ""
+    },
+    {
+     "id": "cj-man-word-quiz1",
+     "kind": "tests",
+     "n": "Word Quiz 1",
+     "tr": "",
+     "detail": "L12 Food words",
+     "due": "2026-12-03",
+     "dueTime": "",
+     "dueNote": "",
+     "url": "/course/8468551895/updates",
+     "src": ""
     }
    ],
-   "updatedAt": "2026-11-17T22:06:52-05:00",
+   "posts": [
+    {
+     "id": "8660116146",
+     "at": "2026-11-20T20:38:45Z",
+     "by": "Yalan Li",
+     "text": "M11 Weekly CJ W14. Mon-Tues: L12 word sheet due Tues. Word quiz 1 on 12/3. Complete the grammar 1 on info packet p44 A & practice packet page 29-30 B&C due 12/2. Wed to next Monday: No school 感恩节快乐！"
+    }
+   ],
+   "updatedAt": "2026-11-26T12:42:26-05:00",
    "updatedBy": "aquarius4310",
    "via": "auto",
    "aiItems": [],
    "sections": []
   }
  },
- "updated": "2026-11-25T15:30:01-05:00",
+ "updated": "2026-11-26T12:42:27-05:00",
  "owner": "aquarius4310"
 }
